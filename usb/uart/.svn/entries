@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="30"
+   name=""
+   committed-date="2018-01-28T13:13:38.087252Z"
+   url="file:///work/liuxing/svn/usb/uart"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="28"
+   name="printf.c"
+   text-time="2018-01-22T13:19:36.000000Z"
+   committed-date="2018-01-24T15:17:50.979627Z"
+   checksum="18f5e36b909f8542081899f0b427e6b5"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+<entry
+   committed-rev="28"
+   name="s3c2440_uart.h"
+   text-time="2018-01-24T15:15:50.000000Z"
+   committed-date="2018-01-24T15:17:50.979627Z"
+   checksum="6481523f9afdfb897dd1c4164c161e1f"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+<entry
+   committed-rev="10"
+   name="printf.h"
+   text-time="2017-12-03T06:34:51.000000Z"
+   committed-date="2017-12-03T10:38:50.809008Z"
+   checksum="6ff611e0b258bc8d492d43726442b7d7"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="s3c2440_printf.h"
+   text-time="2017-11-18T05:37:51.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="b42c75cb8af45e1beb4eec2ce7f9340e"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+<entry
+   committed-rev="30"
+   name="s3c2440_uart.c"
+   text-time="2018-01-28T09:58:21.000000Z"
+   committed-date="2018-01-28T13:13:38.087252Z"
+   checksum="3248833febc61df45a2929ea3aa09242"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+</wc-entries>

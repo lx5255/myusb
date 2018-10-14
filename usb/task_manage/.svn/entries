@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="29"
+   name=""
+   committed-date="2018-01-27T16:02:33.752111Z"
+   url="file:///work/liuxing/svn/usb/task_manage"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="24"
+   name="task_manage.h"
+   text-time="2017-12-31T09:08:49.000000Z"
+   committed-date="2017-12-31T13:30:53.975648Z"
+   checksum="9391a24f6e9e72fa4ecbe9960838cea6"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+<entry
+   committed-rev="29"
+   name="task_manage.c"
+   text-time="2018-01-25T13:39:58.000000Z"
+   committed-date="2018-01-27T16:02:33.752111Z"
+   checksum="cf8a7b3c529c764b346fa9787e5085ef"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+</wc-entries>

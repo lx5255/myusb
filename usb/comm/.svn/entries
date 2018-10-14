@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="32"
+   name=""
+   committed-date="2018-05-17T13:49:22.649325Z"
+   url="file:///work/liuxing/svn/usb/comm"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="13"
+   name="sys.c"
+   text-time="2018-01-28T09:36:04.000000Z"
+   committed-date="2017-12-09T14:34:53.611381Z"
+   checksum="73fdedc7f6905ab4e8a9da2cb048e382"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="29"
+   name="comm.h"
+   text-time="2018-01-27T15:48:41.000000Z"
+   committed-date="2018-01-27T16:02:33.752111Z"
+   checksum="ab172118baa7fcefef05d55b2af51f2c"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="13"
+   name="sys.h"
+   text-time="2017-12-09T12:09:55.000000Z"
+   committed-date="2017-12-09T14:34:53.611381Z"
+   checksum="1ab79eb99e4bd42406a7b234aebd780d"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="29"
+   name="config.h"
+   text-time="2018-01-27T15:51:31.000000Z"
+   committed-date="2018-01-27T16:02:33.752111Z"
+   checksum="32566ccc500fb7312e80c33c86c467e1"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="32"
+   name="comm.c"
+   text-time="2018-05-17T13:28:38.000000Z"
+   committed-date="2018-05-17T13:49:22.649325Z"
+   checksum="e23e70730bb92508ef258af64f0a1da4"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="msg.h"
+   text-time="2017-11-18T05:37:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="c30a7ad6374c057d118a9f2378d6ec66"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+</wc-entries>

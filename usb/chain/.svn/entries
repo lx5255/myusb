@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2017-12-17T11:04:36.952426Z"
+   url="file:///work/liuxing/svn/usb/chain"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="16"
+   name="chain.c"
+   text-time="2017-12-10T13:47:43.000000Z"
+   committed-date="2017-12-17T11:04:36.952426Z"
+   checksum="e47ee4f2c395329c3be8ae76a22e753d"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="chain.h"
+   text-time="2017-11-18T05:37:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="828bf1c9ea77bad2fb8862a918b69c80"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+</wc-entries>

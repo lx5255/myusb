@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="29"
+   name=""
+   committed-date="2018-01-27T16:02:33.752111Z"
+   url="file:///work/liuxing/svn/usb/dev_manage"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="29"
+   name="dev_manage_api.c"
+   text-time="2018-01-27T07:06:25.000000Z"
+   committed-date="2018-01-27T16:02:33.752111Z"
+   checksum="481d0de7600c95c40a896338ac743916"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="23"
+   name="dev_manage_api.h"
+   text-time="2017-12-29T13:09:14.000000Z"
+   committed-date="2017-12-30T15:30:30.781799Z"
+   checksum="b72243c69269fbf293d8ec60a3d9dd50"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="26"
+   name="dev_manage.c"
+   text-time="2018-01-01T07:17:19.000000Z"
+   committed-date="2018-01-01T07:38:52.428399Z"
+   checksum="7768f6852641f13d59d9037fbf1b69db"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="24"
+   name="dev_manage.h"
+   text-time="2017-12-31T12:07:32.000000Z"
+   committed-date="2017-12-31T13:30:53.975648Z"
+   checksum="b6a259ae01e740a8dc806580fa06b9a5"
+   last-author="book"
+   kind="file"/>
+</wc-entries>

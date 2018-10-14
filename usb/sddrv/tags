@@ -1,0 +1,213 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL_SEND_CID	sd_drv.h	/^	ALL_SEND_CID,$/;"	e	enum:__anon1
+APP_CMD	sd_drv.h	/^	APP_CMD,$/;"	e	enum:__anon1
+BLKMODE_BLOCK	s3c2440_sdio.h	41;"	d
+BLKMODE_FLUX	s3c2440_sdio.h	42;"	d
+BLOCK_SIZE	s3c2440_sdio.h	36;"	d
+BSIZE	s3c2440_sdio.h	/^   volatile int BSIZE;$/;"	m	struct:sdio_reg
+BUSYFIN_INT	s3c2440_sdio.h	67;"	d
+BUSYTFIN_STA	s3c2440_sdio.h	81;"	d
+CHECK_BUSY	s3c2440_sdio.h	54;"	d
+CID	sd_drv.h	/^	u32  CID[4]; $/;"	m	struct:_sd_arg
+CID	sd_drv.h	/^	u32  CID[4];$/;"	m	struct:sd_handle
+CLR_WRITE_PROT	sd_drv.h	/^	CLR_WRITE_PROT,$/;"	e	enum:__anon1
+CMD1	sd_drv.h	/^	CMD1,$/;"	e	enum:__anon1
+CMDARG	s3c2440_sdio.h	/^   volatile int CMDARG;$/;"	m	struct:sdio_reg
+CMDCON	s3c2440_sdio.h	/^   volatile int CMDCON;$/;"	m	struct:sdio_reg
+CMDSTA	s3c2440_sdio.h	/^   volatile int CMDSTA;$/;"	m	struct:sdio_reg
+CMDTIMEOUT_INT	s3c2440_sdio.h	60;"	d
+CMDTOUT	s3c2440_sdio.h	89;"	d
+CMD_ENUM	sd_drv.h	/^}CMD_ENUM;$/;"	t	typeref:enum:__anon1
+CMD_MATCH	s3c2440_sdio.h	106;"	d
+CMD_ON	s3c2440_sdio.h	91;"	d
+CMD_SEND_END	s3c2440_sdio.h	88;"	d
+CMD_SEND_INT	s3c2440_sdio.h	59;"	d
+CON	s3c2440_sdio.h	/^   volatile int CON;$/;"	m	struct:sdio_reg
+CRCERR_STA	s3c2440_sdio.h	77;"	d
+CRCSTA_INT	s3c2440_sdio.h	63;"	d
+CRC_ERR	s3c2440_sdio.h	104;"	d
+CSD	sd_drv.h	/^	u32  CSD[4]; $/;"	m	struct:_sd_arg
+CSD	sd_drv.h	/^    u32  CSD[4]; $/;"	m	struct:sd_handle
+DAT	s3c2440_sdio.h	/^	volatile int DAT;$/;"	m	struct:sdio_reg
+DATACRC_STA	s3c2440_sdio.h	78;"	d
+DATAFIN_INT	s3c2440_sdio.h	66;"	d
+DATASIZE_U16	s3c2440_sdio.h	38;"	d
+DATASIZE_U32	s3c2440_sdio.h	37;"	d
+DATASIZE_U8	s3c2440_sdio.h	39;"	d
+DATATIMEOUT_INT	s3c2440_sdio.h	65;"	d
+DATATIMEOUT_STA	s3c2440_sdio.h	79;"	d
+DATA_START	s3c2440_sdio.h	50;"	d
+DATCNT	s3c2440_sdio.h	/^   volatile int DATCNT;$/;"	m	struct:sdio_reg
+DATCON	s3c2440_sdio.h	/^   volatile int DATCON;$/;"	m	struct:sdio_reg
+DATFIN_STA	s3c2440_sdio.h	80;"	d
+DATSTA	s3c2440_sdio.h	/^   volatile int DATSTA;$/;"	m	struct:sdio_reg
+DisDMA	s3c2440_sdio.h	48;"	d
+ERASE	sd_drv.h	/^	ERASE,$/;"	e	enum:__anon1
+ERASE_WR_BLK_END	sd_drv.h	/^	ERASE_WR_BLK_END,$/;"	e	enum:__anon1
+ERASE_WR_BLK_START	sd_drv.h	/^	ERASE_WR_BLK_START,$/;"	e	enum:__anon1
+EnDMA	s3c2440_sdio.h	47;"	d
+FF_FAIL	s3c2440_sdio.h	94;"	d
+FSTA	s3c2440_sdio.h	/^   volatile int FSTA;$/;"	m	struct:sdio_reg
+GO_IDLE_STATE	sd_drv.h	/^	GO_IDLE_STATE = 0,$/;"	e	enum:__anon1
+GO_INACTIVE_STATE	sd_drv.h	/^	GO_INACTIVE_STATE ,$/;"	e	enum:__anon1
+GPECON	s3c2440_sdio.h	33;"	d
+GPEUP	s3c2440_sdio.h	34;"	d
+ID	sd_drv.h	/^	_ID_struct ID;$/;"	m	struct:_sd_arg
+ID	sd_drv.h	/^    _ID_struct ID;$/;"	m	struct:sd_handle
+INT_MSK	s3c2440_sdio.h	/^   volatile int INT_MSK;$/;"	m	struct:sdio_reg
+MDT	sd_drv.h	/^	u8 MDT[3]; \/\/生产日期$/;"	m	struct:_ID_struct
+NOBUSY_INT	s3c2440_sdio.h	57;"	d
+NOBUSY_STA	s3c2440_sdio.h	76;"	d
+OID	sd_drv.h	/^	u8 OID[3];$/;"	m	struct:_ID_struct
+PNM	sd_drv.h	/^	u8 PNM[6]; \/\/产品名$/;"	m	struct:_ID_struct
+PRE	s3c2440_sdio.h	/^   volatile int PRE;   \/\/分频系数$/;"	m	struct:sdio_reg
+PROGRAM_CSD	sd_drv.h	/^	PROGRAM_CSD,$/;"	e	enum:__anon1
+PRV	sd_drv.h	/^	u8 PRV[2]; \/\/版本$/;"	m	struct:_ID_struct
+PSN	sd_drv.h	/^	u32 PSN;  \/\/产品序号$/;"	m	struct:_ID_struct
+READ_DAT_UNTIL_STOP	sd_drv.h	/^	READ_DAT_UNTIL_STOP,$/;"	e	enum:__anon1
+READ_MULTIPLE_BLOCK	sd_drv.h	/^	READ_MULTIPLE_BLOCK,$/;"	e	enum:__anon1
+READ_SINGLE_BLOCK	sd_drv.h	/^	READ_SINGLE_BLOCK,$/;"	e	enum:__anon1
+RECIBE_CRC_ERR_INT	s3c2440_sdio.h	64;"	d
+RECIVE_DATA_MODE	s3c2440_sdio.h	53;"	d
+REFULL_INT	s3c2440_sdio.h	71;"	d
+REHAFL_INT	s3c2440_sdio.h	72;"	d
+RF_DET	s3c2440_sdio.h	96;"	d
+RF_FULL	s3c2440_sdio.h	100;"	d
+RF_HAFL	s3c2440_sdio.h	101;"	d
+RF_LAST	s3c2440_sdio.h	99;"	d
+RSP0	s3c2440_sdio.h	/^   volatile int RSP0;	\/\/响应寄存器0$/;"	m	struct:sdio_reg
+RSP1	s3c2440_sdio.h	/^   volatile int RSP1;$/;"	m	struct:sdio_reg
+RSP2	s3c2440_sdio.h	/^   volatile int RSP2;$/;"	m	struct:sdio_reg
+RSP3	s3c2440_sdio.h	/^   volatile int RSP3;$/;"	m	struct:sdio_reg
+RSPCRC_ERR	s3c2440_sdio.h	87;"	d
+RSPCRC_INT	s3c2440_sdio.h	58;"	d
+RSPEND_INT	s3c2440_sdio.h	61;"	d
+RSPFIN	s3c2440_sdio.h	90;"	d
+RTLAST_INT	s3c2440_sdio.h	70;"	d
+RWREQ_INT	s3c2440_sdio.h	62;"	d
+RXDATAON	s3c2440_sdio.h	83;"	d
+SDIDATB	s3c2440_sdio.h	32;"	d
+SDIO	s3c2440_sdio.h	31;"	d
+SDIO_SEND_IF_COND	sd_drv.h	/^	SDIO_SEND_IF_COND,$/;"	e	enum:__anon1
+SD_APP_OP_COND	sd_drv.h	/^	SD_APP_OP_COND,$/;"	e	enum:__anon1
+SD_BLOCK_SIZE	sd_drv.h	8;"	d
+SD_BUSY	s3c2440_sdio.h	107;"	d
+SD_DEBUG	s3c2440_sdio.h	4;"	d
+SD_MALLOC	sd_drv.h	6;"	d
+SELEC_CHIP	sd_drv.h	/^	SELEC_CHIP,$/;"	e	enum:__anon1
+SEND_CID	sd_drv.h	/^	SEND_CID,$/;"	e	enum:__anon1
+SEND_CSD	sd_drv.h	/^	SEND_CSD,$/;"	e	enum:__anon1
+SEND_DATA_MODE	s3c2440_sdio.h	52;"	d
+SEND_RELATIVE_ADDR	sd_drv.h	/^	SEND_RELATIVE_ADDR,$/;"	e	enum:__anon1
+SEND_STATUS	sd_drv.h	/^	SEND_STATUS,$/;"	e	enum:__anon1
+SEND_WRITE_PROT	sd_drv.h	/^	SEND_WRITE_PROT,$/;"	e	enum:__anon1
+SET_BLOCKLEN	sd_drv.h	/^	SET_BLOCKLEN,$/;"	e	enum:__anon1
+SET_BUS_WIDTH	sd_drv.h	/^	SET_BUS_WIDTH$/;"	e	enum:__anon1
+SET_WRITE_PROT	sd_drv.h	/^	SET_WRITE_PROT,$/;"	e	enum:__anon1
+STOP	sd_drv.h	/^	STOP,$/;"	e	enum:__anon1
+TFEMPT_INT	s3c2440_sdio.h	69;"	d
+TFHALF_INT	s3c2440_sdio.h	68;"	d
+TF_DET	s3c2440_sdio.h	95;"	d
+TF_EMPT	s3c2440_sdio.h	98;"	d
+TF_HALF	s3c2440_sdio.h	97;"	d
+TIMER	s3c2440_sdio.h	/^   volatile int TIMER;	\/\/超时时间$/;"	m	struct:sdio_reg
+TOUT	s3c2440_sdio.h	105;"	d
+TXDATAON	s3c2440_sdio.h	82;"	d
+WIDEBUS_1BIT	s3c2440_sdio.h	45;"	d
+WIDEBUS_4BIT	s3c2440_sdio.h	44;"	d
+WIN_CACHE	sd_drv.h	5;"	d
+WRITE_BLOCK	sd_drv.h	/^	WRITE_BLOCK,$/;"	e	enum:__anon1
+WRITE_MULTIPLE_BLOCK	sd_drv.h	/^	WRITE_MULTIPLE_BLOCK,$/;"	e	enum:__anon1
+_ID_struct	sd_drv.h	/^ typedef struct _ID_struct$/;"	s
+_ID_struct	sd_drv.h	/^}_ID_struct;$/;"	t	typeref:struct:_ID_struct
+_SDIO_	s3c2440_sdio.h	2;"	d
+_SD_DEV_	sd_drv.h	2;"	d
+_SD_DEV_API_	sd_dev_api.h	2;"	d
+_sd_arg	sd_drv.h	/^typedef struct _sd_arg$/;"	s
+_sd_arg	sd_drv.h	/^}_sd_arg;$/;"	t	typeref:struct:_sd_arg
+_sd_win	sd_drv.h	/^typedef struct _sd_win$/;"	s
+abortcmd	s3c2440_sdio.h	/^		_bool abortcmd;  \/\/是否终止命令$/;"	m	struct:sdio_cmd
+analysis_CSD	sd_drv.c	/^static u8  analysis_CSD(u32 *csd)$/;"	f	file:
+arg	s3c2440_sdio.h	/^		u32 arg;   \/\/命令的参数$/;"	m	struct:sdio_cmd
+block_num	sd_drv.h	/^	u32 block_num;$/;"	m	struct:sd_handle
+block_num	sd_drv.h	/^    u32 block_num;$/;"	m	struct:_sd_win
+block_size	sd_drv.h	/^	u32 block_size;	$/;"	m	struct:sd_handle
+buff	s3c2440_sdio.h	/^    u8 *buff;$/;"	m	struct:sdio_handle
+buff	sd_drv.h	/^    u8 *buff;$/;"	m	struct:_sd_win
+check_sdio_busy	s3c2440_sdio.c	/^u8 check_sdio_busy(void)$/;"	f
+cmd	s3c2440_sdio.h	/^		u8 cmd;$/;"	m	struct:sdio_cmd
+cmd	s3c2440_sdio.h	/^    sdio_cmd cmd;$/;"	m	struct:sdio_handle
+data_cnt	s3c2440_sdio.h	/^    u16 data_cnt;$/;"	m	struct:sdio_handle
+data_dir	s3c2440_sdio.h	/^    u8 data_dir;  \/\/0 send    1 recive$/;"	m	struct:sdio_handle
+data_len	s3c2440_sdio.h	/^    u16 data_len;$/;"	m	struct:sdio_handle
+data_tansfer	sd_drv.h	/^	u8 data_tansfer;$/;"	m	struct:sd_handle
+id	sd_drv.h	/^	u8 id;	\/\/制造商id$/;"	m	struct:_ID_struct
+init	sd_drv.h	/^    void (*init)(void);$/;"	m	struct:sd_io
+init	sd_drv.h	/^   void (*init)(void);$/;"	m	struct:sdio_io
+init_flag	sd_drv.h	/^	u8 init_flag;$/;"	m	struct:sd_handle
+io	sd_drv.h	/^    sd_io io;$/;"	m	struct:sd_handle
+isr_handle_array	s3c2440_sdio.c	/^static int * isr_handle_array = (void *) 0x33fb06b0;$/;"	v	file:
+load_cmd	sd_drv.c	/^static u8 load_cmd(sdio_handle *hd, u8 cmd, u32 arg)$/;"	f	file:
+open_sd	sd_drv.c	/^sd_handle *open_sd(void)$/;"	f
+open_sdio	s3c2440_sdio.c	/^u8 open_sdio(sdio_handle *hd)$/;"	f
+rca	sd_drv.h	/^	u32 rca;$/;"	m	struct:sd_handle
+rca	sd_drv.h	/^   u32 rca;$/;"	m	struct:_sd_arg
+re_start_cmd	s3c2440_sdio.c	/^u8 re_start_cmd()$/;"	f
+read	sd_drv.h	/^    u8 (*read)(u32 block_num, u16 offset, u8 *buff, u16 buff_len);$/;"	m	struct:sd_io
+read_block	sd_drv.h	/^    u8 (*read_block)(u32 block_num, u8 *buff, u8 wait_flag);$/;"	m	struct:sd_io
+read_block	sd_drv.h	/^   u8 (*read_block)(u8 *);$/;"	m	struct:sdio_io
+read_win	sd_drv.c	/^static sd_win read_win;$/;"	v	file:
+respond	sd_drv.h	/^	u32  respond[4]; $/;"	m	struct:_sd_arg
+restat_cnt	s3c2440_sdio.c	/^static u8 restat_cnt = 0;$/;"	v	file:
+rsp	s3c2440_sdio.h	/^    u32 rsp[4];$/;"	m	struct:sdio_handle
+rsp_type	s3c2440_sdio.h	/^		u8 rsp_type;  \/\/ 0 不响应    1：短响应      2：长响应$/;"	m	struct:sdio_cmd
+sd_dev_monut	sd_dev_api.c	/^int sd_dev_monut(int major, void *parm)$/;"	f
+sd_handle	sd_drv.h	/^typedef struct sd_handle$/;"	s
+sd_handle	sd_drv.h	/^}sd_handle;$/;"	t	typeref:struct:sd_handle
+sd_hd	sd_drv.c	/^static sd_handle sd_hd =$/;"	v	file:
+sd_init	sd_drv.c	/^u8 sd_init(void)$/;"	f
+sd_io	sd_drv.h	/^typedef struct sd_io$/;"	s
+sd_io	sd_drv.h	/^}sd_io;$/;"	t	typeref:struct:sd_io
+sd_pre_read	sd_drv.c	/^u8 sd_pre_read(u32 block_num)$/;"	f
+sd_printf	s3c2440_sdio.h	6;"	d
+sd_printf	s3c2440_sdio.h	8;"	d
+sd_read	sd_drv.c	/^u16 sd_read(u32 block_num, u16 offset, u8 *buff, u16 buff_len)$/;"	f
+sd_read_block	sd_drv.c	/^u8 sd_read_block(u32 block_num, u8 * buff, u8 wait_flag)$/;"	f
+sd_send_cmd	sd_drv.c	/^static u8 sd_send_cmd(u8 cmd, u32 arg)$/;"	f	file:
+sd_size	sd_drv.h	/^	u32 sd_size;$/;"	m	struct:sd_handle
+sd_win	sd_drv.h	/^}sd_win;$/;"	t	typeref:struct:_sd_win
+sd_write	sd_drv.c	/^u16 sd_write(u32 block_num, u16 offset, u8 *buff, u16 buff_len)$/;"	f
+sd_write_block	sd_drv.c	/^u8 sd_write_block(u32 block_num, u8 *buff,u8 wait_flag)$/;"	f
+sdio_cmd	s3c2440_sdio.h	/^typedef struct sdio_cmd$/;"	s
+sdio_cmd	s3c2440_sdio.h	/^}sdio_cmd;$/;"	t	typeref:struct:sdio_cmd
+sdio_cmd_send	s3c2440_sdio.c	/^u8 sdio_cmd_send(sdio_handle *hd)$/;"	f
+sdio_handle	s3c2440_sdio.h	/^typedef struct sdio_handle$/;"	s
+sdio_handle	s3c2440_sdio.h	/^} sdio_handle;$/;"	t	typeref:struct:sdio_handle
+sdio_hd	s3c2440_sdio.c	/^static sdio_handle *sdio_hd = 0;$/;"	v	file:
+sdio_hd	sd_drv.c	/^static sdio_handle sdio_hd;$/;"	v	file:
+sdio_init	s3c2440_sdio.c	/^void sdio_init(void)$/;"	f
+sdio_io	sd_drv.h	/^typedef struct sdio_io$/;"	s
+sdio_io	sd_drv.h	/^}sdio_io;$/;"	t	typeref:struct:sdio_io
+sdio_isr	s3c2440_sdio.c	/^u8  sdio_isr(void)$/;"	f
+sdio_recive_data	s3c2440_sdio.c	/^u8 sdio_recive_data(u8 start)$/;"	f
+sdio_reg	s3c2440_sdio.h	/^typedef struct sdio_reg$/;"	s
+sdio_reg	s3c2440_sdio.h	/^} sdio_reg;$/;"	t	typeref:struct:sdio_reg
+sdio_send_data	s3c2440_sdio.c	/^u8 sdio_send_data(u8 start)$/;"	f
+send_cmd	sd_drv.h	/^   u8 (*send_cmd)(u8, u32, u32 *);$/;"	m	struct:sdio_io
+set_sdio_clk	s3c2440_sdio.c	/^void set_sdio_clk(u8 pre)$/;"	f
+sta_flag	s3c2440_sdio.h	/^    u8 sta_flag;  $/;"	m	struct:sdio_handle
+stdio_cmd_table	sd_drv.c	/^const u8 stdio_cmd_table[][5]= \/\/cmd绫诲瀷閰嶇疆琛▄cmd, stopcmd withdata, longrsp, waitrsp}$/;"	v
+step	s3c2440_sdio.c	/^volatile u8 step = 0;  \/\/0没有操作 1命令发出 2数据传输中 $/;"	v
+sync_sd	sd_drv.c	/^u8 sync_sd(void)$/;"	f
+sync_sd	sd_drv.h	/^    u8 (*sync_sd)(void);    $/;"	m	struct:sd_io
+withdata	s3c2440_sdio.h	/^		_bool withdata;  \/\/，命令是否带数据$/;"	m	struct:sdio_cmd
+write	sd_drv.h	/^    u8 (*write)(u32 block_num, u16 offset, u8 *buff, u16 buff_len);$/;"	m	struct:sd_io
+write_block	sd_drv.h	/^    u8 (*write_block)(u32 block_num, u8 *buff, u8 wait_flag);$/;"	m	struct:sd_io
+write_block	sd_drv.h	/^   u8 (*write_block)(u8 *);$/;"	m	struct:sdio_io
+write_cache_num	sd_drv.c	/^static _bool write_cache_num = 0;$/;"	v	file:
+write_win	sd_drv.c	/^static sd_win write_win[2];$/;"	v	file:

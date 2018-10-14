@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="32"
+   name=""
+   committed-date="2018-05-17T13:49:22.649325Z"
+   url="file:///work/liuxing/svn/usb/cbuff"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="32"
+   name="c_buff.c"
+   text-time="2018-05-17T13:25:29.000000Z"
+   committed-date="2018-05-17T13:49:22.649325Z"
+   checksum="1f896d18150f3db861aa29fecf5c0870"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="21"
+   name="c_buff.h"
+   text-time="2017-12-24T14:05:38.000000Z"
+   committed-date="2017-12-24T14:20:43.870762Z"
+   checksum="600fb9fe5be29bf0b54f9adb5031e68d"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+</wc-entries>

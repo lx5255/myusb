@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="32"
+   name=""
+   committed-date="2018-05-17T13:49:22.649325Z"
+   url="file:///work/liuxing/svn/usb/cmd"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="30"
+   name="cmd_common.h"
+   text-time="2018-01-25T13:53:31.000000Z"
+   committed-date="2018-01-28T13:13:38.087252Z"
+   checksum="028d653e6e8361209cca584b2fbbd982"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="32"
+   name="cmd.c"
+   text-time="2018-02-21T12:49:51.000000Z"
+   committed-date="2018-05-17T13:49:22.649325Z"
+   checksum="0d991d8e8b8a85d6571365a5134296ba"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="31"
+   name="cmd.h"
+   text-time="2018-01-29T14:23:42.000000Z"
+   committed-date="2018-01-29T14:48:52.051740Z"
+   checksum="95b4dbdc80de2ea6c01fdc5ceb5796db"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="32"
+   name="cmd_common.c"
+   text-time="2018-02-21T12:49:08.000000Z"
+   committed-date="2018-05-17T13:49:22.649325Z"
+   checksum="8108276730e77774d11a04a886730edd"
+   last-author="book"
+   kind="file"/>
+</wc-entries>

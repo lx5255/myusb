@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="28"
+   name=""
+   committed-date="2018-01-24T15:17:50.979627Z"
+   url="file:///work/liuxing/svn/usb/cpu"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="28"
+   name="irq.h"
+   text-time="2018-01-17T14:27:13.000000Z"
+   committed-date="2018-01-24T15:17:50.979627Z"
+   checksum="1beda9316ebc6401db958de33b6324cb"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="28"
+   name="irq.c"
+   text-time="2018-01-03T14:23:38.000000Z"
+   committed-date="2018-01-24T15:17:50.979627Z"
+   checksum="3da95a8818e1c27eda42f0b8e81f892a"
+   last-author="book"
+   kind="file"/>
+</wc-entries>

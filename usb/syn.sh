@@ -1,0 +1,3 @@
+cscope -R
+ctags -R
+

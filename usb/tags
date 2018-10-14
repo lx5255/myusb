@@ -1,0 +1,1938 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^}__attribute__((packed))ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR;$/;"	t	typeref:struct:_ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+AC_CODEC_CMD	S3C2440.H	518;"	d
+AC_CODEC_STAT	S3C2440.H	519;"	d
+AC_GLBCTRL	S3C2440.H	516;"	d
+AC_GLBSTAT	S3C2440.H	517;"	d
+AC_MICADDR	S3C2440.H	521;"	d
+AC_MICDATA	S3C2440.H	523;"	d
+AC_PCMADDR	S3C2440.H	520;"	d
+AC_PCMDATA	S3C2440.H	522;"	d
+ADCCON	S3C2440.H	469;"	d
+ADCDAT0	S3C2440.H	472;"	d
+ADCDAT1	S3C2440.H	473;"	d
+ADCDLY	S3C2440.H	471;"	d
+ADCTSC	S3C2440.H	470;"	d
+ADCUPDN	S3C2440.H	474;"	d
+ALLOC_ERR	dev_manage/dev_manage.h	/^   ALLOC_ERR,$/;"	e	enum:__anon1
+ALL_SEND_CID	sddrv/sd_drv.h	/^	ALL_SEND_CID,$/;"	e	enum:__anon29
+ALMDATE	S3C2440.H	436;"	d
+ALMDATE	S3C2440.H	455;"	d
+ALMHOUR	S3C2440.H	435;"	d
+ALMHOUR	S3C2440.H	454;"	d
+ALMMIN	S3C2440.H	434;"	d
+ALMMIN	S3C2440.H	453;"	d
+ALMMON	S3C2440.H	437;"	d
+ALMMON	S3C2440.H	456;"	d
+ALMSEC	S3C2440.H	433;"	d
+ALMSEC	S3C2440.H	452;"	d
+ALMYEAR	S3C2440.H	438;"	d
+ALMYEAR	S3C2440.H	457;"	d
+APP_CMD	sddrv/sd_drv.h	/^	APP_CMD,$/;"	e	enum:__anon29
+AR	Makefile	/^AR      = arm-linux-ar$/;"	m
+AR	lib/makefile	/^AR      = arm-linux-ar$/;"	m
+ARG_ERR	usb/usb_drv.h	/^		ARG_ERR,$/;"	e	enum:__anon25
+BANKCON0	S3C2440.H	7;"	d
+BANKCON1	S3C2440.H	8;"	d
+BANKCON2	S3C2440.H	9;"	d
+BANKCON3	S3C2440.H	10;"	d
+BANKCON4	S3C2440.H	11;"	d
+BANKCON5	S3C2440.H	12;"	d
+BANKCON6	S3C2440.H	13;"	d
+BANKCON7	S3C2440.H	14;"	d
+BANKSIZE	S3C2440.H	16;"	d
+BCDDATE	S3C2440.H	443;"	d
+BCDDATE	S3C2440.H	462;"	d
+BCDDAY	S3C2440.H	444;"	d
+BCDDAY	S3C2440.H	463;"	d
+BCDHOUR	S3C2440.H	442;"	d
+BCDHOUR	S3C2440.H	461;"	d
+BCDMIN	S3C2440.H	441;"	d
+BCDMIN	S3C2440.H	460;"	d
+BCDMON	S3C2440.H	445;"	d
+BCDMON	S3C2440.H	464;"	d
+BCDSEC	S3C2440.H	440;"	d
+BCDSEC	S3C2440.H	459;"	d
+BCDYEAR	S3C2440.H	446;"	d
+BCDYEAR	S3C2440.H	465;"	d
+BIT	comm/comm.h	17;"	d
+BIT_ADC	S3C2440.H	557;"	d
+BIT_ALLMSK	S3C2440.H	558;"	d
+BIT_CAM	S3C2440.H	532;"	d
+BIT_DMA0	S3C2440.H	543;"	d
+BIT_DMA1	S3C2440.H	544;"	d
+BIT_DMA2	S3C2440.H	545;"	d
+BIT_DMA3	S3C2440.H	546;"	d
+BIT_EINT0	S3C2440.H	526;"	d
+BIT_EINT1	S3C2440.H	527;"	d
+BIT_EINT2	S3C2440.H	528;"	d
+BIT_EINT3	S3C2440.H	529;"	d
+BIT_EINT4_7	S3C2440.H	530;"	d
+BIT_EINT8_23	S3C2440.H	531;"	d
+BIT_IIC	S3C2440.H	553;"	d
+BIT_LCD	S3C2440.H	542;"	d
+BIT_NFCON	S3C2440.H	550;"	d
+BIT_RTC	S3C2440.H	556;"	d
+BIT_SDI	S3C2440.H	547;"	d
+BIT_SPI0	S3C2440.H	548;"	d
+BIT_SPI1	S3C2440.H	555;"	d
+BIT_SUB_AC97	S3C2440.H	574;"	d
+BIT_SUB_ADC_S	S3C2440.H	570;"	d
+BIT_SUB_ALLMSK	S3C2440.H	575;"	d
+BIT_SUB_CAM_C	S3C2440.H	571;"	d
+BIT_SUB_CAM_P	S3C2440.H	572;"	d
+BIT_SUB_ERR0	S3C2440.H	562;"	d
+BIT_SUB_ERR1	S3C2440.H	565;"	d
+BIT_SUB_ERR2	S3C2440.H	568;"	d
+BIT_SUB_RXD0	S3C2440.H	560;"	d
+BIT_SUB_RXD1	S3C2440.H	563;"	d
+BIT_SUB_RXD2	S3C2440.H	566;"	d
+BIT_SUB_TC	S3C2440.H	569;"	d
+BIT_SUB_TXD0	S3C2440.H	561;"	d
+BIT_SUB_TXD1	S3C2440.H	564;"	d
+BIT_SUB_TXD2	S3C2440.H	567;"	d
+BIT_SUB_WDT	S3C2440.H	573;"	d
+BIT_TICK	S3C2440.H	534;"	d
+BIT_TIMER0	S3C2440.H	536;"	d
+BIT_TIMER1	S3C2440.H	537;"	d
+BIT_TIMER2	S3C2440.H	538;"	d
+BIT_TIMER3	S3C2440.H	539;"	d
+BIT_TIMER4	S3C2440.H	540;"	d
+BIT_UART0	S3C2440.H	554;"	d
+BIT_UART1	S3C2440.H	549;"	d
+BIT_UART2	S3C2440.H	541;"	d
+BIT_USBD	S3C2440.H	551;"	d
+BIT_USBH	S3C2440.H	552;"	d
+BIT_WDT_AC97	S3C2440.H	535;"	d
+BIT_nBAT_FLT	S3C2440.H	533;"	d
+BLE_HID	usb/hid/hid.h	4;"	d
+BLE_HID	usb/hid_device_api.h	11;"	d
+BLKMODE_BLOCK	sddrv/s3c2440_sdio.h	41;"	d
+BLKMODE_FLUX	sddrv/s3c2440_sdio.h	42;"	d
+BLOCK_DEV	dev_manage/dev_manage.h	32;"	d
+BLOCK_SIZE	sddrv/s3c2440_sdio.h	36;"	d
+BLUELUT	S3C2440.H	117;"	d
+BOOT_START	comm/config.h	10;"	d
+BSIZE	sddrv/s3c2440_sdio.h	/^   volatile int BSIZE;$/;"	m	struct:sdio_reg
+BUFF_LACK	dev_manage/dev_manage.h	/^   BUFF_LACK,$/;"	e	enum:__anon1
+BULK_MODE	usb/usb_dev_control.h	12;"	d
+BUSYFIN_INT	sddrv/s3c2440_sdio.h	67;"	d
+BUSYTFIN_STA	sddrv/s3c2440_sdio.h	81;"	d
+BWSCON	S3C2440.H	6;"	d
+CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^}__attribute__((packed))CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR;$/;"	t	typeref:struct:_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+CAMDIVN	S3C2440.H	104;"	d
+CBUFF_MAX_SIZE	uart/s3c2440_uart.h	57;"	d
+CBW	usb/usb_dev_enum.h	/^CBW, * pCBW;$/;"	t	typeref:struct:_CBW
+CBWCB	usb/usb_dev_enum.h	/^unsigned char CBWCB[16]; \/\/◊”¿‡√¸¡Ó$/;"	m	struct:_CBW
+CBW_CMD_ARRIVAL	comm/msg.h	/^	CBW_CMD_ARRIVAL,$/;"	e	enum:__anon28
+CBW_START	usb/usb_dev_enum.h	/^    CBW_START = 0x00,$/;"	e	enum:__anon9
+CC	Makefile	/^CC      = arm-linux-gcc$/;"	m
+CC	lib/makefile	/^CC      = arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS 			:= -WALL -O2$/;"	m
+CFLAGS	lib/makefile	/^CFLAGS 		:= -Wall -O2$/;"	m
+CHARACTER_DEV	dev_manage/dev_manage.h	33;"	d
+CHECK_BUSY	sddrv/s3c2440_sdio.h	54;"	d
+CICOCBSA1	S3C2440.H	152;"	d
+CICOCBSA2	S3C2440.H	153;"	d
+CICOCBSA3	S3C2440.H	154;"	d
+CICOCBSA4	S3C2440.H	155;"	d
+CICOCTRL	S3C2440.H	161;"	d
+CICORSA1	S3C2440.H	156;"	d
+CICORSA2	S3C2440.H	157;"	d
+CICORSA3	S3C2440.H	158;"	d
+CICORSA4	S3C2440.H	159;"	d
+CICOSCCTRL	S3C2440.H	164;"	d
+CICOSCPREDST	S3C2440.H	163;"	d
+CICOSCPRERATIO	S3C2440.H	162;"	d
+CICOSTATUS	S3C2440.H	166;"	d
+CICOTAREA	S3C2440.H	165;"	d
+CICOTRGFMT	S3C2440.H	160;"	d
+CICOYSA1	S3C2440.H	148;"	d
+CICOYSA2	S3C2440.H	149;"	d
+CICOYSA3	S3C2440.H	150;"	d
+CICOYSA4	S3C2440.H	151;"	d
+CID	sddrv/sd_drv.h	/^		u32  CID[4];$/;"	m	struct:sd_handle
+CID	sddrv/sd_drv.h	/^	u32  CID[4]; $/;"	m	struct:_sd_arg
+CIGCTRL	S3C2440.H	147;"	d
+CIIMGCPT	S3C2440.H	178;"	d
+CIPRCLRSA1	S3C2440.H	167;"	d
+CIPRCLRSA2	S3C2440.H	168;"	d
+CIPRCLRSA3	S3C2440.H	169;"	d
+CIPRCLRSA4	S3C2440.H	170;"	d
+CIPRCTRL	S3C2440.H	172;"	d
+CIPRSCCTRL	S3C2440.H	175;"	d
+CIPRSCPREDST	S3C2440.H	174;"	d
+CIPRSCPRERATIO	S3C2440.H	173;"	d
+CIPRSTATUS	S3C2440.H	177;"	d
+CIPRTAREA	S3C2440.H	176;"	d
+CIPRTRGFMT	S3C2440.H	171;"	d
+CISRCFMT	S3C2440.H	145;"	d
+CIWDOFST	S3C2440.H	146;"	d
+CLASS	usb/usb_drv.h	/^		CLASS,$/;"	e	enum:__anon23
+CLASS_TYPE	usb/usb_drv.h	18;"	d
+CLCKCON	comm/comm.h	16;"	d
+CLEAR_COMM_FEATURE	usb/usb_dev_enum.h	18;"	d
+CLEAR_DATA_END	usb/usb_dev_control.h	/^		CLEAR_DATA_END,$/;"	e	enum:__anon19
+CLEAR_FEATURE	usb/usb_drv.h	34;"	d
+CLEAR_SENT_STALL	usb/usb_dev_control.h	/^		CLEAR_SENT_STALL,$/;"	e	enum:__anon19
+CLEAR_SETUP_END	usb/usb_dev_control.h	/^		CLEAR_SETUP_END = 0x00,$/;"	e	enum:__anon19
+CLKCON	S3C2440.H	101;"	d
+CLKDIVN	S3C2440.H	103;"	d
+CLKSLOW	S3C2440.H	102;"	d
+CLR_WRITE_PROT	sddrv/sd_drv.h	/^	CLR_WRITE_PROT,$/;"	e	enum:__anon29
+CMD1	sddrv/sd_drv.h	/^	CMD1,$/;"	e	enum:__anon29
+CMDARG	sddrv/s3c2440_sdio.h	/^   volatile int CMDARG;$/;"	m	struct:sdio_reg
+CMDCON	sddrv/s3c2440_sdio.h	/^   volatile int CMDCON;$/;"	m	struct:sdio_reg
+CMDSTA	sddrv/s3c2440_sdio.h	/^   volatile int CMDSTA;$/;"	m	struct:sdio_reg
+CMDTIMEOUT_INT	sddrv/s3c2440_sdio.h	60;"	d
+CMDTOUT	sddrv/s3c2440_sdio.h	89;"	d
+CMD_BUFF_LEN	cmd/cmd.h	12;"	d
+CMD_DEBUG	cmd/cmd.h	5;"	d
+CMD_ENUM	sddrv/sd_drv.h	/^}CMD_ENUM;$/;"	t	typeref:enum:__anon29
+CMD_ERR	usb/SCSI.h	/^	CMD_ERR = 0X01,$/;"	e	enum:__anon11
+CMD_INPUT_MAX	cmd/cmd.c	19;"	d	file:
+CMD_LEN	cmd/cmd.h	13;"	d
+CMD_LINE	comm/config.h	11;"	d
+CMD_MATCH	sddrv/s3c2440_sdio.h	106;"	d
+CMD_ON	sddrv/s3c2440_sdio.h	91;"	d
+CMD_PARM_LEN	cmd/cmd.h	14;"	d
+CMD_PARM_MAX	cmd/cmd.h	15;"	d
+CMD_SECTION	cmd/cmd.h	3;"	d
+CMD_SEND_END	sddrv/s3c2440_sdio.h	88;"	d
+CMD_SEND_INT	sddrv/s3c2440_sdio.h	59;"	d
+CON	sddrv/s3c2440_sdio.h	/^   volatile int CON;$/;"	m	struct:sdio_reg
+CONFIGURATION_TYPE	usb/usb_drv.h	52;"	d
+CONF_ATTR_DEFAULT	usb/usb_drv.h	59;"	d
+CONF_ATTR_REMOTE_WAKEUP	usb/usb_drv.h	60;"	d
+CONF_ATTR_SELFPOWERED	usb/usb_drv.h	61;"	d
+CONF_INT_ENDP_DESCRIPTOR	usb/usb_dev_enum.h	/^}CONF_INT_ENDP_DESCRIPTOR;$/;"	t	typeref:struct:_CONF_INT_ENDP_DESCRIPTOR
+CON_INT_ENDP_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^}__attribute__((packed)) CON_INT_ENDP_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT
+CON_INT_ENDP_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^}__attribute__((packed)) CON_INT_ENDP_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT
+CPPFLAGS	Makefile	/^CPPFLAGS   	:= -nostdinc $(INCLUDEDIR)$/;"	m
+CPPFLAGS	lib/makefile	/^CPPFLAGS   	:= -nostdinc -I$(INCLUDEDIR)$/;"	m
+CPPLIB	Makefile	/^CPPLIB 			:= -L\/tools\/gcc-3.4.5-glibc-2.3.6\/arm-linux\/lib\/-static -lgcc_s  $/;"	m
+CRCERR_STA	sddrv/s3c2440_sdio.h	77;"	d
+CRCSTA_INT	sddrv/s3c2440_sdio.h	63;"	d
+CRC_ERR	sddrv/s3c2440_sdio.h	104;"	d
+CROSS_BORDER	dev_manage/dev_manage.h	/^   CROSS_BORDER = 0x01,$/;"	e	enum:__anon1
+CSD	sddrv/sd_drv.h	/^		u32  CSD[4]; $/;"	m	struct:sd_handle
+CSD	sddrv/sd_drv.h	/^	u32  CSD[4]; $/;"	m	struct:_sd_arg
+CSW	usb/usb_dev_enum.h	/^CSW, * pCSW;$/;"	t	typeref:struct:_CSW
+CSW_END	usb/usb_dev_enum.h	/^    CSW_END,$/;"	e	enum:__anon9
+CS_INTERFACE_DESCRIPTOR	usb/usb_drv.h	57;"	d
+ClearPending	cpu/irq.h	54;"	d
+ClearSubPending	cpu/irq.h	56;"	d
+DAT	sddrv/s3c2440_sdio.h	/^	volatile int DAT;$/;"	m	struct:sdio_reg
+DATACRC_STA	sddrv/s3c2440_sdio.h	78;"	d
+DATAFIN_INT	sddrv/s3c2440_sdio.h	66;"	d
+DATASIZE_U16	sddrv/s3c2440_sdio.h	38;"	d
+DATASIZE_U32	sddrv/s3c2440_sdio.h	37;"	d
+DATASIZE_U8	sddrv/s3c2440_sdio.h	39;"	d
+DATATIMEOUT_INT	sddrv/s3c2440_sdio.h	65;"	d
+DATATIMEOUT_STA	sddrv/s3c2440_sdio.h	79;"	d
+DATA_COMING	dev_manage/dev_manage.h	/^    DATA_COMING = 0x01,$/;"	e	enum:__anon2
+DATA_END	usb/usb_drv.h	/^		DATA_END,$/;"	e	enum:__anon25
+DATA_IN_EVENT	usb/usb_dev_control.h	/^		DATA_IN_EVENT,$/;"	e	enum:__anon18
+DATA_OUT_EVENT	usb/usb_dev_control.h	/^		DATA_OUT_EVENT,$/;"	e	enum:__anon18
+DATA_START	sddrv/s3c2440_sdio.h	50;"	d
+DATA_TRANSFER	usb/usb_dev_enum.h	/^    DATA_TRANSFER,$/;"	e	enum:__anon9
+DATCNT	sddrv/s3c2440_sdio.h	/^   volatile int DATCNT;$/;"	m	struct:sdio_reg
+DATCON	sddrv/s3c2440_sdio.h	/^   volatile int DATCON;$/;"	m	struct:sdio_reg
+DATFIN_STA	sddrv/s3c2440_sdio.h	80;"	d
+DATSTA	sddrv/s3c2440_sdio.h	/^   volatile int DATSTA;$/;"	m	struct:sdio_reg
+DCDST0	S3C2440.H	63;"	d
+DCDST1	S3C2440.H	73;"	d
+DCDST2	S3C2440.H	83;"	d
+DCDST3	S3C2440.H	93;"	d
+DCLKCON	S3C2440.H	411;"	d
+DCON0	S3C2440.H	60;"	d
+DCON1	S3C2440.H	70;"	d
+DCON2	S3C2440.H	80;"	d
+DCON3	S3C2440.H	90;"	d
+DCSRC0	S3C2440.H	62;"	d
+DCSRC1	S3C2440.H	72;"	d
+DCSRC2	S3C2440.H	82;"	d
+DCSRC3	S3C2440.H	92;"	d
+DEBUG	comm/config.h	9;"	d
+DESCRIPTOR_ERR	usb/usb_drv.h	/^		DESCRIPTOR_ERR,$/;"	e	enum:__anon25
+DEVICE	usb/usb_drv.h	/^		DEVICE=0x00,$/;"	e	enum:__anon24
+DEVICE_RECIPIENT	usb/usb_drv.h	23;"	d
+DEVICE_REMOTE_WAKEUP	usb/usb_drv.h	29;"	d
+DEVICE_TO_HOST	usb/usb_drv.h	14;"	d
+DEVICE_TYPE	usb/usb_drv.h	51;"	d
+DEV_CTRL_CMD	sddrv/sd_dev_api.h	/^}DEV_CTRL_CMD;$/;"	v	typeref:enum:__anon30
+DEV_ERR_NUM	dev_manage/dev_manage.h	/^}DEV_ERR_NUM;$/;"	v	typeref:enum:__anon1
+DEV_MG_DEBUG	dev_manage/dev_manage.h	7;"	d
+DEV_MSG	dev_manage/dev_manage.h	/^}DEV_MSG;$/;"	v	typeref:enum:__anon2
+DIDST0	S3C2440.H	58;"	d
+DIDST1	S3C2440.H	68;"	d
+DIDST2	S3C2440.H	78;"	d
+DIDST3	S3C2440.H	88;"	d
+DIDSTC0	S3C2440.H	59;"	d
+DIDSTC1	S3C2440.H	69;"	d
+DIDSTC2	S3C2440.H	79;"	d
+DIDSTC3	S3C2440.H	89;"	d
+DISRC0	S3C2440.H	56;"	d
+DISRC1	S3C2440.H	66;"	d
+DISRC2	S3C2440.H	76;"	d
+DISRC3	S3C2440.H	86;"	d
+DISRCC0	S3C2440.H	57;"	d
+DISRCC1	S3C2440.H	67;"	d
+DISRCC2	S3C2440.H	77;"	d
+DISRCC3	S3C2440.H	87;"	d
+DIS_CPU_INT	cpu/irq.h	57;"	d
+DITHMODE	S3C2440.H	118;"	d
+DMASKTRIG0	S3C2440.H	64;"	d
+DMASKTRIG1	S3C2440.H	74;"	d
+DMASKTRIG2	S3C2440.H	84;"	d
+DMASKTRIG3	S3C2440.H	94;"	d
+DSTAT0	S3C2440.H	61;"	d
+DSTAT1	S3C2440.H	71;"	d
+DSTAT2	S3C2440.H	81;"	d
+DSTAT3	S3C2440.H	91;"	d
+DisDMA	sddrv/s3c2440_sdio.h	48;"	d
+EINTFLT0	S3C2440.H	415;"	d
+EINTFLT1	S3C2440.H	416;"	d
+EINTFLT2	S3C2440.H	417;"	d
+EINTFLT3	S3C2440.H	418;"	d
+EINTMASK	S3C2440.H	419;"	d
+EINTPEND	S3C2440.H	420;"	d
+ENDPOINT	usb/usb_drv.h	/^		ENDPOINT,$/;"	e	enum:__anon24
+ENDPOINT_NUM	usb/usb_dev_enum.h	12;"	d
+ENDPOINT_NUMBER	usb/usb_dev_enum.h	125;"	d
+ENDPOINT_NUMBER	usb/usb_dev_enum.h	81;"	d
+ENDPOINT_NUMBER	usb/usb_hid_device.h	18;"	d
+ENDPOINT_RECIPIENT	usb/usb_drv.h	25;"	d
+ENDPOINT_TYPE	usb/usb_drv.h	55;"	d
+EN_CPU_INT	cpu/irq.h	58;"	d
+EP0_BUFF_MAX	usb/usb_drv.h	279;"	d
+EP0_CSR	S3C2440.H	264;"	d
+EP0_CSR	S3C2440.H	312;"	d
+EP0_DATA_END	usb/usb_dev_control.h	21;"	d
+EP0_FIFO	S3C2440.H	271;"	d
+EP0_FIFO	S3C2440.H	319;"	d
+EP0_OUT_RDY	usb/usb_dev_control.h	22;"	d
+EP0_SETUP_END	usb/usb_dev_control.h	20;"	d
+EP1_DMA_CON	S3C2440.H	276;"	d
+EP1_DMA_CON	S3C2440.H	324;"	d
+EP1_DMA_FIFO	S3C2440.H	278;"	d
+EP1_DMA_FIFO	S3C2440.H	326;"	d
+EP1_DMA_TTC_H	S3C2440.H	281;"	d
+EP1_DMA_TTC_H	S3C2440.H	329;"	d
+EP1_DMA_TTC_L	S3C2440.H	279;"	d
+EP1_DMA_TTC_L	S3C2440.H	327;"	d
+EP1_DMA_TTC_M	S3C2440.H	280;"	d
+EP1_DMA_TTC_M	S3C2440.H	328;"	d
+EP1_DMA_UNIT	S3C2440.H	277;"	d
+EP1_DMA_UNIT	S3C2440.H	325;"	d
+EP1_FIFO	S3C2440.H	272;"	d
+EP1_FIFO	S3C2440.H	320;"	d
+EP2_DMA_CON	S3C2440.H	282;"	d
+EP2_DMA_CON	S3C2440.H	330;"	d
+EP2_DMA_FIFO	S3C2440.H	284;"	d
+EP2_DMA_FIFO	S3C2440.H	332;"	d
+EP2_DMA_TTC_H	S3C2440.H	287;"	d
+EP2_DMA_TTC_H	S3C2440.H	335;"	d
+EP2_DMA_TTC_L	S3C2440.H	285;"	d
+EP2_DMA_TTC_L	S3C2440.H	333;"	d
+EP2_DMA_TTC_M	S3C2440.H	286;"	d
+EP2_DMA_TTC_M	S3C2440.H	334;"	d
+EP2_DMA_UNIT	S3C2440.H	283;"	d
+EP2_DMA_UNIT	S3C2440.H	331;"	d
+EP2_FIFO	S3C2440.H	273;"	d
+EP2_FIFO	S3C2440.H	321;"	d
+EP3_DMA_CON	S3C2440.H	288;"	d
+EP3_DMA_CON	S3C2440.H	336;"	d
+EP3_DMA_FIFO	S3C2440.H	290;"	d
+EP3_DMA_FIFO	S3C2440.H	338;"	d
+EP3_DMA_TTC_H	S3C2440.H	293;"	d
+EP3_DMA_TTC_H	S3C2440.H	341;"	d
+EP3_DMA_TTC_L	S3C2440.H	291;"	d
+EP3_DMA_TTC_L	S3C2440.H	339;"	d
+EP3_DMA_TTC_M	S3C2440.H	292;"	d
+EP3_DMA_TTC_M	S3C2440.H	340;"	d
+EP3_DMA_UNIT	S3C2440.H	289;"	d
+EP3_DMA_UNIT	S3C2440.H	337;"	d
+EP3_FIFO	S3C2440.H	274;"	d
+EP3_FIFO	S3C2440.H	322;"	d
+EP4_DMA_CON	S3C2440.H	294;"	d
+EP4_DMA_CON	S3C2440.H	342;"	d
+EP4_DMA_FIFO	S3C2440.H	296;"	d
+EP4_DMA_FIFO	S3C2440.H	344;"	d
+EP4_DMA_TTC_H	S3C2440.H	299;"	d
+EP4_DMA_TTC_H	S3C2440.H	347;"	d
+EP4_DMA_TTC_L	S3C2440.H	297;"	d
+EP4_DMA_TTC_L	S3C2440.H	345;"	d
+EP4_DMA_TTC_M	S3C2440.H	298;"	d
+EP4_DMA_TTC_M	S3C2440.H	346;"	d
+EP4_DMA_UNIT	S3C2440.H	295;"	d
+EP4_DMA_UNIT	S3C2440.H	343;"	d
+EP4_FIFO	S3C2440.H	275;"	d
+EP4_FIFO	S3C2440.H	323;"	d
+EP_ADDR_IN	usb/usb_drv.h	64;"	d
+EP_ADDR_OUT	usb/usb_drv.h	65;"	d
+EP_ATTR_BULK	usb/usb_dev_control.h	36;"	d
+EP_ATTR_BULK	usb/usb_drv.h	69;"	d
+EP_ATTR_CONTROL	usb/usb_dev_control.h	34;"	d
+EP_ATTR_CONTROL	usb/usb_drv.h	67;"	d
+EP_ATTR_INTERRUPT	usb/usb_dev_control.h	37;"	d
+EP_ATTR_INTERRUPT	usb/usb_drv.h	70;"	d
+EP_ATTR_ISOCHRONOUS	usb/usb_dev_control.h	35;"	d
+EP_ATTR_ISOCHRONOUS	usb/usb_drv.h	68;"	d
+EP_BUFF_MAX	usb/usb_drv.h	278;"	d
+EP_FIFO_16	usb/usb_dev_control.h	8;"	d
+EP_FIFO_32	usb/usb_dev_control.h	9;"	d
+EP_FIFO_64	usb/usb_dev_control.h	10;"	d
+EP_FIFO_8	usb/usb_dev_control.h	7;"	d
+EP_INDEX_ERR	usb/usb_drv.h	/^		EP_INDEX_ERR,$/;"	e	enum:__anon25
+EP_INT_EN_REG	S3C2440.H	258;"	d
+EP_INT_EN_REG	S3C2440.H	306;"	d
+EP_INT_REG	S3C2440.H	256;"	d
+EP_INT_REG	S3C2440.H	304;"	d
+EP_IN_FLUSH_FIFO	usb/usb_dev_control.h	24;"	d
+EP_IN_RDY	usb/usb_dev_control.h	25;"	d
+EP_IN_SENT_STALL	usb/usb_dev_control.h	23;"	d
+EP_MAXSIZE_ENUM	usb/usb_drv.h	/^}EP_MAXSIZE_ENUM;$/;"	t	typeref:enum:__anon22
+EP_OUT_FLUSH_FIFO	usb/usb_dev_control.h	28;"	d
+EP_OUT_RDY	usb/usb_dev_control.h	26;"	d
+EP_OUT_SENT_STALL	usb/usb_dev_control.h	27;"	d
+EP_STALL	usb/usb_drv.h	30;"	d
+ERASE	sddrv/sd_drv.h	/^	ERASE,$/;"	e	enum:__anon29
+ERASE_WR_BLK_END	sddrv/sd_drv.h	/^	ERASE_WR_BLK_END,$/;"	e	enum:__anon29
+ERASE_WR_BLK_START	sddrv/sd_drv.h	/^	ERASE_WR_BLK_START,$/;"	e	enum:__anon29
+ERROR	usb/usb_dev_enum.h	56;"	d
+EVENT_CALLBACK	dev_manage/dev_manage.h	6;"	d
+EXIT_FAILURE	lib/stdlib.h	134;"	d
+EXIT_SUCCESS	lib/stdlib.h	135;"	d
+EXTINT0	S3C2440.H	412;"	d
+EXTINT1	S3C2440.H	413;"	d
+EXTINT2	S3C2440.H	414;"	d
+EnDMA	sddrv/s3c2440_sdio.h	47;"	d
+FAIL	usb/usb_dev_enum.h	55;"	d
+FALSE	comm/config.h	26;"	d
+FF_FAIL	sddrv/s3c2440_sdio.h	94;"	d
+FLUSH_EP	usb/usb_dev_control.h	/^		FLUSH_EP,$/;"	e	enum:__anon19
+FRAME_NUM1_REG	S3C2440.H	260;"	d
+FRAME_NUM1_REG	S3C2440.H	308;"	d
+FRAME_NUM2_REG	S3C2440.H	261;"	d
+FRAME_NUM2_REG	S3C2440.H	309;"	d
+FSTA	sddrv/s3c2440_sdio.h	/^   volatile int FSTA;$/;"	m	struct:sdio_reg
+FULL_FLAG	cbuff/c_buff.h	15;"	d
+FUNC_ADDR_REG	S3C2440.H	254;"	d
+FUNC_ADDR_REG	S3C2440.H	302;"	d
+Format_Unit	usb/SCSI.h	89;"	d
+GET_BLOCK_SIZE	sddrv/sd_dev_api.h	/^		GET_BLOCK_SIZE,$/;"	e	enum:__anon30
+GET_COMM_FEATURE	usb/usb_dev_enum.h	17;"	d
+GET_CONFIGURATION	usb/usb_drv.h	39;"	d
+GET_DESCRIPTOR	usb/usb_drv.h	37;"	d
+GET_DEVICE_ID	usb/usb_drv.h	46;"	d
+GET_DEV_BUYS	sddrv/sd_dev_api.h	/^		GET_DEV_BUYS = 0x00,$/;"	e	enum:__anon30
+GET_ENCAPSULATED_RESPONSE	usb/usb_dev_enum.h	15;"	d
+GET_EP_DIR	usb/usb_dev_control.h	/^		GET_EP_DIR,$/;"	e	enum:__anon19
+GET_EP_SEND_STATUS	usb/usb_dev_control.h	/^		GET_EP_SEND_STATUS,$/;"	e	enum:__anon19
+GET_EP_SIZE	usb/usb_dev_control.h	/^		GET_EP_SIZE,$/;"	e	enum:__anon19
+GET_IDLE	usb/usb_dev_enum.h	113;"	d
+GET_IDLE	usb/usb_hid_device.h	8;"	d
+GET_INTERFACE	usb/usb_drv.h	41;"	d
+GET_LINE_CODING	usb/usb_dev_enum.h	20;"	d
+GET_MAX_	sddrv/sd_dev_api.h	/^		GET_MAX_$/;"	e	enum:__anon30
+GET_PORT_STATUS	usb/usb_drv.h	47;"	d
+GET_PROTOCOL	usb/usb_dev_enum.h	114;"	d
+GET_PROTOCOL	usb/usb_hid_device.h	9;"	d
+GET_REPORT	usb/usb_dev_enum.h	112;"	d
+GET_REPORT	usb/usb_hid_device.h	7;"	d
+GET_STATUS	usb/usb_drv.h	33;"	d
+GO_IDLE_STATE	sddrv/sd_drv.h	/^	GO_IDLE_STATE = 0,$/;"	e	enum:__anon29
+GO_INACTIVE_STATE	sddrv/sd_drv.h	/^	GO_INACTIVE_STATE ,$/;"	e	enum:__anon29
+GPACON	S3C2440.H	375;"	d
+GPADAT	S3C2440.H	376;"	d
+GPBCON	S3C2440.H	378;"	d
+GPBDAT	S3C2440.H	379;"	d
+GPBUP	S3C2440.H	380;"	d
+GPCCON	S3C2440.H	382;"	d
+GPCDAT	S3C2440.H	383;"	d
+GPCUP	S3C2440.H	384;"	d
+GPDCON	S3C2440.H	386;"	d
+GPDDAT	S3C2440.H	387;"	d
+GPDUP	S3C2440.H	388;"	d
+GPECON	S3C2440.H	390;"	d
+GPECON	sddrv/s3c2440_sdio.h	33;"	d
+GPEDAT	S3C2440.H	391;"	d
+GPEUP	S3C2440.H	392;"	d
+GPEUP	sddrv/s3c2440_sdio.h	34;"	d
+GPFCON	S3C2440.H	394;"	d
+GPFDAT	S3C2440.H	395;"	d
+GPFUP	S3C2440.H	396;"	d
+GPGCON	S3C2440.H	398;"	d
+GPGDAT	S3C2440.H	399;"	d
+GPGUP	S3C2440.H	400;"	d
+GPHCON	S3C2440.H	402;"	d
+GPHDAT	S3C2440.H	403;"	d
+GPHUP	S3C2440.H	404;"	d
+GPJCON	S3C2440.H	406;"	d
+GPJDAT	S3C2440.H	407;"	d
+GPJUP	S3C2440.H	408;"	d
+GREENLUT	S3C2440.H	116;"	d
+GSTATUS0	S3C2440.H	421;"	d
+GSTATUS1	S3C2440.H	422;"	d
+GSTATUS2	S3C2440.H	423;"	d
+GSTATUS3	S3C2440.H	424;"	d
+GSTATUS4	S3C2440.H	425;"	d
+HANDLE_ERR	usb/usb_drv.h	/^		HANDLE_ERR,$/;"	e	enum:__anon25
+HEADER_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^}__attribute__((packed))HEADER_FUNCTIONAL_DESCRIPTOR;$/;"	t	typeref:struct:_HEADER_FUNCTIONAL_DESCRIPTOR
+HID_DESCRIPTOR	usb/usb_dev_enum.h	119;"	d
+HID_DESCRIPTOR	usb/usb_hid_device.h	14;"	d
+HID_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^}__attribute__((packed)) HID_DESCRIPTOR_STRUCT,*pHID_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_DESCRIPTOR_STRUCT
+HID_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^}__attribute__((packed)) HID_DESCRIPTOR_STRUCT,*pHID_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_DESCRIPTOR_STRUCT
+HID_DRV_DEBUG	usb/hid_device_api.h	4;"	d
+HID_SUB_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^}__attribute__((packed)) HID_SUB_DESCRIPTOR_STRUCT,*pHID_SUB_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_SUB_DESCRIPTOR_STRUCT
+HID_SUB_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^}__attribute__((packed)) HID_SUB_DESCRIPTOR_STRUCT,*pHID_SUB_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_SUB_DESCRIPTOR_STRUCT
+HID_TYPE	usb/hid/hid.h	7;"	d
+HID_TYPE	usb/hid_device_api.h	13;"	d
+HOST_TO_DEVICE	usb/usb_drv.h	13;"	d
+HcBulkCurrentED	S3C2440.H	32;"	d
+HcBulkHeadED	S3C2440.H	31;"	d
+HcCommonStatus	S3C2440.H	23;"	d
+HcControl	S3C2440.H	22;"	d
+HcControlCurrentED	S3C2440.H	30;"	d
+HcControlHeadED	S3C2440.H	29;"	d
+HcDoneHead	S3C2440.H	33;"	d
+HcFmNumber	S3C2440.H	36;"	d
+HcFmRemaining	S3C2440.H	35;"	d
+HcHCCA	S3C2440.H	27;"	d
+HcInterruptDisable	S3C2440.H	26;"	d
+HcInterruptEnable	S3C2440.H	25;"	d
+HcInterruptStatus	S3C2440.H	24;"	d
+HcLSTreshold	S3C2440.H	38;"	d
+HcPeriodCuttentED	S3C2440.H	28;"	d
+HcPeriodicStart	S3C2440.H	37;"	d
+HcRevision	S3C2440.H	21;"	d
+HcRhDescriptorA	S3C2440.H	39;"	d
+HcRhDescriptorB	S3C2440.H	40;"	d
+HcRhPortStatus1	S3C2440.H	42;"	d
+HcRhPortStatus2	S3C2440.H	43;"	d
+HcRhStatus	S3C2440.H	41;"	d
+HcRmInterval	S3C2440.H	34;"	d
+Heap_Mem	start.S	/^#define Heap_Mem          Heap_Size$/;"	d
+HidSubDescriptors	usb/usb_dev_enum.h	/^		HID_SUB_DESCRIPTOR_STRUCT HidSubDescriptors[NUM_SUB_DESCRIPTORS];$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+HidSubDescriptors	usb/usb_hid_device.h	/^		HID_SUB_DESCRIPTOR_STRUCT HidSubDescriptors[NUM_SUB_DESCRIPTORS];$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+ID	sddrv/sd_drv.h	/^		_ID_struct ID;$/;"	m	struct:sd_handle
+ID	sddrv/sd_drv.h	/^	_ID_struct ID;$/;"	m	struct:_sd_arg
+IICADD	S3C2440.H	358;"	d
+IICCON	S3C2440.H	356;"	d
+IICDS	S3C2440.H	359;"	d
+IICLC	S3C2440.H	360;"	d
+IICSTAT	S3C2440.H	357;"	d
+IISCON	S3C2440.H	363;"	d
+IISFCON	S3C2440.H	366;"	d
+IISFIFO	S3C2440.H	367;"	d
+IISFIFO	S3C2440.H	370;"	d
+IISFIFO	S3C2440.H	371;"	d
+IISMOD	S3C2440.H	364;"	d
+IISPSR	S3C2440.H	365;"	d
+INCLUDEDIR	Makefile	/^INCLUDEDIR 	:=-I $(shell pwd)$/;"	m
+INCLUDEDIR	lib/makefile	/^INCLUDEDIR 	:= $(shell pwd)\/include$/;"	m
+INDEX_REG	S3C2440.H	262;"	d
+INDEX_REG	S3C2440.H	310;"	d
+INTERFACE	usb/usb_drv.h	/^		INTERFACE,$/;"	e	enum:__anon24
+INTERFACE_RECIPIENT	usb/usb_drv.h	24;"	d
+INTERFACE_TYPE	usb/usb_drv.h	54;"	d
+INTMOD	S3C2440.H	47;"	d
+INTMSK	S3C2440.H	48;"	d
+INTMSK	uart/s3c2440_uart.h	50;"	d
+INTOFFSET	S3C2440.H	51;"	d
+INTPND	S3C2440.H	50;"	d
+INTSUBMSK	S3C2440.H	53;"	d
+INTSUBMSK	uart/s3c2440_uart.h	51;"	d
+INT_ADC	cpu/irq.h	35;"	d
+INT_CAM	cpu/irq.h	10;"	d
+INT_DMA0	cpu/irq.h	21;"	d
+INT_DMA1	cpu/irq.h	22;"	d
+INT_DMA2	cpu/irq.h	23;"	d
+INT_DMA3	cpu/irq.h	24;"	d
+INT_EINT0	cpu/irq.h	4;"	d
+INT_EINT1	cpu/irq.h	5;"	d
+INT_EINT2	cpu/irq.h	6;"	d
+INT_EINT3	cpu/irq.h	7;"	d
+INT_EINT4_7	cpu/irq.h	8;"	d
+INT_EINT8_23	cpu/irq.h	9;"	d
+INT_IIC	cpu/irq.h	31;"	d
+INT_LCD	cpu/irq.h	20;"	d
+INT_MSK	sddrv/s3c2440_sdio.h	/^   volatile int INT_MSK;$/;"	m	struct:sdio_reg
+INT_NFCON	cpu/irq.h	28;"	d
+INT_RTC	cpu/irq.h	34;"	d
+INT_SDI	cpu/irq.h	25;"	d
+INT_SPI0	cpu/irq.h	26;"	d
+INT_SPI1	cpu/irq.h	33;"	d
+INT_SUB_AC97	cpu/irq.h	51;"	d
+INT_SUB_ADC_S	cpu/irq.h	47;"	d
+INT_SUB_ALLMSK	cpu/irq.h	52;"	d
+INT_SUB_CAM_C	cpu/irq.h	48;"	d
+INT_SUB_CAM_P	cpu/irq.h	49;"	d
+INT_SUB_ERR0	cpu/irq.h	39;"	d
+INT_SUB_ERR1	cpu/irq.h	42;"	d
+INT_SUB_ERR2	cpu/irq.h	45;"	d
+INT_SUB_RXD0	cpu/irq.h	37;"	d
+INT_SUB_RXD1	cpu/irq.h	40;"	d
+INT_SUB_RXD2	cpu/irq.h	43;"	d
+INT_SUB_TC	cpu/irq.h	46;"	d
+INT_SUB_TXD0	cpu/irq.h	38;"	d
+INT_SUB_TXD1	cpu/irq.h	41;"	d
+INT_SUB_TXD2	cpu/irq.h	44;"	d
+INT_SUB_WDT	cpu/irq.h	50;"	d
+INT_TICK	cpu/irq.h	12;"	d
+INT_TIMER0	cpu/irq.h	14;"	d
+INT_TIMER1	cpu/irq.h	15;"	d
+INT_TIMER2	cpu/irq.h	16;"	d
+INT_TIMER3	cpu/irq.h	17;"	d
+INT_TIMER4	cpu/irq.h	18;"	d
+INT_UART0	cpu/irq.h	32;"	d
+INT_UART1	cpu/irq.h	27;"	d
+INT_UART2	cpu/irq.h	19;"	d
+INT_USBD	cpu/irq.h	29;"	d
+INT_USBH	cpu/irq.h	30;"	d
+INT_WDT_AC97	cpu/irq.h	13;"	d
+INT_nBAT_FLT	cpu/irq.h	11;"	d
+IN_CSR1_REG	S3C2440.H	265;"	d
+IN_CSR1_REG	S3C2440.H	313;"	d
+IN_CSR2_REG	S3C2440.H	266;"	d
+IN_CSR2_REG	S3C2440.H	314;"	d
+IN_MODE	usb/usb_dev_control.h	14;"	d
+IO_ERR	dev_manage/dev_manage.h	/^   IO_ERR,$/;"	e	enum:__anon1
+Inquiry	usb/SCSI.h	90;"	d
+Inquiry_deal	usb/SCSI.c	/^u8 Inquiry_deal()$/;"	f
+KeyBoardReportDescriptor	usb/usb_dev_enum.c	/^const unsigned char KeyBoardReportDescriptor[]=$/;"	v
+LANGID_US_H	usb/usb_drv.h	75;"	d
+LANGID_US_L	usb/usb_drv.h	74;"	d
+LARGE	lib/vsprintf.c	106;"	d	file:
+LCDCON1	S3C2440.H	107;"	d
+LCDCON2	S3C2440.H	108;"	d
+LCDCON3	S3C2440.H	109;"	d
+LCDCON4	S3C2440.H	110;"	d
+LCDCON5	S3C2440.H	111;"	d
+LCDINTMSK	S3C2440.H	122;"	d
+LCDINTPND	S3C2440.H	120;"	d
+LCDSADDR1	S3C2440.H	112;"	d
+LCDSADDR2	S3C2440.H	113;"	d
+LCDSADDR3	S3C2440.H	114;"	d
+LCDSRCPND	S3C2440.H	121;"	d
+LD	Makefile	/^LD      = arm-linux-ld$/;"	m
+LD	lib/makefile	/^LD      = arm-linux-ld$/;"	m
+LDFLASG	Makefile	/^LDFLASG     := -L $(shell dirname `$(CC) $(CFLAGS) -print-libgcc-file-name`) -lgcc$/;"	m
+LEFT	lib/vsprintf.c	104;"	d	file:
+LINE_COD	usb/usb_dev_enum.c	/^LINE_CODING LINE_COD =$/;"	v
+LINE_CODING	usb/usb_dev_enum.h	/^}LINE_CODING;$/;"	t	typeref:struct:_line_coding
+LOCKTIME	S3C2440.H	98;"	d
+LPCSEL	S3C2440.H	123;"	d
+MAJOR_ERR	dev_manage/dev_manage.h	/^   MAJOR_ERR,$/;"	e	enum:__anon1
+MALLOC_EN	comm/config.h	7;"	d
+MAX	comm/comm.h	18;"	d
+MAXP_REG	S3C2440.H	263;"	d
+MAXP_REG	S3C2440.H	311;"	d
+MAX_DEV	dev_manage/dev_manage.h	4;"	d
+MB_CUR_MAX	lib/stdlib.h	139;"	d
+MDT	sddrv/sd_drv.h	/^	u8 MDT[3]; \/\/…˙≤˙»’∆⁄$/;"	m	struct:_ID_struct
+MEM_ERR	usb/usb_drv.h	/^		MEM_ERR,$/;"	e	enum:__anon25
+MEM_MAX	comm/config.h	20;"	d
+MIN	comm/comm.h	19;"	d
+MISCCR	S3C2440.H	410;"	d
+MOUSE_DOWN	usb/hid/hid.h	/^    MOUSE_DOWN,$/;"	e	enum:__anon16
+MOUSE_DOWN	usb/hid_device_api.h	/^    MOUSE_DOWN,$/;"	e	enum:__anon20
+MOUSE_LEFT	usb/hid/hid.h	/^    MOUSE_LEFT = 0x00,$/;"	e	enum:__anon16
+MOUSE_LEFT	usb/hid_device_api.h	/^    MOUSE_LEFT = 0x00,$/;"	e	enum:__anon20
+MOUSE_LEFT_BUTTON	usb/hid/hid.h	/^    MOUSE_LEFT_BUTTON,$/;"	e	enum:__anon16
+MOUSE_LEFT_BUTTON	usb/hid_device_api.h	/^    MOUSE_LEFT_BUTTON,$/;"	e	enum:__anon20
+MOUSE_MIDDLE_BUTTON	usb/hid/hid.h	/^    MOUSE_MIDDLE_BUTTON,$/;"	e	enum:__anon16
+MOUSE_MIDDLE_BUTTON	usb/hid_device_api.h	/^    MOUSE_MIDDLE_BUTTON,$/;"	e	enum:__anon20
+MOUSE_RIGHT	usb/hid/hid.h	/^    MOUSE_RIGHT,$/;"	e	enum:__anon16
+MOUSE_RIGHT	usb/hid_device_api.h	/^    MOUSE_RIGHT,$/;"	e	enum:__anon20
+MOUSE_RIGHT_BUTTON	usb/hid/hid.h	/^    MOUSE_RIGHT_BUTTON,$/;"	e	enum:__anon16
+MOUSE_RIGHT_BUTTON	usb/hid_device_api.h	/^    MOUSE_RIGHT_BUTTON,$/;"	e	enum:__anon20
+MOUSE_UP	usb/hid/hid.h	/^    MOUSE_UP,$/;"	e	enum:__anon16
+MOUSE_UP	usb/hid_device_api.h	/^    MOUSE_UP,$/;"	e	enum:__anon20
+MPLLCON	S3C2440.H	99;"	d
+MRSRB6	S3C2440.H	17;"	d
+MRSRB7	S3C2440.H	18;"	d
+MSG_POOL_SIZE	dev_manage/dev_manage.h	11;"	d
+MSLCON	S3C2440.H	426;"	d
+MUSIC_NEXT	usb/hid/hid.h	/^    MUSIC_NEXT,$/;"	e	enum:__anon17
+MUSIC_NEXT	usb/hid_device_api.h	/^    MUSIC_NEXT,$/;"	e	enum:__anon21
+MUSIC_PP	usb/hid/hid.h	/^    MUSIC_PP,$/;"	e	enum:__anon17
+MUSIC_PP	usb/hid_device_api.h	/^    MUSIC_PP,$/;"	e	enum:__anon21
+MUSIC_PRE	usb/hid/hid.h	/^    MUSIC_PRE,$/;"	e	enum:__anon17
+MUSIC_PRE	usb/hid_device_api.h	/^    MUSIC_PRE,$/;"	e	enum:__anon21
+MUSIC_RANDOM	usb/hid/hid.h	/^    MUSIC_RANDOM, $/;"	e	enum:__anon17
+MUSIC_RANDOM	usb/hid_device_api.h	/^    MUSIC_RANDOM, $/;"	e	enum:__anon21
+MUTU_FLAG	cbuff/c_buff.h	16;"	d
+MediumRemoval_deal	usb/SCSI.c	/^u8 MediumRemoval_deal()$/;"	f
+Medium_Removal	usb/SCSI.h	94;"	d
+ModeSense10_deal	usb/SCSI.c	/^u8 ModeSense10_deal()$/;"	f
+ModeSense6_deal	usb/SCSI.c	/^u8 ModeSense6_deal()$/;"	f
+Mode_Select	usb/SCSI.h	92;"	d
+Mode_Sense	usb/SCSI.h	93;"	d
+NATIVE_INT	include_lib/vsprintf.h	20;"	d
+NETWORK_CONNECTION	usb/usb_dev_enum.h	24;"	d
+NFADDR	S3C2440.H	130;"	d
+NFCMD	S3C2440.H	129;"	d
+NFCONF	S3C2440.H	127;"	d
+NFCONT	S3C2440.H	128;"	d
+NFDATA	S3C2440.H	131;"	d
+NFEBLK	S3C2440.H	142;"	d
+NFESTAT0	S3C2440.H	136;"	d
+NFESTAT1	S3C2440.H	137;"	d
+NFMECC0	S3C2440.H	138;"	d
+NFMECC1	S3C2440.H	139;"	d
+NFMECCD0	S3C2440.H	132;"	d
+NFMECCD1	S3C2440.H	133;"	d
+NFSBLK	S3C2440.H	141;"	d
+NFSECC	S3C2440.H	140;"	d
+NFSECCD	S3C2440.H	134;"	d
+NFSTAT	S3C2440.H	135;"	d
+NOBUSY_INT	sddrv/s3c2440_sdio.h	57;"	d
+NOBUSY_STA	sddrv/s3c2440_sdio.h	76;"	d
+NORM	usb/usb_drv.h	/^		NORM =0x00,$/;"	e	enum:__anon23
+NO_BUFF	usb/usb_drv.h	/^		NO_BUFF,$/;"	e	enum:__anon25
+NO_ERR	usb/usb_drv.h	/^		NO_ERR = 0x00,$/;"	e	enum:__anon25
+NO_MSG	comm/msg.h	/^	NO_MSG = 0x00,$/;"	e	enum:__anon28
+NO_MSG	dev_manage/dev_manage.h	/^   NO_MSG,$/;"	e	enum:__anon1
+NULL	comm/comm.h	20;"	d
+NULL	comm/config.h	24;"	d
+NUM_SUB_DESCRIPTORS	usb/usb_dev_enum.h	132;"	d
+NUM_SUB_DESCRIPTORS	usb/usb_hid_device.h	25;"	d
+OBJCOPY	Makefile	/^OBJCOPY = arm-linux-objcopy$/;"	m
+OBJCOPY	lib/makefile	/^OBJCOPY = arm-linux-objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = arm-linux-objdump$/;"	m
+OBJDUMP	lib/makefile	/^OBJDUMP = arm-linux-objdump$/;"	m
+OID	sddrv/sd_drv.h	/^	u8 OID[3];$/;"	m	struct:_ID_struct
+OTHER	usb/usb_drv.h	/^		OTHER,$/;"	e	enum:__anon24
+OTHER_RECIPIENT	usb/usb_drv.h	26;"	d
+OUT_CSR1_REG	S3C2440.H	267;"	d
+OUT_CSR1_REG	S3C2440.H	315;"	d
+OUT_CSR2_REG	S3C2440.H	268;"	d
+OUT_CSR2_REG	S3C2440.H	316;"	d
+OUT_FIFO_CNT1_REG	S3C2440.H	269;"	d
+OUT_FIFO_CNT1_REG	S3C2440.H	317;"	d
+OUT_FIFO_CNT2_REG	S3C2440.H	270;"	d
+OUT_FIFO_CNT2_REG	S3C2440.H	318;"	d
+OUT_MODE	usb/usb_dev_control.h	15;"	d
+PALETTE	S3C2440.H	124;"	d
+PCLK	comm/comm.h	4;"	d
+PHYSICAL_DESCRIPTOR	usb/usb_dev_enum.h	121;"	d
+PHYSICAL_DESCRIPTOR	usb/usb_hid_device.h	16;"	d
+PLUS	lib/vsprintf.c	102;"	d	file:
+PNM	sddrv/sd_drv.h	/^	u8 PNM[6]; \/\/≤˙∆∑√˚$/;"	m	struct:_ID_struct
+PRE	sddrv/s3c2440_sdio.h	/^   volatile int PRE;   \/\/∑÷∆µœµ ˝$/;"	m	struct:sdio_reg
+PRINT_SERIAL	comm/config.h	8;"	d
+PRIORITY	S3C2440.H	49;"	d
+PROGRAM_CSD	sddrv/sd_drv.h	/^	PROGRAM_CSD,$/;"	e	enum:__anon29
+PRV	sddrv/sd_drv.h	/^	u8 PRV[2]; \/\/∞Ê±æ$/;"	m	struct:_ID_struct
+PSN	sddrv/sd_drv.h	/^	u32 PSN;  \/\/≤˙∆∑–Ú∫≈$/;"	m	struct:_ID_struct
+PTR_NULL	dev_manage/dev_manage.h	/^   PTR_NULL,$/;"	e	enum:__anon1
+PWR_REG	S3C2440.H	255;"	d
+PWR_REG	S3C2440.H	303;"	d
+RAND_MAX	lib/stdlib.h	129;"	d
+READ_DAT_UNTIL_STOP	sddrv/sd_drv.h	/^	READ_DAT_UNTIL_STOP,$/;"	e	enum:__anon29
+READ_MULTIPLE_BLOCK	sddrv/sd_drv.h	/^	READ_MULTIPLE_BLOCK,$/;"	e	enum:__anon29
+READ_SD	comm/msg.h	/^	READ_SD,$/;"	e	enum:__anon28
+READ_SINGLE_BLOCK	sddrv/sd_drv.h	/^	READ_SINGLE_BLOCK,$/;"	e	enum:__anon29
+RECIBE_CRC_ERR_INT	sddrv/s3c2440_sdio.h	64;"	d
+RECIVE_DATA_MODE	sddrv/s3c2440_sdio.h	53;"	d
+REDLUT	S3C2440.H	115;"	d
+REFRESH	S3C2440.H	15;"	d
+REFULL_INT	sddrv/s3c2440_sdio.h	71;"	d
+REGISTER_CMD	cmd/cmd.h	49;"	d
+REHAFL_INT	sddrv/s3c2440_sdio.h	72;"	d
+REPORT_DESCRIPTOR	usb/usb_dev_enum.h	120;"	d
+REPORT_DESCRIPTOR	usb/usb_hid_device.h	15;"	d
+RESERVED	usb/SCSI.h	/^    u8 RESERVED;$/;"	m	struct:__anon13
+RESERVED_TYPE	usb/usb_drv.h	20;"	d
+RESPONSE_AVAILABLE	usb/usb_dev_enum.h	25;"	d
+RESUME_EVENT	usb/usb_dev_control.h	/^		RESUME_EVENT,$/;"	e	enum:__anon18
+RES_EVENT	usb/usb_dev_control.h	/^		RES_EVENT = 0x00,$/;"	e	enum:__anon18
+RF_DET	sddrv/s3c2440_sdio.h	96;"	d
+RF_FULL	sddrv/s3c2440_sdio.h	100;"	d
+RF_HAFL	sddrv/s3c2440_sdio.h	101;"	d
+RF_LAST	sddrv/s3c2440_sdio.h	99;"	d
+RSP0	sddrv/s3c2440_sdio.h	/^   volatile int RSP0;	\/\/œÏ”¶ºƒ¥Ê∆˜0$/;"	m	struct:sdio_reg
+RSP1	sddrv/s3c2440_sdio.h	/^   volatile int RSP1;$/;"	m	struct:sdio_reg
+RSP2	sddrv/s3c2440_sdio.h	/^   volatile int RSP2;$/;"	m	struct:sdio_reg
+RSP3	sddrv/s3c2440_sdio.h	/^   volatile int RSP3;$/;"	m	struct:sdio_reg
+RSPCRC_ERR	sddrv/s3c2440_sdio.h	87;"	d
+RSPCRC_INT	sddrv/s3c2440_sdio.h	58;"	d
+RSPEND_INT	sddrv/s3c2440_sdio.h	61;"	d
+RSPFIN	sddrv/s3c2440_sdio.h	90;"	d
+RTCALM	S3C2440.H	432;"	d
+RTCALM	S3C2440.H	451;"	d
+RTCCON	S3C2440.H	430;"	d
+RTCCON	S3C2440.H	449;"	d
+RTCRST	S3C2440.H	439;"	d
+RTCRST	S3C2440.H	458;"	d
+RTLAST_INT	sddrv/s3c2440_sdio.h	70;"	d
+RWREQ_INT	sddrv/s3c2440_sdio.h	62;"	d
+RXDATAON	sddrv/s3c2440_sdio.h	83;"	d
+RX_FIFO_SIZE	uart/s3c2440_uart.h	54;"	d
+R_BUFF_MAX	dev_manage/dev_manage.h	13;"	d
+ReadCapacity_deal	usb/SCSI.c	/^u8  ReadCapacity_deal()$/;"	f
+ReadFormatCapacity_deal	usb/SCSI.c	/^u8 ReadFormatCapacity_deal()$/;"	f
+Read_10	usb/SCSI.h	95;"	d
+Read_12	usb/SCSI.h	96;"	d
+Read_Capacity	usb/SCSI.h	97;"	d
+Read_Capacity_resp	usb/SCSI.h	/^}Read_Capacity_resp;$/;"	t	typeref:struct:__anon15
+Read_Format_capacity	usb/SCSI.h	98;"	d
+Read_deal	usb/SCSI.c	/^u8 Read_deal(u32 block_addr, u32 len)$/;"	f
+RequestSense_deal	usb/SCSI.c	/^u8 RequestSense_deal()$/;"	f
+Request_Sense	usb/SCSI.h	99;"	d
+Rezero_Unit	usb/SCSI.h	100;"	d
+S32	comm/comm.h	/^typedef long S32;$/;"	t
+SDIBSIZE	S3C2440.H	502;"	d
+SDICARG	S3C2440.H	494;"	d
+SDICCON	S3C2440.H	495;"	d
+SDICON	S3C2440.H	492;"	d
+SDICSTA	S3C2440.H	496;"	d
+SDIDAT	S3C2440.H	508;"	d
+SDIDAT	S3C2440.H	511;"	d
+SDIDAT	S3C2440.H	512;"	d
+SDIDATB	sddrv/s3c2440_sdio.h	32;"	d
+SDIDCNT	S3C2440.H	504;"	d
+SDIDCON	S3C2440.H	503;"	d
+SDIDSTA	S3C2440.H	505;"	d
+SDIDTIMER	S3C2440.H	501;"	d
+SDIFSTA	S3C2440.H	506;"	d
+SDIIMSK	S3C2440.H	507;"	d
+SDIO	sddrv/s3c2440_sdio.h	31;"	d
+SDIO_SEND_IF_COND	sddrv/sd_drv.h	/^	SDIO_SEND_IF_COND,$/;"	e	enum:__anon29
+SDIPRE	S3C2440.H	493;"	d
+SDIRSP0	S3C2440.H	497;"	d
+SDIRSP1	S3C2440.H	498;"	d
+SDIRSP2	S3C2440.H	499;"	d
+SDIRSP3	S3C2440.H	500;"	d
+SD_APP_OP_COND	sddrv/sd_drv.h	/^	SD_APP_OP_COND,$/;"	e	enum:__anon29
+SD_BLOCK_SIZE	sddrv/sd_drv.h	8;"	d
+SD_BUSY	sddrv/s3c2440_sdio.h	107;"	d
+SD_MALLOC	sddrv/sd_drv.h	6;"	d
+SELEC_CHIP	sddrv/sd_drv.h	/^	SELEC_CHIP,$/;"	e	enum:__anon29
+SEND_BREAK	usb/usb_dev_enum.h	22;"	d
+SEND_CID	sddrv/sd_drv.h	/^	SEND_CID,$/;"	e	enum:__anon29
+SEND_CSD	sddrv/sd_drv.h	/^	SEND_CSD,$/;"	e	enum:__anon29
+SEND_DATA_MODE	sddrv/s3c2440_sdio.h	52;"	d
+SEND_ENCAPSULATED_COMMAND	usb/usb_dev_enum.h	14;"	d
+SEND_RELATIVE_ADDR	sddrv/sd_drv.h	/^	SEND_RELATIVE_ADDR,$/;"	e	enum:__anon29
+SEND_STATUS	sddrv/sd_drv.h	/^	SEND_STATUS,$/;"	e	enum:__anon29
+SEND_WRITE_PROT	sddrv/sd_drv.h	/^	SEND_WRITE_PROT,$/;"	e	enum:__anon29
+SENSE6	usb/SCSI.h	108;"	d
+SENSE6_deal	usb/SCSI.c	/^u8  SENSE6_deal()$/;"	f
+SENT_STALL	usb/usb_drv.h	77;"	d
+SERIAL_STATE	usb/usb_dev_enum.h	26;"	d
+SET_ADDRESS	usb/usb_drv.h	36;"	d
+SET_BLOCKLEN	sddrv/sd_drv.h	/^	SET_BLOCKLEN,$/;"	e	enum:__anon29
+SET_BUS_WIDTH	sddrv/sd_drv.h	/^	SET_BUS_WIDTH$/;"	e	enum:__anon29
+SET_COMM_FEATURE	usb/usb_dev_enum.h	16;"	d
+SET_CONFIGURATION	usb/usb_drv.h	40;"	d
+SET_CONTROL_LINE_STATE	usb/usb_dev_enum.h	21;"	d
+SET_DATA_SPEED	sddrv/sd_dev_api.h	/^		SET_DATA_SPEED,$/;"	e	enum:__anon30
+SET_DESCRIPTOR	usb/usb_drv.h	38;"	d
+SET_FEATURE	usb/usb_drv.h	35;"	d
+SET_IDLE	usb/usb_dev_enum.h	116;"	d
+SET_IDLE	usb/usb_hid_device.h	11;"	d
+SET_INTERFACE	usb/usb_drv.h	42;"	d
+SET_LINE_CODING	usb/usb_dev_enum.h	19;"	d
+SET_PROTOCOL	usb/usb_dev_enum.h	117;"	d
+SET_PROTOCOL	usb/usb_hid_device.h	12;"	d
+SET_REPORT	usb/usb_dev_enum.h	115;"	d
+SET_REPORT	usb/usb_hid_device.h	10;"	d
+SET_WRITE_PROT	sddrv/sd_drv.h	/^	SET_WRITE_PROT,$/;"	e	enum:__anon29
+SIGN	lib/vsprintf.c	101;"	d	file:
+SIGNA_ERR	usb/usb_dev_enum.h	/^    SIGNA_ERR = 0x01,$/;"	e	enum:__anon10
+SIZE_16	usb/usb_drv.h	/^		SIZE_16,$/;"	e	enum:__anon22
+SIZE_32	usb/usb_drv.h	/^		SIZE_32,$/;"	e	enum:__anon22
+SIZE_64	usb/usb_drv.h	/^		SIZE_64,$/;"	e	enum:__anon22
+SIZE_8	usb/usb_drv.h	/^		SIZE_8 =0x01,$/;"	e	enum:__anon22
+SOFT_RESET	usb/usb_drv.h	48;"	d
+SPACE	lib/vsprintf.c	103;"	d	file:
+SPCON0	S3C2440.H	477;"	d
+SPCON1	S3C2440.H	484;"	d
+SPECIAL	lib/vsprintf.c	105;"	d	file:
+SPPIN0	S3C2440.H	479;"	d
+SPPIN1	S3C2440.H	486;"	d
+SPPRE0	S3C2440.H	480;"	d
+SPPRE1	S3C2440.H	487;"	d
+SPRDAT0	S3C2440.H	482;"	d
+SPRDAT1	S3C2440.H	489;"	d
+SPSTA0	S3C2440.H	478;"	d
+SPSTA1	S3C2440.H	485;"	d
+SPTDAT0	S3C2440.H	481;"	d
+SPTDAT1	S3C2440.H	488;"	d
+SRCPND	S3C2440.H	46;"	d
+STANDARD_TYPE	usb/usb_drv.h	17;"	d
+STOP	sddrv/sd_drv.h	/^	STOP,$/;"	e	enum:__anon29
+STRING_TYPE	usb/usb_drv.h	53;"	d
+SUBSRCPND	S3C2440.H	52;"	d
+SUBSRCPND	uart/s3c2440_uart.h	52;"	d
+SUCCESS	usb/usb_dev_enum.h	54;"	d
+SUSPEND_EVENT	usb/usb_dev_control.h	/^		SUSPEND_EVENT,$/;"	e	enum:__anon18
+SYNCH_FRAME	usb/usb_drv.h	43;"	d
+SYS_EVENT_END	dev_manage/dev_manage.h	/^    SYS_EVENT_END,  \/\/œµÕ≥œ˚œ¢ƒ©Œ≤$/;"	e	enum:__anon2
+Seek_10	usb/SCSI.h	101;"	d
+Send_Diagnostic	usb/SCSI.h	102;"	d
+Serial_Number	usb/SCSI.c	/^const  _Unit_Serial_Number Serial_Number = $/;"	v
+Stack_Mem	start.S	/^#define  Stack_Mem        USR_Stack_Size$/;"	d
+Star_Stop	usb/SCSI.h	91;"	d
+StartStop_deal	usb/SCSI.c	/^u8  StartStop_deal()$/;"	f
+TCFG0	S3C2440.H	233;"	d
+TCFG1	S3C2440.H	234;"	d
+TCMPB0	S3C2440.H	237;"	d
+TCMPB1	S3C2440.H	240;"	d
+TCMPB2	S3C2440.H	243;"	d
+TCMPB3	S3C2440.H	246;"	d
+TCNTB0	S3C2440.H	236;"	d
+TCNTB1	S3C2440.H	239;"	d
+TCNTB2	S3C2440.H	242;"	d
+TCNTB3	S3C2440.H	245;"	d
+TCNTB4	S3C2440.H	248;"	d
+TCNTO0	S3C2440.H	238;"	d
+TCNTO1	S3C2440.H	241;"	d
+TCNTO2	S3C2440.H	244;"	d
+TCNTO3	S3C2440.H	247;"	d
+TCNTO4	S3C2440.H	249;"	d
+TCON	S3C2440.H	235;"	d
+TFEMPT_INT	sddrv/s3c2440_sdio.h	69;"	d
+TFHALF_INT	sddrv/s3c2440_sdio.h	68;"	d
+TF_DET	sddrv/s3c2440_sdio.h	95;"	d
+TF_EMPT	sddrv/s3c2440_sdio.h	98;"	d
+TF_HALF	sddrv/s3c2440_sdio.h	97;"	d
+TICNT	S3C2440.H	431;"	d
+TICNT	S3C2440.H	450;"	d
+TIMER	sddrv/s3c2440_sdio.h	/^   volatile int TIMER;	\/\/≥¨ ± ±º‰$/;"	m	struct:sdio_reg
+TM_INIT_FAIL	task_manage/task_manage.h	/^		TM_INIT_FAIL,$/;"	e	enum:__anon27
+TM_MALLOC_ERR	task_manage/task_manage.h	/^		TM_MALLOC_ERR,$/;"	e	enum:__anon27
+TM_NO_MSG	task_manage/task_manage.h	/^		TM_NO_MSG,$/;"	e	enum:__anon27
+TM_OTHER	task_manage/task_manage.h	/^		TM_OTHER,$/;"	e	enum:__anon27
+TM_OVER	task_manage/task_manage.h	/^		TM_OVER,$/;"	e	enum:__anon27
+TM_PTR_NULL	task_manage/task_manage.h	/^		TM_PTR_NULL,$/;"	e	enum:__anon27
+TM_RUN_ERR	task_manage/task_manage.h	/^		TM_RUN_ERR,$/;"	e	enum:__anon27
+TM_TASK_EXIST	task_manage/task_manage.h	/^		TM_TASK_EXIST = 0x01,$/;"	e	enum:__anon27
+TM_TASK_NOEXIST	task_manage/task_manage.h	/^		TM_TASK_NOEXIST,$/;"	e	enum:__anon27
+TOUT	sddrv/s3c2440_sdio.h	105;"	d
+TPAL	S3C2440.H	119;"	d
+TRUE	comm/config.h	25;"	d
+TXDATAON	sddrv/s3c2440_sdio.h	82;"	d
+TX_FIFO_SIZE	uart/s3c2440_uart.h	55;"	d
+TestUnitReady_deal	usb/SCSI.c	/^u8 TestUnitReady_deal()$/;"	f
+Test_Unit_Ready	usb/SCSI.h	103;"	d
+UART0	uart/s3c2440_uart.h	47;"	d
+UART0_SERIAL	uart/s3c2440_uart.h	/^	UART0_SERIAL = 0,$/;"	e	enum:__anon8
+UART1	uart/s3c2440_uart.h	48;"	d
+UART1_SERIAL	uart/s3c2440_uart.h	/^	UART1_SERIAL,$/;"	e	enum:__anon8
+UART2	uart/s3c2440_uart.h	49;"	d
+UART2_SERIAL	uart/s3c2440_uart.h	/^	UART2_SERIAL ,$/;"	e	enum:__anon8
+UART_REG	uart/s3c2440_uart.h	/^typedef struct UART_REG$/;"	s
+UART_REG	uart/s3c2440_uart.h	/^}UART_REG;$/;"	t	typeref:struct:UART_REG
+UBRDIV	uart/s3c2440_uart.h	/^	volatile int UBRDIV;$/;"	m	struct:UART_REG
+UBRDIV0	S3C2440.H	192;"	d
+UBRDIV1	S3C2440.H	204;"	d
+UBRDIV2	S3C2440.H	215;"	d
+UCON	uart/s3c2440_uart.h	/^	volatile int UCON;$/;"	m	struct:UART_REG
+UCON0	S3C2440.H	183;"	d
+UCON1	S3C2440.H	195;"	d
+UCON2	S3C2440.H	207;"	d
+UERSTAT	uart/s3c2440_uart.h	/^	volatile int UERSTAT;$/;"	m	struct:UART_REG
+UERSTAT0	S3C2440.H	187;"	d
+UERSTAT1	S3C2440.H	199;"	d
+UERSTAT2	S3C2440.H	211;"	d
+UFCON	uart/s3c2440_uart.h	/^	volatile int UFCON;$/;"	m	struct:UART_REG
+UFCON0	S3C2440.H	184;"	d
+UFCON1	S3C2440.H	196;"	d
+UFCON2	S3C2440.H	208;"	d
+UFSTAT	uart/s3c2440_uart.h	/^	volatile int UFSTAT;$/;"	m	struct:UART_REG
+UFSTAT0	S3C2440.H	188;"	d
+UFSTAT1	S3C2440.H	200;"	d
+UFSTAT2	S3C2440.H	212;"	d
+ULCON	uart/s3c2440_uart.h	/^	volatile int ULCON;$/;"	m	struct:UART_REG
+ULCON0	S3C2440.H	182;"	d
+ULCON1	S3C2440.H	194;"	d
+ULCON2	S3C2440.H	206;"	d
+UMCON	uart/s3c2440_uart.h	/^	volatile int UMCON;$/;"	m	struct:UART_REG
+UMCON0	S3C2440.H	185;"	d
+UMCON1	S3C2440.H	197;"	d
+UMCON2	S3C2440.H	209;"	d
+UMSTAT	uart/s3c2440_uart.h	/^	volatile int UMSTAT;$/;"	m	struct:UART_REG
+UMSTAT0	S3C2440.H	189;"	d
+UMSTAT1	S3C2440.H	201;"	d
+UNION_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^}__attribute__((packed))UNION_FUNCTIONAL_DESCRIPTOR;$/;"	t	typeref:struct:_UNION_FUNCTIONAL_DESCRIPTOR
+UNKNOWN_CMD	usb/usb_drv.h	/^		UNKNOWN_CMD,$/;"	e	enum:__anon25
+UPLLCON	S3C2440.H	100;"	d
+URXH	uart/s3c2440_uart.h	/^	volatile int URXH;$/;"	m	struct:UART_REG
+URXH0	S3C2440.H	191;"	d
+URXH0	S3C2440.H	220;"	d
+URXH0	S3C2440.H	221;"	d
+URXH1	S3C2440.H	203;"	d
+URXH1	S3C2440.H	224;"	d
+URXH1	S3C2440.H	225;"	d
+URXH2	S3C2440.H	214;"	d
+URXH2	S3C2440.H	228;"	d
+URXH2	S3C2440.H	229;"	d
+USB_COM	usb/usb_dev_enum.h	5;"	d
+USB_CONFIGURATION_DESCRIPTOR	usb/usb_drv.h	/^struct USB_CONFIGURATION_DESCRIPTOR{$/;"	s
+USB_DEVICE_DESCRIPTOR	usb/usb_drv.h	/^struct USB_DEVICE_DESCRIPTOR{$/;"	s
+USB_DEV_ENUM	usb/usb_dev_enum.h	9;"	d
+USB_DISK	usb/usb_dev_enum.h	6;"	d
+USB_DRV_DEBUG	usb/usb_dev_control.c	16;"	d	file:
+USB_DRV_DEBUG	usb/usb_drv.h	6;"	d
+USB_ENDPOINT_DESCRIPTOR	usb/usb_drv.h	/^struct USB_ENDPOINT_DESCRIPTOR{$/;"	s
+USB_ERR_ENUM	usb/usb_drv.h	/^}USB_ERR_ENUM;$/;"	t	typeref:enum:__anon25
+USB_HID	usb/hid/hid.h	5;"	d
+USB_HID	usb/hid_device_api.h	12;"	d
+USB_HID	usb/usb_dev_enum.h	7;"	d
+USB_INTERFACE_DESCRIPTOR	usb/usb_drv.h	/^struct USB_INTERFACE_DESCRIPTOR{$/;"	s
+USB_INT_EN_REG	S3C2440.H	259;"	d
+USB_INT_EN_REG	S3C2440.H	307;"	d
+USB_INT_REG	S3C2440.H	257;"	d
+USB_INT_REG	S3C2440.H	305;"	d
+USB_RES	usb/usb_dev_control.h	17;"	d
+USB_RESUME	usb/usb_dev_control.h	18;"	d
+USB_SETUP_DATA	usb/usb_drv.h	/^}USB_SETUP_DATA;$/;"	t	typeref:struct:_USB_SETUP_DATA
+USB_SUSPEND	usb/usb_dev_control.h	19;"	d
+USER	usb/usb_drv.h	/^		USER,$/;"	e	enum:__anon23
+USERIAL	uart/s3c2440_uart.h	/^}USERIAL;$/;"	t	typeref:enum:__anon8
+USE_MALLOC	dev_manage/dev_manage.h	5;"	d
+UTRSTAT	uart/s3c2440_uart.h	/^	volatile int UTRSTAT;$/;"	m	struct:UART_REG
+UTRSTAT0	S3C2440.H	186;"	d
+UTRSTAT1	S3C2440.H	198;"	d
+UTRSTAT2	S3C2440.H	210;"	d
+UTXH	uart/s3c2440_uart.h	/^	volatile int UTXH;$/;"	m	struct:UART_REG
+UTXH0	S3C2440.H	190;"	d
+UTXH0	S3C2440.H	218;"	d
+UTXH0	S3C2440.H	219;"	d
+UTXH1	S3C2440.H	202;"	d
+UTXH1	S3C2440.H	222;"	d
+UTXH1	S3C2440.H	223;"	d
+UTXH2	S3C2440.H	213;"	d
+UTXH2	S3C2440.H	226;"	d
+UTXH2	S3C2440.H	227;"	d
+VENDOR_TYPE	usb/usb_drv.h	19;"	d
+VOLUME_DOWN	usb/hid/hid.h	/^    VOLUME_DOWN,$/;"	e	enum:__anon17
+VOLUME_DOWN	usb/hid_device_api.h	/^    VOLUME_DOWN,$/;"	e	enum:__anon21
+VOLUME_UP	usb/hid/hid.h	/^    VOLUME_UP = 0,$/;"	e	enum:__anon17
+VOLUME_UP	usb/hid_device_api.h	/^    VOLUME_UP = 0,$/;"	e	enum:__anon21
+Verify	usb/SCSI.h	104;"	d
+Verify_deal	usb/SCSI.c	/^u8  Verify_deal()$/;"	f
+Volume	usb/hid/hid.h	/^    s8 Volume:2;$/;"	m	struct:_volume_data
+Volume	usb/hid_device_api.h	/^    s8 Volume:2;$/;"	m	struct:_volume_data
+WEXITSTATUS	lib/stdlib.h	85;"	d
+WHEEL_DOWN	usb/hid/hid.h	/^    WHEEL_DOWN,$/;"	e	enum:__anon16
+WHEEL_DOWN	usb/hid_device_api.h	/^    WHEEL_DOWN,$/;"	e	enum:__anon20
+WHEEL_UP	usb/hid/hid.h	/^    WHEEL_UP,$/;"	e	enum:__anon16
+WHEEL_UP	usb/hid_device_api.h	/^    WHEEL_UP,$/;"	e	enum:__anon20
+WIDEBUS_1BIT	sddrv/s3c2440_sdio.h	45;"	d
+WIDEBUS_4BIT	sddrv/s3c2440_sdio.h	44;"	d
+WIFCONTINUED	lib/stdlib.h	92;"	d
+WIFEXITED	lib/stdlib.h	88;"	d
+WIFSIGNALED	lib/stdlib.h	89;"	d
+WIFSTOPPED	lib/stdlib.h	90;"	d
+WIN_CACHE	sddrv/sd_drv.h	5;"	d
+WRITE_BLOCK	sddrv/sd_drv.h	/^	WRITE_BLOCK,$/;"	e	enum:__anon29
+WRITE_MULTIPLE_BLOCK	sddrv/sd_drv.h	/^	WRITE_MULTIPLE_BLOCK,$/;"	e	enum:__anon29
+WRITE_SD	comm/msg.h	/^	WRITE_SD,$/;"	e	enum:__anon28
+WSTOPSIG	lib/stdlib.h	87;"	d
+WTCNT	S3C2440.H	353;"	d
+WTCON	S3C2440.H	351;"	d
+WTDAT	S3C2440.H	352;"	d
+WTERMSIG	lib/stdlib.h	86;"	d
+Write_10	usb/SCSI.h	105;"	d
+Write_12	usb/SCSI.h	106;"	d
+Write_and_Verify	usb/SCSI.h	107;"	d
+Write_deal	usb/SCSI.c	/^u8 Write_deal()$/;"	f
+ZEROPAD	lib/vsprintf.c	100;"	d	file:
+_ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^typedef struct _ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR$/;"	s
+_ADNBND	include_lib/vsprintf.h	22;"	d
+_AUPBND	include_lib/vsprintf.h	21;"	d
+_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^typedef struct _CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR$/;"	s
+_CBUFF_	cbuff/c_buff.h	2;"	d
+_CBW	usb/usb_dev_enum.h	/^typedef struct _CBW$/;"	s
+_CHAIN_	chain/chain.h	2;"	d
+_CMD_	cmd/cmd.h	2;"	d
+_CMD_COM_	cmd/cmd_common.h	2;"	d
+_COMM_	comm/comm.h	2;"	d
+_CONFIG_	comm/config.h	2;"	d
+_CONF_INT_ENDP_DESCRIPTOR	usb/usb_dev_enum.h	/^typedef struct _CONF_INT_ENDP_DESCRIPTOR$/;"	s
+_CON_INT_ENDP_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^typedef struct _CON_INT_ENDP_DESCRIPTOR_STRUCT$/;"	s
+_CON_INT_ENDP_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^typedef struct _CON_INT_ENDP_DESCRIPTOR_STRUCT$/;"	s
+_CSW	usb/usb_dev_enum.h	/^typedef struct _CSW$/;"	s
+_DEV_MANAGE_	dev_manage/dev_manage.h	2;"	d
+_DEV_MG_API_	dev_manage/dev_manage_api.h	2;"	d
+_EP_DATA_HANDLE	usb/usb_drv.h	/^typedef struct _EP_DATA_HANDLE$/;"	s
+_HEADER_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^typedef struct _HEADER_FUNCTIONAL_DESCRIPTOR$/;"	s
+_HID_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^typedef struct _HID_DESCRIPTOR_STRUCT$/;"	s
+_HID_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^typedef struct _HID_DESCRIPTOR_STRUCT$/;"	s
+_HID_SUB_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^typedef struct _HID_SUB_DESCRIPTOR_STRUCT$/;"	s
+_HID_SUB_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^typedef struct _HID_SUB_DESCRIPTOR_STRUCT$/;"	s
+_ID_struct	sddrv/sd_drv.h	/^ typedef struct _ID_struct$/;"	s
+_ID_struct	sddrv/sd_drv.h	/^}_ID_struct;$/;"	t	typeref:struct:_ID_struct
+_INTRUPT_	cpu/irq.h	2;"	d
+_MSG_	comm/msg.h	2;"	d
+_MY_MALLOC	comm/config.h	15;"	d
+_PM_CStringToUnicodeString	lib/stdlib.c	/^UNICODE_STRING *_PM_CStringToUnicodeString($/;"	f
+_PM_FreeUnicodeString	lib/stdlib.c	/^void _PM_FreeUnicodeString($/;"	f
+_PRINTF	uart/printf.h	2;"	d
+_PRINTF	uart/s3c2440_printf.h	2;"	d
+_Q_MSG_	msg/q_msg.h	2;"	d
+_S3C2440_UART	uart/s3c2440_uart.h	2;"	d
+_SCSI_	usb/SCSI.h	2;"	d
+_SDIO_	sddrv/s3c2440_sdio.h	2;"	d
+_SD_DEV_	sddrv/sd_drv.h	2;"	d
+_SD_DEV_API_	sddrv/sd_dev_api.h	2;"	d
+_STDLIB_H	lib/stdlib.h	38;"	d
+_SYS_	comm/sys.h	2;"	d
+_TASK_MANAGE_	task_manage/task_manage.h	2;"	d
+_UNION_FUNCTIONAL_DESCRIPTOR	usb/usb_drv.h	/^typedef struct _UNION_FUNCTIONAL_DESCRIPTOR$/;"	s
+_USB_DEV_	usb/usb_dev_enum.h	2;"	d
+_USB_DEV_CONTR_	usb/usb_dev_control.h	2;"	d
+_USB_DRV_	usb/usb_drv.h	2;"	d
+_USB_HID_DEV_	usb/usb_hid_device.h	2;"	d
+_USB_SETUP_DATA	usb/usb_drv.h	/^typedef struct _USB_SETUP_DATA{$/;"	s
+_Unit_Serial_Number	usb/SCSI.h	/^} _Unit_Serial_Number;$/;"	t	typeref:struct:__anon13
+_VALIST	include_lib/vsprintf.h	13;"	d
+__ASM_AVR32_STRING_H	include_lib/string.h	23;"	d
+__ASM_AVR32_STRING_H	lib/string.h	23;"	d
+__COMPAR_FN_T	lib/stdlib.h	756;"	d
+__HAVE_ARCH_MEMSET	include_lib/string.h	25;"	d
+__HAVE_ARCH_MEMSET	lib/string.h	25;"	d
+__HID__	usb/hid/hid.h	2;"	d
+__HID__	usb/hid_device_api.h	2;"	d
+__S3C2440_H	S3C2440.H	2;"	d
+__WAIT_INT	lib/stdlib.h	51;"	d
+__WAIT_STATUS	lib/stdlib.h	64;"	d
+__WAIT_STATUS_DEFN	lib/stdlib.h	65;"	d
+___strtok	lib/string.c	/^char * ___strtok;$/;"	v
+__a	lib/stdlib.h	/^    unsigned long long int __a;	\/* Factor in congruential formula.  *\/$/;"	m	struct:drand48_data
+__attribute_malloc__	lib/stdlib.h	/^     __THROW __attribute_malloc__;$/;"	v
+__attribute_malloc__	lib/stdlib.h	/^extern void *malloc (size_t __size) __THROW __attribute_malloc__;$/;"	v
+__attribute_malloc__	lib/stdlib.h	/^extern void *realloc (void *__ptr, size_t __size) __THROW __attribute_malloc__;$/;"	v
+__attribute_malloc__	lib/stdlib.h	/^extern void *valloc (size_t __size) __THROW __attribute_malloc__;$/;"	v
+__c	lib/stdlib.h	/^    unsigned short int __c;	\/* Additive const. in congruential formula.  *\/$/;"	m	struct:drand48_data
+__compar_fn_t	lib/stdlib.h	/^typedef int (*__compar_fn_t) (__const void *, __const void *);$/;"	t
+__init	lib/stdlib.h	/^    unsigned short int __init;	\/* Flag for initializing.  *\/$/;"	m	struct:drand48_data
+__initial_sp	start.S	/^#define  __initial_sp	 ISR_Stack_Size$/;"	d
+__ldiv_t_defined	lib/stdlib.h	111;"	d
+__lldiv_t_defined	lib/stdlib.h	123;"	d
+__malloc_and_calloc_defined	lib/stdlib.h	581;"	d
+__need_NULL	lib/stdlib.h	31;"	d
+__need_malloc_and_calloc	lib/stdlib.h	959;"	d
+__need_size_t	lib/stdlib.h	28;"	d
+__need_wchar_t	lib/stdlib.h	30;"	d
+__old_x	lib/stdlib.h	/^    unsigned short int __old_x[3]; \/* Old state.  *\/$/;"	m	struct:drand48_data
+__strtol_internal_defined	lib/stdlib.h	291;"	d
+__strtoll_internal_defined	lib/stdlib.h	307;"	d
+__strtoul_internal_defined	lib/stdlib.h	298;"	d
+__strtoull_internal_defined	lib/stdlib.h	316;"	d
+__x	lib/stdlib.h	/^    unsigned short int __x[3];	\/* Current state.  *\/$/;"	m	struct:drand48_data
+_bnd	include_lib/vsprintf.h	28;"	d
+_cmd_input_hd	cmd/cmd.h	/^typedef struct _cmd_input_hd$/;"	s
+_hid_init	usb/hid/hid.c	/^void _hid_init()$/;"	f
+_line_coding	usb/usb_dev_enum.h	/^typedef struct _line_coding$/;"	s
+_malloc_	include_lib/my_malloc.h	2;"	d
+_report_send_func	usb/hid/hid.h	/^typedef u32 (*_report_send_func)(u8 , void *, u16 );$/;"	t
+_report_send_func	usb/hid_device_api.h	/^typedef u32 (*_report_send_func)(u8 , void *, u16 );$/;"	t
+_request_type	usb/usb_drv.h	/^typedef struct _request_type$/;"	s
+_sd_arg	sddrv/sd_drv.h	/^typedef struct _sd_arg$/;"	s
+_sd_arg	sddrv/sd_drv.h	/^}_sd_arg;$/;"	t	typeref:struct:_sd_arg
+_sd_win	sddrv/sd_drv.h	/^typedef struct _sd_win$/;"	s
+_uart_handle	uart/s3c2440_uart.h	/^typedef struct _uart_handle$/;"	s
+_uart_io	uart/s3c2440_uart.h	/^typedef struct _uart_io$/;"	s
+_usb_drv_descriptor	usb/usb_drv.h	/^typedef struct _usb_drv_descriptor$/;"	s
+_usb_drv_descriptor	usb/usb_drv.h	/^}_usb_drv_descriptor;$/;"	t	typeref:struct:_usb_drv_descriptor
+_usb_drv_handle	usb/usb_drv.h	/^typedef struct _usb_drv_handle$/;"	s
+_usb_drv_handle	usb/usb_drv.h	/^}_usb_drv_handle;$/;"	t	typeref:struct:_usb_drv_handle
+_usb_drv_io	usb/usb_drv.h	/^typedef struct _usb_drv_io$/;"	s
+_usb_drv_io	usb/usb_drv.h	/^}_usb_drv_io;$/;"	t	typeref:struct:_usb_drv_io
+_volume_data	usb/hid/hid.h	/^typedef struct _volume_data$/;"	s
+_volume_data	usb/hid/hid.h	/^}__attribute__((packed)) _volume_data;$/;"	t	typeref:struct:_volume_data
+_volume_data	usb/hid_device_api.h	/^typedef struct _volume_data$/;"	s
+_volume_data	usb/hid_device_api.h	/^}__attribute__((packed)) _volume_data;$/;"	t	typeref:struct:_volume_data
+abortcmd	sddrv/s3c2440_sdio.h	/^		bool abortcmd;  \/\/ «∑Ò÷’÷π√¸¡Ó$/;"	m	struct:sdio_cmd
+abstract_ontrol_anagement_unctional_escriptor	usb/usb_dev_enum.h	/^	ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR abstract_ontrol_anagement_unctional_escriptor;$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR
+add_chain_point	chain/chain.c	/^u8 add_chain_point(chain_point **chain_head, void *data)$/;"	f
+additional_len	usb/SCSI.h	/^  u8 additional_len;    \/\/ Additional Length$/;"	m	struct:__anon12
+analysis_CSD	sddrv/sd_drv.c	/^static u8  analysis_CSD(u32 *csd)$/;"	f	file:
+arg	sddrv/s3c2440_sdio.h	/^		u32 arg;   \/\/√¸¡Óµƒ≤Œ ˝$/;"	m	struct:sdio_cmd
+atof	lib/stdlib.h	/^__NTH (atof (__const char *__nptr))$/;"	f
+atoi	lib/stdlib.h	/^__NTH (atoi (__const char *__nptr))$/;"	f
+atol	lib/stdlib.h	/^__NTH (atol (__const char *__nptr))$/;"	f
+atoll	lib/stdlib.h	/^__NTH (atoll (__const char *__nptr))$/;"	f
+bAlternateSetting	usb/usb_drv.h	/^    u8 bAlternateSetting;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bCBWCBLength	usb/usb_dev_enum.h	/^unsigned char bCBWCBLength; \/\/±Ì æCBWCB µƒ≥§∂»$/;"	m	struct:_CBW
+bCBWLUN	usb/usb_dev_enum.h	/^unsigned char bCBWLUN; \/\/Ω” ’∏√√¸¡Óµƒ¬ﬂº≠µ•‘™∫≈LUN$/;"	m	struct:_CBW
+bCSWStatus	usb/usb_dev_enum.h	/^unsigned char bCSWStatus; \/\/∏√√¸¡Ó÷¥––µƒ«Èøˆ$/;"	m	struct:_CSW
+bCharFormat	usb/usb_dev_enum.h	/^	u8 bCharFormat; \/\/Õ£÷πŒª°£0 ±Ì æ1 ŒªÕ£÷πŒª£ª1 ±Ì æ1.5 ŒªÕ£÷πŒª£ª2 ±Ì æ2 ŒªÕ£÷πŒª°£$/;"	m	struct:_line_coding
+bConfigurationValue	usb/usb_drv.h	/^    u8 bConfigurationValue;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bCountryCode	usb/usb_dev_enum.h	/^		u8 bCountryCode;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bCountryCode	usb/usb_hid_device.h	/^		u8 bCountryCode;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bDataBits	usb/usb_dev_enum.h	/^	u8 bDataBits; \/\/ ˝æ›Œª°£ø…»°5£¨6£¨7£¨8£¨16°£$/;"	m	struct:_line_coding
+bDataInterface	usb/usb_drv.h	/^		u8 bDataInterface;$/;"	m	struct:_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bDescriptorSubtype	usb/usb_drv.h	/^		u8 bDescriptorSubtype;$/;"	m	struct:_ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bDescriptorSubtype	usb/usb_drv.h	/^		u8 bDescriptorSubtype;$/;"	m	struct:_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bDescriptorSubtype	usb/usb_drv.h	/^		u8 bDescriptorSubtype;$/;"	m	struct:_UNION_FUNCTIONAL_DESCRIPTOR
+bDescriptorSubtype	usb/usb_drv.h	/^	u8 bDescriptorSubtype;$/;"	m	struct:_HEADER_FUNCTIONAL_DESCRIPTOR
+bDescriptorType	usb/usb_dev_enum.h	/^		u8 bDescriptorType; \/\/œ¬º∂√Ë ˆ∑˚µƒ¿‡–Õ±‡∫≈$/;"	m	struct:_HID_SUB_DESCRIPTOR_STRUCT
+bDescriptorType	usb/usb_dev_enum.h	/^		u8 bDescriptorType;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bDescriptorType	usb/usb_drv.h	/^		u8 bDescriptorType;$/;"	m	struct:_ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^		u8 bDescriptorType;$/;"	m	struct:_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^		u8 bDescriptorType;$/;"	m	struct:_UNION_FUNCTIONAL_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^	u8 bDescriptorType;$/;"	m	struct:_HEADER_FUNCTIONAL_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^    u8 bDescriptorType;         $/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^    u8 bDescriptorType;         $/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^    u8 bDescriptorType;         $/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bDescriptorType	usb/usb_drv.h	/^    u8 bDescriptorType;         $/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bDescriptorType	usb/usb_hid_device.h	/^		u8 bDescriptorType; \/\/‰∏ãÁ∫ßÊèèËø∞Á¨¶ÁöÑÁ±ªÂûãÁºñÂè∑$/;"	m	struct:_HID_SUB_DESCRIPTOR_STRUCT
+bDescriptorType	usb/usb_hid_device.h	/^		u8 bDescriptorType;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bDeviceClass	usb/usb_drv.h	/^    u8 bDeviceClass;          $/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bDeviceProtocol	usb/usb_drv.h	/^    u8 bDeviceProtocol;          $/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bDeviceSubClass	usb/usb_drv.h	/^    u8 bDeviceSubClass;          $/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bEndpointAddress	usb/usb_drv.h	/^    u8 bEndpointAddress;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bFunctionLength	usb/usb_drv.h	/^		u8 bFunctionLength;$/;"	m	struct:_ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bFunctionLength	usb/usb_drv.h	/^		u8 bFunctionLength;$/;"	m	struct:_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bFunctionLength	usb/usb_drv.h	/^		u8 bFunctionLength;$/;"	m	struct:_UNION_FUNCTIONAL_DESCRIPTOR
+bFunctionLength	usb/usb_drv.h	/^	u8 bFunctionLength;$/;"	m	struct:_HEADER_FUNCTIONAL_DESCRIPTOR
+bIndexH	usb/usb_drv.h	/^		u8 bIndexH;          $/;"	m	struct:_USB_SETUP_DATA
+bIndexL	usb/usb_drv.h	/^		u8 bIndexL;          $/;"	m	struct:_USB_SETUP_DATA
+bInterfaceClass	usb/usb_drv.h	/^    u8 bInterfaceClass;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterfaceNumber	usb/usb_drv.h	/^    u8 bInterfaceNumber;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterfaceProtocol	usb/usb_drv.h	/^    u8 bInterfaceProtocol;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterfaceSubClass	usb/usb_drv.h	/^    u8 bInterfaceSubClass;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bInterval	usb/usb_drv.h	/^    u8 bInterval;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bLength	usb/usb_dev_enum.h	/^		u8 bLength;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bLength	usb/usb_drv.h	/^		u16 bLength;                 $/;"	m	struct:_USB_SETUP_DATA
+bLength	usb/usb_drv.h	/^    u8 bLength;    $/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bLength	usb/usb_drv.h	/^    u8 bLength;    $/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bLength	usb/usb_drv.h	/^    u8 bLength;    $/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bLength	usb/usb_drv.h	/^    u8 bLength;    $/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bLength	usb/usb_hid_device.h	/^		u8 bLength;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bMasterInterface	usb/usb_drv.h	/^		u8 bMasterInterface;$/;"	m	struct:_UNION_FUNCTIONAL_DESCRIPTOR
+bMaxPacketSize0	usb/usb_drv.h	/^    u8 bMaxPacketSize0;         $/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bNumConfigurations	usb/usb_drv.h	/^    u8 bNumConfigurations;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bNumDescriptors	usb/usb_dev_enum.h	/^		u8 bNumDescriptors;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bNumDescriptors	usb/usb_hid_device.h	/^		u8 bNumDescriptors;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bNumEndpoints	usb/usb_drv.h	/^    u8 bNumEndpoints;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+bNumInterfaces	usb/usb_drv.h	/^    u8 bNumInterfaces;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bParityType	usb/usb_dev_enum.h	/^	u8 bParityType; \/\/–£—ÈŒª°£0 ±Ì æŒﬁ–£—ÈŒª£ª1 ±Ì æ∆Ê–£—È£ª2 ±Ì æ≈º–£—È£ª3 ±Ì æ±Íº«£ª4±Ì æø’∏Ò$/;"	m	struct:_line_coding
+bRequest	usb/usb_drv.h	/^		u8 bRequest;         $/;"	m	struct:_USB_SETUP_DATA
+bSlaveInterface	usb/usb_drv.h	/^		u8 bSlaveInterface;$/;"	m	struct:_UNION_FUNCTIONAL_DESCRIPTOR
+bValueH	usb/usb_drv.h	/^		u8 bValueH;          $/;"	m	struct:_USB_SETUP_DATA
+bValueL	usb/usb_drv.h	/^		u8 bValueL;          $/;"	m	struct:_USB_SETUP_DATA
+bcdCDCH	usb/usb_drv.h	/^	u8 bcdCDCH;$/;"	m	struct:_HEADER_FUNCTIONAL_DESCRIPTOR
+bcdCDCL	usb/usb_drv.h	/^	u8 bcdCDCL;$/;"	m	struct:_HEADER_FUNCTIONAL_DESCRIPTOR
+bcdDeviceH	usb/usb_drv.h	/^    u8 bcdDeviceH;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bcdDeviceL	usb/usb_drv.h	/^    u8 bcdDeviceL;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bcdHID	usb/usb_dev_enum.h	/^		u16 bcdHID;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bcdHID	usb/usb_hid_device.h	/^		u16 bcdHID;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bcdUSBH	usb/usb_drv.h	/^    u8 bcdUSBH;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bcdUSBL	usb/usb_drv.h	/^    u8 bcdUSBL;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+bcopy	lib/string.c	/^char * bcopy(const char * src, char * dest, int count)$/;"	f
+be_to_le_u16	comm/comm.c	/^u16 be_to_le_u16(void *prt, u16 word)$/;"	f
+be_to_le_u32	comm/comm.c	/^u32 be_to_le_u32(void *prt, u32 word)$/;"	f
+block_head	lib/malloc.c	/^}block_head;$/;"	t	typeref:struct:__anon6	file:
+block_num	sddrv/sd_drv.h	/^		u32 block_num;$/;"	m	struct:sd_handle
+block_num	sddrv/sd_drv.h	/^    u32 block_num;$/;"	m	struct:_sd_win
+block_num	usb/SCSI.h	/^    u32 block_num;  $/;"	m	struct:__anon14
+block_size	lib/malloc.c	/^	u32 block_size:29;$/;"	m	struct:__anon6	file:
+block_size	sddrv/sd_drv.h	/^		u32 block_size;	$/;"	m	struct:sd_handle
+block_size	usb/SCSI.h	/^    u32 block_size; $/;"	m	struct:__anon14
+block_size	usb/SCSI.h	/^    u32 block_size;$/;"	m	struct:__anon15
+bmAttributes	usb/usb_drv.h	/^    u8 bmAttributes;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+bmAttributes	usb/usb_drv.h	/^    u8 bmAttributes;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+bmCBWFlags	usb/usb_dev_enum.h	/^unsigned char bmCBWFlags; \/\/D7 Œª±Ì æ ˝æ›∑ΩœÚ£¨0=$/;"	m	struct:_CBW
+bmCapabilities	usb/usb_drv.h	/^		u8 bmCapabilities;$/;"	m	struct:_ABSTRACT_CONTROL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bmCapabilities	usb/usb_drv.h	/^		u8 bmCapabilities;$/;"	m	struct:_CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR
+bmRequestType	usb/usb_drv.h	/^		request_type bmRequestType;    $/;"	m	struct:_USB_SETUP_DATA
+bool	comm/comm.h	/^typedef unsigned char  bool, u8;$/;"	t
+boot_monut	dev_manage/dev_manage.h	/^   char boot_monut;  \/\/…œµÁπ“‘ÿ±Í÷æ  1…œµÁ”……Ë±∏π‹¿Ìƒ£øÈπ“‘ÿ£¨ 0,£∫”…”√ªß◊‘º∫π“‘ÿ$/;"	m	struct:dev_io
+boot_monut_dev	dev_manage/dev_manage.c	/^static void boot_monut_dev()$/;"	f	file:
+bque	usb/SCSI.h	/^  u8 bque;              \/\/ Basic Queuing$/;"	m	struct:__anon12
+bss_loop	start.S	/^bss_loop:$/;"	l
+buff	cbuff/c_buff.h	/^	u8 *buff;	$/;"	m	struct:c_buff_struct
+buff	sddrv/s3c2440_sdio.h	/^    u8 *buff;$/;"	m	struct:sdio_handle
+buff	sddrv/sd_drv.h	/^    u8 *buff;$/;"	m	struct:_sd_win
+buff	usb/usb_drv.h	/^		u8 *buff;$/;"	m	struct:_EP_DATA_HANDLE
+buff_len	cbuff/c_buff.h	/^	u16 buff_len;$/;"	m	struct:c_buff_struct
+buff_size	msg/q_msg.h	/^    u16 buff_size;$/;"	m	struct:__anon31
+buff_size	usb/usb_drv.h	/^		u16 buff_size;$/;"	m	struct:_EP_DATA_HANDLE
+busy	usb/usb_drv.h	/^		volatile  u8 busy;$/;"	m	struct:_EP_DATA_HANDLE
+c_buff_struct	cbuff/c_buff.h	/^typedef struct c_buff_struct $/;"	s
+c_buff_struct	cbuff/c_buff.h	/^}c_buff_struct;$/;"	t	typeref:struct:c_buff_struct
+call_management_functional_descriptor	usb/usb_dev_enum.h	/^	CALL_MANAGEMENT_FUNCTIONAL_DESCRIPTOR call_management_functional_descriptor;$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR
+calloc	lib/stdlib.c	/^void * calloc($/;"	f
+cbuff	usb/usb_drv.h	/^		c_buff_struct *cbuff;$/;"	m	struct:_EP_DATA_HANDLE
+cbw_cmd	usb/usb_task.c	/^static CBW cbw_cmd;$/;"	v	file:
+cbw_cmd_cbuf	usb/usb_task.c	/^c_buff_struct  *cbw_cmd_cbuf = NULL;$/;"	v
+cbw_cmd_deal	usb/usb_dev_enum.c	/^u8 cbw_cmd_deal(CBW *cbw_cmd)$/;"	f
+cdb_10b_deal	usb/SCSI.c	/^u8 cdb_10b_deal(cdb_cmd_10b *cmd)$/;"	f
+cdb_6b_deal	usb/SCSI.c	/^u8 cdb_6b_deal(cdb_cmd_6b *cmd)$/;"	f
+cdb_cmd_10b	usb/SCSI.h	/^typedef struct cdb_cmd_10b$/;"	s
+cdb_cmd_10b	usb/SCSI.h	/^}cdb_cmd_10b;$/;"	t	typeref:struct:cdb_cmd_10b
+cdb_cmd_12b	usb/SCSI.h	/^typedef struct cdb_cmd_12b$/;"	s
+cdb_cmd_12b	usb/SCSI.h	/^}cdb_cmd_12b;$/;"	t	typeref:struct:cdb_cmd_12b
+cdb_cmd_6b	usb/SCSI.h	/^typedef struct cdb_cmd_6b$/;"	s
+cdb_cmd_6b	usb/SCSI.h	/^}cdb_cmd_6b;$/;"	t	typeref:struct:cdb_cmd_6b
+chain_point	chain/chain.h	/^}chain_point;$/;"	t	typeref:struct:__anon32
+channel	usb/hid/hid.h	/^    s8 channel:2;$/;"	m	struct:_volume_data
+channel	usb/hid_device_api.h	/^    s8 channel:2;$/;"	m	struct:_volume_data
+check_cbuff_mutu	cbuff/c_buff.c	/^u8 check_cbuff_mutu(c_buff_struct *cbuff)$/;"	f
+check_sdio_busy	sddrv/s3c2440_sdio.c	/^inline u8 check_sdio_busy(void)$/;"	f
+class_callback	usb/usb_dev_enum.c	/^u8 class_callback(USB_SETUP_DATA*cmd)$/;"	f
+class_callback	usb/usb_hid_device.c	/^u8 class_callback(USB_SETUP_DATA*cmd)$/;"	f
+class_request_callback	usb/usb_drv.c	/^static u8(*class_request_callback) (USB_SETUP_DATA * host_cmd);$/;"	v	file:
+clean_bss	comm/sys.c	/^void clean_bss(void)$/;"	f
+clean_bss	start.S	/^clean_bss:$/;"	l
+clear_ep_data	usb/usb_drv.c	/^static void clear_ep_data(u8 ep_index)$/;"	f	file:
+close_ep	usb/usb_dev_control.c	/^void close_ep(u8 ep_index)$/;"	f
+close_usb	usb/usb_drv.c	/^void close_usb()$/;"	f
+close_usb_dev_control	usb/usb_dev_control.c	/^void close_usb_dev_control(void)$/;"	f
+close_usb_hid	usb/usb_hid_device.c	/^void close_usb_hid()$/;"	f
+closehid_do	usb/hid_device_api.c	/^u8 closehid_do(char  **arg, int arg_num)$/;"	f
+cmd	cmd/cmd.c	/^static cmd_list *cmd = NULL;$/;"	v	file:
+cmd	cmd/cmd.h	/^	char *cmd;$/;"	m	struct:cmd_handle
+cmd	cmd/cmd.h	/^	char cmd[CMD_LEN];$/;"	m	struct:cmd_list
+cmd	sddrv/s3c2440_sdio.h	/^		u8 cmd;$/;"	m	struct:sdio_cmd
+cmd	sddrv/s3c2440_sdio.h	/^    sdio_cmd cmd;$/;"	m	struct:sdio_handle
+cmd_arg_buff	cmd/cmd.c	/^static cmd_arg_buff[CMD_PARM_MAX][CMD_PARM_LEN];$/;"	v	file:
+cmd_buff	cmd/cmd.h	/^		char cmd_buff[CMD_BUFF_LEN];$/;"	m	struct:_cmd_input_hd
+cmd_deal	cmd/cmd.c	/^u32 cmd_deal(cmd_list *cmd)$/;"	f
+cmd_function	cmd/cmd.h	/^	u8 (*cmd_function)(char **, int);$/;"	m	struct:cmd_handle
+cmd_handle	cmd/cmd.h	/^typedef struct cmd_handle  $/;"	s
+cmd_handle	cmd/cmd.h	/^}cmd_handle;$/;"	t	typeref:struct:cmd_handle
+cmd_handler	cmd/cmd_common.c	/^const cmd_handle cmd_handler[] =$/;"	v
+cmd_help	cmd/cmd.h	/^	char *cmd_help;$/;"	m	struct:cmd_handle
+cmd_input_hd	cmd/cmd.h	/^}cmd_input_hd;$/;"	t	typeref:struct:_cmd_input_hd
+cmd_input_table	cmd/cmd.c	/^static cmd_input_hd cmd_input_table[CMD_INPUT_MAX];  $/;"	v	file:
+cmd_line_exit	cmd/cmd.c	/^void cmd_line_exit()$/;"	f
+cmd_line_init	cmd/cmd.c	/^void cmd_line_init()$/;"	f
+cmd_list	cmd/cmd.h	/^typedef struct cmd_list  $/;"	s
+cmd_list	cmd/cmd.h	/^}cmd_list;$/;"	t	typeref:struct:cmd_list
+cmd_printf	cmd/cmd.h	7;"	d
+cmd_printf	cmd/cmd.h	9;"	d
+cmd_string_ansys	cmd/cmd.c	/^u32 cmd_string_ansys(cmd_list *cmd, cmd_input_hd *input)$/;"	f
+cmd_task	cmd/cmd.c	/^u8 cmd_task(void *p)$/;"	f
+cmd_task_exit	cmd/cmd.c	/^u8 cmd_task_exit()$/;"	f
+cmd_task_init	cmd/cmd.c	/^u8 cmd_task_init()$/;"	f
+cmd_task_ls	cmd/cmd.c	/^const task_ls cmd_task_ls =$/;"	v
+cmd_type	usb/usb_drv.h	/^}cmd_type;$/;"	t	typeref:enum:__anon23
+cmd_var_init	cmd/cmd.c	/^static void cmd_var_init()$/;"	f	file:
+cmdarg	cmd/cmd.h	/^	char *cmdarg[CMD_PARM_MAX];$/;"	m	struct:cmd_list
+cmdarg_num	cmd/cmd.h	/^	u8 cmdarg_num;$/;"	m	struct:cmd_list
+cmdcmp	cmd/cmd.c	/^u8 cmdcmp(const char *str1, const char *str2)$/;"	f
+cmdque	usb/SCSI.h	/^  u8 cmdque;            \/\/ Command Queuing$/;"	m	struct:__anon12
+cmdtype	usb/usb_drv.h	/^		u8 cmdtype:2;$/;"	m	struct:_request_type
+cmp_str	comm/comm.c	/^u8 cmp_str(const char *str_1, const char *str_2)$/;"	f
+cnt	usb/usb_drv.h	/^		u16 cnt;$/;"	m	struct:_EP_DATA_HANDLE
+code	Makefile	/^code :=  $(wildcard  .\/usb\/*.c)$/;"	m
+colse_usb_uart	usb/usb_dev_enum.c	/^void colse_usb_uart(void)$/;"	f
+comparison_fn_t	lib/stdlib.h	/^typedef __compar_fn_t comparison_fn_t;$/;"	t
+con_int_endp_descriptor	usb/usb_dev_enum.c	/^const CON_INT_ENDP_DESCRIPTOR_STRUCT con_int_endp_descriptor =$/;"	v
+con_int_endp_descriptor	usb/usb_dev_enum.c	/^const CON_INT_ENDP_DESCRIPTOR_STRUCT con_int_endp_descriptor=$/;"	v
+con_int_endp_descriptor	usb/usb_hid_device.c	/^CON_INT_ENDP_DESCRIPTOR_STRUCT con_int_endp_descriptor=$/;"	v
+config	usb/usb_dev_enum.c	/^const CONF_INT_ENDP_DESCRIPTOR config =$/;"	v
+config	usb/usb_dev_enum.h	/^	struct USB_CONFIGURATION_DESCRIPTOR config;  \/\/≈‰÷√√Ë ˆ∑˚$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR	typeref:struct:_CONF_INT_ENDP_DESCRIPTOR::USB_CONFIGURATION_DESCRIPTOR
+configuration_descriptor	usb/usb_dev_enum.h	/^		struct USB_CONFIGURATION_DESCRIPTOR configuration_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_CONFIGURATION_DESCRIPTOR
+configuration_descriptor	usb/usb_dev_enum.h	/^    struct USB_CONFIGURATION_DESCRIPTOR configuration_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_CONFIGURATION_DESCRIPTOR
+configuration_descriptor	usb/usb_hid_device.h	/^		struct USB_CONFIGURATION_DESCRIPTOR configuration_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_CONFIGURATION_DESCRIPTOR
+configuration_descriptor_point	usb/usb_drv.c	/^static u8 * configuration_descriptor_point = NULL;$/;"	v	file:
+configuration_descriptor_point	usb/usb_drv.h	/^		u8 * configuration_descriptor_point;$/;"	m	struct:_usb_drv_descriptor
+control	usb/SCSI.h	/^	u8 control;$/;"	m	struct:cdb_cmd_10b
+control	usb/SCSI.h	/^	u8 control;$/;"	m	struct:cdb_cmd_12b
+control	usb/SCSI.h	/^	u8 control;$/;"	m	struct:cdb_cmd_6b
+control_data_end	usb/usb_dev_control.h	4;"	d
+control_data_in_end	usb/usb_dev_control.h	5;"	d
+copy_last_cmd	cmd/cmd.c	/^void copy_last_cmd(cmd_input_hd *input_handle)$/;"	f
+cpstr_until	comm/comm.c	/^char *cpstr_until(char *str_o, const char *str_i, const char cmpchar)$/;"	f
+creat_task	task_manage/task_manage.c	/^u8 creat_task(task_ls *task_list, u16 msg_size)$/;"	f
+csw_step	usb/usb_dev_enum.c	/^static u8 csw_step = CBW_START; $/;"	v	file:
+cur_task	task_manage/task_manage.c	/^task_ls *cur_task = 0;$/;"	v
+curr_in_ptr	cmd/cmd.h	/^		u16 curr_in_ptr;$/;"	m	struct:_cmd_input_hd
+dCBWDataTransgerLength	usb/usb_dev_enum.h	/^unsigned long int dCBWDataTransgerLength; \/\/ ˝æ›∞¸¥Û–°$/;"	m	struct:_CBW
+dCBWSignature	usb/usb_dev_enum.h	/^unsigned long dCBWSignature; \/\/CBW ±Í÷æ$/;"	m	struct:_CBW
+dCBWTag	usb/usb_dev_enum.h	/^unsigned long dCBWTag; \/\/√¸¡ÓøÈ±Í«©$/;"	m	struct:_CBW
+dCSWDataResidue	usb/usb_dev_enum.h	/^unsigned long dCSWDataResidue; \/\/±Ì ædCBWDataTransferLenhth ◊÷∂Œ÷–÷˜ª˙œ£Õ˚µƒ ˝æ›≥§∂»”Î µº ∑¢ÀÕµƒ ˝æ›≥§∂»µƒ≤Ó∂Ó$/;"	m	struct:_CSW
+dCSWSignature	usb/usb_dev_enum.h	/^unsigned long dCSWSignature; \/\/CSW µƒ±Í÷æ$/;"	m	struct:_CSW
+dCSWTag	usb/usb_dev_enum.h	/^unsigned long dCSWTag; \/\/√¸¡Ó◊¥Ã¨±Í÷æ$/;"	m	struct:_CSW
+data	chain/chain.h	/^    void *data;$/;"	m	struct:__anon32
+data_arrive_callback	usb/usb_drv.c	/^static u8(*data_arrive_callback) (u8 * buff, u16 size, u8 ep_index) = NULL;$/;"	v	file:
+data_arrive_callback	usb/usb_drv.h	/^		u8 (*data_arrive_callback) (u8 * buff, u16 size, u8 ep_index);$/;"	m	struct:_usb_drv_io
+data_cnt	sddrv/s3c2440_sdio.h	/^    u16 data_cnt;$/;"	m	struct:sdio_handle
+data_dir	sddrv/s3c2440_sdio.h	/^    u8 data_dir;  \/\/0 send    1 recive$/;"	m	struct:sdio_handle
+data_end_ptr	cmd/cmd.h	/^		u16 data_end_ptr;$/;"	m	struct:_cmd_input_hd
+data_len	cbuff/c_buff.h	/^	u16 data_len;$/;"	m	struct:c_buff_struct
+data_len	sddrv/s3c2440_sdio.h	/^    u16 data_len;$/;"	m	struct:sdio_handle
+data_read_callback	dev_manage/dev_manage.h	/^    int (*data_read_callback)(void *buffer, int buffer_len);$/;"	m	struct:dev_hd
+data_size	usb/usb_drv.h	/^		u16 data_size;$/;"	m	struct:_EP_DATA_HANDLE
+data_tansfer	sddrv/sd_drv.h	/^		u8 data_tansfer;$/;"	m	struct:sd_handle
+del_chain_point	chain/chain.c	/^u8 del_chain_point(chain_point **chain_head, void *data)$/;"	f
+del_task	task_manage/task_manage.c	/^u8 del_task(char *name)$/;"	f
+delay	comm/comm.c	/^void delay(u32 time)$/;"	f
+descriptor	usb/usb_drv.h	/^		_usb_drv_descriptor descriptor;$/;"	m	struct:_usb_drv_handle
+descriptor_register	usb/usb_drv.c	/^u8 descriptor_register(u8 descriptor_type, void * descriptor, u8 index)$/;"	f
+dev_cmd_deal	dev_manage/dev_manage_api.c	/^static int dev_cmd_deal(int cmd_index, char *arg)$/;"	f	file:
+dev_cmd_table	dev_manage/dev_manage_api.c	/^const char *dev_cmd_table[]=$/;"	v
+dev_do	dev_manage/dev_manage_api.c	/^static int dev_do(char **arg, int arg_num)$/;"	f	file:
+dev_event_callback_run	dev_manage/dev_manage.c	/^void dev_event_callback_run()$/;"	f
+dev_hd	dev_manage/dev_manage.h	/^typedef struct dev_hd$/;"	s
+dev_hd	dev_manage/dev_manage.h	/^}dev_hd;$/;"	t	typeref:struct:dev_hd
+dev_hd_group	dev_manage/dev_manage.c	/^static dev_hd *dev_hd_group = NULL;$/;"	v	file:
+dev_hd_group	dev_manage/dev_manage.c	/^static dev_hd dev_hd_group[MAX_DEV];$/;"	v	file:
+dev_io	dev_manage/dev_manage.h	/^    void *dev_io;$/;"	m	struct:dev_hd
+dev_io	dev_manage/dev_manage.h	/^typedef struct dev_io$/;"	s
+dev_io	dev_manage/dev_manage.h	/^}dev_io;$/;"	t	typeref:struct:dev_io
+dev_ioctrl_api	dev_manage/dev_manage_api.c	/^int dev_ioctrl_api(dev_hd *hd, int cmd, void *parm)$/;"	f
+dev_major	dev_manage/dev_manage.h	/^    int  dev_major;$/;"	m	struct:dev_hd
+dev_manage_init	dev_manage/dev_manage.c	/^int dev_manage_init()$/;"	f
+dev_manage_read_callback	dev_manage/dev_manage.c	/^int dev_manage_read_callback(int major, void *buffer, int buffer_len)$/;"	f
+dev_mg_task	dev_manage/dev_manage_api.c	/^register_task_list dev_mg_task =$/;"	v
+dev_mg_task_exit	dev_manage/dev_manage_api.c	/^int dev_mg_task_exit()$/;"	f
+dev_mg_task_init	dev_manage/dev_manage_api.c	/^int dev_mg_task_init()$/;"	f
+dev_mg_task_run	dev_manage/dev_manage_api.c	/^int dev_mg_task_run(void *arg)$/;"	f
+dev_mount	dev_manage/dev_manage.c	/^int dev_mount(dev_io *io, int major, void *parm)$/;"	f
+dev_mount_api	dev_manage/dev_manage_api.c	/^int dev_mount_api(dev_io *io, int major, void *parm)$/;"	f
+dev_msg	dev_manage/dev_manage.h	/^    dev_msg_struct dev_msg;$/;"	m	struct:dev_hd
+dev_msg_pool_init	dev_manage/dev_manage.c	/^static int dev_msg_pool_init(dev_msg_struct *dev_msg, void *pool_buffer,  int buffer_len)$/;"	f	file:
+dev_msg_struct	dev_manage/dev_manage.h	/^typedef struct dev_msg_struct$/;"	s
+dev_msg_struct	dev_manage/dev_manage.h	/^}dev_msg_struct;$/;"	t	typeref:struct:dev_msg_struct
+dev_name	dev_manage/dev_manage.h	/^   char *dev_name;$/;"	m	struct:dev_io
+dev_open	dev_manage/dev_manage.c	/^int dev_open(dev_hd **hd, const char *dev_name)$/;"	f
+dev_open_api	dev_manage/dev_manage_api.c	/^int dev_open_api(dev_hd **hd, const char *dev_name)$/;"	f
+dev_printf	dev_manage/dev_manage.h	16;"	d
+dev_printf	dev_manage/dev_manage.h	18;"	d
+dev_read_api	dev_manage/dev_manage_api.c	/^int dev_read_api(dev_hd *hd, unsigned int addr,  void *buffer,  int buffer_len)$/;"	f
+dev_sys_msg	dev_manage/dev_manage.c	/^static dev_msg_struct dev_sys_msg;$/;"	v	file:
+dev_type	dev_manage/dev_manage.h	/^   char dev_type;$/;"	m	struct:dev_io
+dev_umount	dev_manage/dev_manage.c	/^int dev_umount(dev_io *io, int major)$/;"	f
+dev_umount_api	dev_manage/dev_manage_api.c	/^int dev_umount_api(dev_hd *hd)$/;"	f
+dev_write_api	dev_manage/dev_manage_api.c	/^int dev_write_api(dev_hd *hd, unsigned int addr, void *buffer, int buffer_len)$/;"	f
+device_descriptor	usb/usb_dev_enum.c	/^const struct USB_DEVICE_DESCRIPTOR device_descriptor = \/\/…Ë±∏√Ë ˆ∑˚$/;"	v	typeref:struct:USB_DEVICE_DESCRIPTOR
+device_descriptor	usb/usb_hid_device.c	/^const struct USB_DEVICE_DESCRIPTOR device_descriptor = \/\/ËÆæÂ§áÊèèËø∞Á¨¶$/;"	v	typeref:struct:USB_DEVICE_DESCRIPTOR
+device_descriptor_point	usb/usb_drv.c	/^struct USB_DEVICE_DESCRIPTOR * device_descriptor_point = NULL;$/;"	v	typeref:struct:USB_DEVICE_DESCRIPTOR
+device_descriptor_point	usb/usb_drv.h	/^		struct USB_DEVICE_DESCRIPTOR * device_descriptor_point;$/;"	m	struct:_usb_drv_descriptor	typeref:struct:_usb_drv_descriptor::USB_DEVICE_DESCRIPTOR
+dir	usb/usb_drv.h	/^		u8 dir :1; $/;"	m	struct:_request_type
+direction	usb/usb_drv.h	/^		u8 direction;$/;"	m	struct:_EP_DATA_HANDLE
+disable_cpu_int	cpu/irq.c	/^void disable_cpu_int()$/;"	f
+disable_irq	cpu/irq.c	/^inline void disable_irq(u32 index)$/;"	f
+div_t	lib/stdlib.h	/^  } div_t;$/;"	t	typeref:struct:__anon3
+do_div	lib/vsprintf.c	108;"	d	file:
+drand48_data	lib/stdlib.h	/^struct drand48_data$/;"	s
+dwDTERate	usb/usb_dev_enum.h	/^	u32 dwDTERate; \/\/≤®Ãÿ¬ £¨∂‡…Ÿbit\/s$/;"	m	struct:_line_coding
+enable_cpu_int	cpu/irq.c	/^void enable_cpu_int()$/;"	f
+enable_irq	cpu/irq.c	/^inline void enable_irq(u32 index)$/;"	f
+end	cbuff/c_buff.h	/^	u8 *end;$/;"	m	struct:c_buff_struct
+end_mem	lib/malloc.c	/^	u8 *end_mem;$/;"	m	struct:__anon7	file:
+end_ptr	lib/stdlib.h	/^    int32_t *end_ptr;		\/* Pointer behind state table.  *\/$/;"	m	struct:random_data
+endpoint	usb/usb_dev_enum.h	/^	struct USB_ENDPOINT_DESCRIPTOR endpoint[ENDPOINT_NUM];    \/\/∂Àµ„√Ë ˆ∑˚$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR	typeref:struct:_CONF_INT_ENDP_DESCRIPTOR::USB_ENDPOINT_DESCRIPTOR
+endpoint_descriptor	usb/usb_dev_enum.h	/^		struct USB_ENDPOINT_DESCRIPTOR endpoint_descriptor[ENDPOINT_NUMBER];$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_ENDPOINT_DESCRIPTOR
+endpoint_descriptor	usb/usb_dev_enum.h	/^    struct USB_ENDPOINT_DESCRIPTOR endpoint_descriptor[ENDPOINT_NUMBER];$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_ENDPOINT_DESCRIPTOR
+endpoint_descriptor	usb/usb_hid_device.h	/^		struct USB_ENDPOINT_DESCRIPTOR endpoint_descriptor[ENDPOINT_NUMBER];$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_ENDPOINT_DESCRIPTOR
+ep0_clear_out_rdy	usb/usb_dev_control.h	31;"	d
+ep_attr	usb/usb_drv.h	/^		u8 ep_attr;$/;"	m	struct:_EP_DATA_HANDLE
+ep_clear_out_rdy	usb/usb_dev_control.h	32;"	d
+ep_data	usb/usb_drv.c	/^ep_data_handle * ep_data[5];$/;"	v
+ep_data_handle	usb/usb_drv.h	/^}ep_data_handle;$/;"	t	typeref:struct:_EP_DATA_HANDLE
+ep_isr_deal	usb/usb_dev_control.c	/^static void  ep_isr_deal(u8 ep_index)$/;"	f	file:
+ep_isr_deal	usb/usb_drv.h	/^		u8 (*ep_isr_deal)(u8);$/;"	m	struct:_EP_DATA_HANDLE
+ep_size	usb/usb_drv.h	/^		u8 ep_size;$/;"	m	struct:_EP_DATA_HANDLE
+ep_write	usb/usb_drv.h	/^		u8 (*ep_write)(u8 *, u16, u8);$/;"	m	struct:_usb_drv_io
+event_callback	usb/usb_dev_control.c	/^usb_event_callback event_callback = NULL;$/;"	v
+event_deal_cb	usb/usb_dev_control.c	/^inline static void event_deal_cb(u16 event, u8 ep_index, u8 *buffer, u8 len)$/;"	f	file:
+false	comm/config.h	28;"	d
+fifo_flush	usb/usb_dev_control.c	/^void fifo_flush(u8 ep_index)$/;"	f
+flag	cbuff/c_buff.h	/^	volatile u8 flag;$/;"	m	struct:c_buff_struct
+flush_cbuff	cbuff/c_buff.c	/^void flush_cbuff(c_buff_struct *cbuff)$/;"	f
+fptr	lib/stdlib.h	/^    int32_t *fptr;		\/* Front pointer.  *\/$/;"	m	struct:random_data
+free	comm/config.h	19;"	d
+free	lib/stdlib.c	/^void free($/;"	f
+free_cbuff	cbuff/c_buff.c	/^void free_cbuff(c_buff_struct **cbuff)$/;"	f
+free_ep_data	usb/usb_drv.c	/^static void free_ep_data(ep_data_handle **ep_data)$/;"	f	file:
+free_q_msg	msg/q_msg.c	/^void free_q_msg(q_msg_struct *q_msg)$/;"	f
+free_size	lib/malloc.c	/^	u32 free_size;$/;"	m	struct:__anon7	file:
+func	cmd/cmd.h	/^		u32 (*func)(char *, u32);$/;"	m	struct:_cmd_input_hd
+g_cmd	cmd/cmd.c	/^static cmd_list g_cmd;$/;"	v	file:
+get_avail_major	dev_manage/dev_manage.c	/^int get_avail_major()$/;"	f
+get_bit_value	comm/comm.c	/^u32 get_bit_value(void *in_vlaue, u16 bit, u8 num)$/;"	f
+get_cbuff_data_size	cbuff/c_buff.c	/^inline u16 get_cbuff_data_size(c_buff_struct *cbuff)$/;"	f
+get_cbuff_remain	cbuff/c_buff.c	/^inline u16 get_cbuff_remain(c_buff_struct *cbuff)$/;"	f
+get_descriptor_deal	usb/usb_drv.c	/^static u8 get_descriptor_deal(USB_SETUP_DATA * host_cmd)$/;"	f	file:
+get_dev_io_byname	dev_manage/dev_manage.c	/^dev_io *get_dev_io_byname(const char *dev_name)$/;"	f
+get_dev_msg	dev_manage/dev_manage.c	/^int get_dev_msg(dev_hd *hd, unsigned int *event, unsigned int *data)$/;"	f
+get_dev_name_by_hd	dev_manage/dev_manage_api.c	/^char *get_dev_name_by_hd(dev_hd *hd)$/;"	f
+get_ep0_data	usb/usb_drv.c	/^u8 get_ep0_data(u8 * data_buff, u8 len)$/;"	f
+get_ep_buff_free	usb/usb_drv.c	/^u16 get_ep_buff_free(u8 ep_index)$/;"	f
+get_fifo_cnt	usb/usb_dev_control.c	/^inline u8 get_fifo_cnt(u8 ep_index)$/;"	f
+get_hd_by_mojor	dev_manage/dev_manage.c	/^int get_hd_by_mojor(int major)$/;"	f
+get_q_msg_free	msg/q_msg.c	/^u16 get_q_msg_free(q_msg_struct *q_msg)$/;"	f
+get_q_msg_num	msg/q_msg.c	/^u16 get_q_msg_num(q_msg_struct *q_msg)$/;"	f
+get_report_map_size	usb/hid/hid.c	/^inline u32 get_report_map_size()$/;"	f
+get_report_map_size	usb/hid_device_api.c	/^inline u32 get_report_map_size()$/;"	f
+get_sd_busy	sddrv/sd_drv.c	/^inline u8 get_sd_busy()$/;"	f
+get_task_msg_num	task_manage/task_manage.c	/^u16 get_task_msg_num()$/;"	f
+get_uart_hd	uart/s3c2440_uart.c	/^uart_handle *get_uart_hd(USERIAL serial)$/;"	f
+getc	uart/printf.c	/^char getc()$/;"	f
+halt_loop	start.S	/^halt_loop:$/;"	l
+header_functional_descriptor	usb/usb_dev_enum.h	/^	HEADER_FUNCTIONAL_DESCRIPTOR header_functional_descriptor;$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR
+help_cmd	cmd/cmd_common.c	/^u8 help_cmd(char **arg, int arg_num)$/;"	f
+hex_to_int	comm/comm.c	/^int hex_to_int(const char *str)$/;"	f
+hidReportMap	usb/hid/hid.c	/^static const u8 hidReportMap[] =$/;"	v	file:
+hidReportMap	usb/hid_device_api.c	/^static const u8 hidReportMap[] =$/;"	v	file:
+hid_ctl	usb/hid_device_api.c	/^static int hid_ctl(u32 cmd, void *parm)$/;"	f	file:
+hid_descriptor	usb/usb_dev_enum.h	/^		HID_DESCRIPTOR_STRUCT hid_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT
+hid_descriptor	usb/usb_hid_device.h	/^		HID_DESCRIPTOR_STRUCT hid_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT
+hid_dev_mount	usb/hid_device_api.c	/^static int hid_dev_mount(int major, void *parm)$/;"	f	file:
+hid_exit	usb/hid_device_api.c	/^void hid_exit()$/;"	f
+hid_init	usb/hid_device_api.c	/^int hid_init()$/;"	f
+hid_major	usb/hid_device_api.c	/^static int hid_major = 0xffff; $/;"	v	file:
+hid_music_control	usb/hid/hid.c	/^void hid_music_control(u8 cmd)$/;"	f
+hid_music_control	usb/hid_device_api.c	/^void hid_music_control(u8 cmd)$/;"	f
+hid_printf	usb/hid_device_api.h	6;"	d
+hid_printf	usb/hid_device_api.h	8;"	d
+host_cmd_deal	usb/usb_drv.c	/^static u8 host_cmd_deal(USB_SETUP_DATA * host_cmd)$/;"	f	file:
+iConfiguration	usb/usb_drv.h	/^    u8 iConfiguration;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+iInterface	usb/usb_drv.h	/^    u8 iInterface;$/;"	m	struct:USB_INTERFACE_DESCRIPTOR
+iManufacturer	usb/usb_drv.h	/^    u8 iManufacturer;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+iProduct	usb/usb_drv.h	/^    u8 iProduct;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+iSerialNumber	usb/usb_drv.h	/^    u8 iSerialNumber;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+id	sddrv/sd_drv.h	/^	u8 id;	\/\/÷∆‘Ï…Ãid$/;"	m	struct:_ID_struct
+idProductH	usb/usb_drv.h	/^    u8 idProductH;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+idProductL	usb/usb_drv.h	/^    u8 idProductL;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+idVendorH	usb/usb_drv.h	/^    u8 idVendorH;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+idVendorL	usb/usb_drv.h	/^    u8 idVendorL;$/;"	m	struct:USB_DEVICE_DESCRIPTOR
+index	usb/usb_drv.h	/^		u8 index;$/;"	m	struct:_EP_DATA_HANDLE
+init	sddrv/sd_drv.h	/^    void (*init)(void);$/;"	m	struct:sd_io
+init	sddrv/sd_drv.h	/^   void (*init)(void);$/;"	m	struct:sdio_io
+init_ep_data	usb/usb_drv.c	/^static ep_data_handle * init_ep_data(u16 malloc_buff_size)$/;"	f	file:
+init_flag	sddrv/sd_drv.h	/^		u8 init_flag;$/;"	m	struct:sd_handle
+init_mem_alloc	lib/malloc.c	/^u8  init_mem_alloc(void *buff, u32 size)$/;"	f
+init_usb_dev_control	usb/usb_dev_control.c	/^void init_usb_dev_control(usb_event_callback event_cb)$/;"	f
+input_hd	cmd/cmd.c	/^static cmd_input_hd *input_hd = NULL;$/;"	v	file:
+input_hd_next_cmd	cmd/cmd.c	/^void input_hd_next_cmd(cmd_input_hd *input_handle)$/;"	f
+input_report_send	usb/hid/hid.c	/^inline u32 input_report_send(u8 report_id, void *data, u16 len)$/;"	f
+input_report_send	usb/hid_device_api.c	/^inline u32 input_report_send(u8 report_id, void *data, u16 len)$/;"	f
+inrq_resp	usb/SCSI.c	/^    const msd_scsi_inq_resp inrq_resp = {$/;"	v
+int_isr_func	cpu/irq.h	/^typedef void (*int_isr_func)(void);$/;"	t
+interface	usb/usb_dev_enum.h	/^	struct USB_INTERFACE_DESCRIPTOR interface;  \/\/Ω”ø⁄√Ë ˆ∑˚$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR	typeref:struct:_CONF_INT_ENDP_DESCRIPTOR::USB_INTERFACE_DESCRIPTOR
+interface2	usb/usb_dev_enum.h	/^	struct USB_INTERFACE_DESCRIPTOR interface2;  \/\/Ω”ø⁄√Ë ˆ∑˚$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR	typeref:struct:_CONF_INT_ENDP_DESCRIPTOR::USB_INTERFACE_DESCRIPTOR
+interface_descriptor	usb/usb_dev_enum.h	/^		struct USB_INTERFACE_DESCRIPTOR interface_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_INTERFACE_DESCRIPTOR
+interface_descriptor	usb/usb_hid_device.h	/^		struct USB_INTERFACE_DESCRIPTOR interface_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_INTERFACE_DESCRIPTOR
+interface_descriptor_point	usb/usb_drv.c	/^static u8 * interface_descriptor_point = NULL;$/;"	v	file:
+interface_descriptor_point	usb/usb_drv.h	/^		u8 * interface_descriptor_point;$/;"	m	struct:_usb_drv_descriptor
+interface_descritor	usb/usb_dev_enum.h	/^    struct USB_INTERFACE_DESCRIPTOR interface_descritor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT::USB_INTERFACE_DESCRIPTOR
+interrupt_mode_deal	usb/usb_dev_enum.c	/^u8 interrupt_mode_deal(u8 ep_index, void *buff, u16 len)$/;"	f
+io	sddrv/sd_drv.h	/^		sd_io io;$/;"	m	struct:sd_handle
+io	uart/s3c2440_uart.h	/^		uart_io io;$/;"	m	struct:_uart_handle
+io	usb/usb_drv.h	/^		_usb_drv_io io;$/;"	m	struct:_usb_drv_handle
+ioctrl	dev_manage/dev_manage.h	/^   int (*ioctrl)(int cmd, void *parm);$/;"	m	struct:dev_io
+is_digit	lib/vsprintf.c	89;"	d	file:
+isr_handle_array	cpu/irq.c	/^static int_isr_func *isr_handle_array = (int_isr_func)0x33fb06b0;$/;"	v	file:
+isr_handle_array	sddrv/s3c2440_sdio.c	/^static int * isr_handle_array = (void *) 0x33fb06b0;$/;"	v	file:
+isr_handle_array	uart/s3c2440_uart.c	/^static int *isr_handle_array = (void *)0x33fb06b0;$/;"	v	file:
+isr_handle_array	usb/usb_drv.c	/^static int * isr_handle_array = (void *) 0x33fb06b0;$/;"	v	file:
+key_do	usb/usb_dev_enum.c	/^u8 key_do(char  **arg, int arg_num)$/;"	f
+last_block_addr	usb/SCSI.h	/^    u32 last_block_addr;$/;"	m	struct:__anon15
+ldiv_t	lib/stdlib.h	/^  } ldiv_t;$/;"	t	typeref:struct:__anon4
+length	usb/SCSI.h	/^	u8 length;$/;"	m	struct:cdb_cmd_6b
+length_0	usb/SCSI.h	/^	u8 length_0;$/;"	m	struct:cdb_cmd_12b
+length_1	usb/SCSI.h	/^	u8 length_1;$/;"	m	struct:cdb_cmd_12b
+length_2	usb/SCSI.h	/^	u8 length_2;$/;"	m	struct:cdb_cmd_12b
+length_3	usb/SCSI.h	/^	u8 length_3;$/;"	m	struct:cdb_cmd_12b
+length_H	usb/SCSI.h	/^	u8 length_H;$/;"	m	struct:cdb_cmd_10b
+length_L	usb/SCSI.h	/^	u8 length_L;$/;"	m	struct:cdb_cmd_10b
+lib	lib/makefile	/^lib := libc.a$/;"	m
+list_length	usb/SCSI.h	/^    u32  list_length;$/;"	m	struct:__anon14
+lldiv_t	lib/stdlib.h	/^  } lldiv_t;$/;"	t	typeref:struct:__anon5
+load_cmd	sddrv/sd_drv.c	/^static u8 load_cmd(sdio_handle *hd, u8 cmd, u32 arg)$/;"	f	file:
+logic_block_addr_0	usb/SCSI.h	/^	u8 logic_block_addr_0;$/;"	m	struct:cdb_cmd_10b
+logic_block_addr_0	usb/SCSI.h	/^	u8 logic_block_addr_0;$/;"	m	struct:cdb_cmd_12b
+logic_block_addr_0	usb/SCSI.h	/^	u8 logic_block_addr_0;$/;"	m	struct:cdb_cmd_6b
+logic_block_addr_1	usb/SCSI.h	/^	u8 logic_block_addr_1;$/;"	m	struct:cdb_cmd_10b
+logic_block_addr_1	usb/SCSI.h	/^	u8 logic_block_addr_1;$/;"	m	struct:cdb_cmd_12b
+logic_block_addr_1	usb/SCSI.h	/^	u8 logic_block_addr_1;$/;"	m	struct:cdb_cmd_6b
+logic_block_addr_2	usb/SCSI.h	/^	u8 logic_block_addr_2;$/;"	m	struct:cdb_cmd_10b
+logic_block_addr_2	usb/SCSI.h	/^	u8 logic_block_addr_2;$/;"	m	struct:cdb_cmd_12b
+logic_block_addr_2	usb/SCSI.h	/^	u8 logic_block_addr_2;$/;"	m	struct:cdb_cmd_6b
+logic_block_addr_3	usb/SCSI.h	/^	u8 logic_block_addr_3;$/;"	m	struct:cdb_cmd_10b
+logic_block_addr_3	usb/SCSI.h	/^	u8 logic_block_addr_3;$/;"	m	struct:cdb_cmd_12b
+main	main.c	/^int main(void)$/;"	f
+malloc	comm/config.h	18;"	d
+malloc	lib/stdlib.c	/^void * malloc($/;"	f
+maxPower	usb/usb_drv.h	/^    u8 maxPower;          $/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+mem_buff	comm/sys.c	/^static u8 mem_buff[MEM_MAX];$/;"	v	file:
+mem_info	lib/malloc.c	/^static mem_list mem_info =$/;"	v	file:
+mem_list	lib/malloc.c	/^}mem_list;$/;"	t	typeref:struct:__anon7	file:
+mem_size	lib/malloc.c	/^	u32 mem_size;$/;"	m	struct:__anon7	file:
+memchr	lib/string.c	/^void *memchr(const void *s, int c, size_t n)$/;"	f
+memcmp	lib/string.c	/^int memcmp(const void * cs,const void * ct,size_t count)$/;"	f
+memcpy	lib/string.c	/^void * memcpy(void * dest,const void *src,size_t count)$/;"	f
+memmove	lib/string.c	/^void * memmove(void * dest,const void *src,size_t count)$/;"	f
+memscan	lib/string.c	/^void * memscan(void * addr, int c, size_t size)$/;"	f
+memset	lib/string.c	/^void * memset(void * s,int c,size_t count)$/;"	f
+mkstemp	lib/stdlib.h	707;"	d
+mount	dev_manage/dev_manage.h	/^   int (*mount)(int major, void *parm);$/;"	m	struct:dev_io
+mouse_control	usb/hid/hid.c	/^void mouse_control(u8 cmd)$/;"	f
+mouse_control	usb/hid_device_api.c	/^void mouse_control(u8 cmd)$/;"	f
+mouse_data	usb/hid/hid.c	/^static s8 mouse_data[4];$/;"	v	file:
+mouse_data	usb/hid_device_api.c	/^static s8 mouse_data[4];$/;"	v	file:
+mouse_do	usb/hid_device_api.c	/^u8 mouse_do(char  **arg, int arg_num)$/;"	f
+mouse_snes	usb/hid/hid.c	/^static u8 mouse_snes = 10;$/;"	v	file:
+mouse_snes	usb/hid_device_api.c	/^static u8 mouse_snes = 10;$/;"	v	file:
+msd_scsi_inq_resp	usb/SCSI.h	/^} msd_scsi_inq_resp;$/;"	t	typeref:struct:__anon12
+msg	usb/usb_task.c	/^static u32 msg[4];$/;"	v	file:
+msg_buff	msg/q_msg.h	/^    u32 *msg_buff;$/;"	m	struct:__anon31
+msg_cnt	dev_manage/dev_manage.h	/^    unsigned int  msg_cnt;$/;"	m	struct:dev_msg_struct
+msg_num	msg/q_msg.h	/^    u16 msg_num;$/;"	m	struct:__anon31
+msg_pool_group	dev_manage/dev_manage.c	/^static int msg_pool_group[MAX_DEV][MSG_POOL_SIZE];$/;"	v	file:
+muisc_next	usb/hid/hid.h	/^    u8 muisc_next:1;$/;"	m	struct:_volume_data
+muisc_next	usb/hid_device_api.h	/^    u8 muisc_next:1;$/;"	m	struct:_volume_data
+music_pp	usb/hid/hid.h	/^    u8 music_pp:1;$/;"	m	struct:_volume_data
+music_pp	usb/hid_device_api.h	/^    u8 music_pp:1;$/;"	m	struct:_volume_data
+music_pre	usb/hid/hid.h	/^    u8 music_pre:1;$/;"	m	struct:_volume_data
+music_pre	usb/hid_device_api.h	/^    u8 music_pre:1;$/;"	m	struct:_volume_data
+music_random	usb/hid/hid.h	/^    u8 music_random:1;$/;"	m	struct:_volume_data
+music_random	usb/hid_device_api.h	/^    u8 music_random:1;$/;"	m	struct:_volume_data
+mutu	dev_manage/dev_manage.h	/^    char mutu;$/;"	m	struct:dev_hd
+my_free	lib/malloc.c	/^void my_free(void *mem_buff)$/;"	f
+my_malloc	lib/malloc.c	/^void *my_malloc(u32 size)$/;"	f
+name	msg/q_msg.h	/^    char *name;$/;"	m	struct:__anon31
+name	task_manage/task_manage.h	/^    char *name;$/;"	m	struct:__anon26
+new_cbuff	cbuff/c_buff.c	/^c_buff_struct *new_cbuff(u16 size) {$/;"	f
+new_q_msg	msg/q_msg.c	/^q_msg_struct *new_q_msg(char *name, u16 msg_size)$/;"	f
+next	chain/chain.h	/^    void *next, *prev;$/;"	m	struct:__anon32
+next	cmd/cmd.h	/^		struct _cmd_input_hd *next;$/;"	m	struct:_cmd_input_hd	typeref:struct:_cmd_input_hd::_cmd_input_hd
+number	lib/vsprintf.c	/^static char * number(char * str, long long num, int base, int size, int precision ,int type)$/;"	f	file:
+objs	Makefile	/^objs 				:= ${patsubst %.c, %.o,$(code)} .\/lib\/libc.a start.o lib\/malloc.o$/;"	m
+objs	lib/makefile	/^objs :=string.o vsprintf.o$/;"	m
+open_ep	usb/usb_dev_control.c	/^u8 open_ep(u8 ep_index, u8 ep_size, u8 dir, u8 mode)$/;"	f
+open_sd	sddrv/sd_drv.c	/^sd_handle *open_sd(void)$/;"	f
+open_sdio	sddrv/s3c2440_sdio.c	/^u8 open_sdio(sdio_handle *hd)$/;"	f
+open_usb	usb/usb_drv.c	/^u8 open_usb(_usb_drv_handle *usb_hd, u8(*receive_callback) (u8 *, u16, u8), u8(*class_request_cb) (USB_SETUP_DATA *))$/;"	f
+open_usb_disk	usb/usb_dev_enum.c	/^u8 open_usb_disk(void)$/;"	f
+open_usb_hid	usb/usb_dev_enum.c	/^u8 open_usb_hid(void)$/;"	f
+open_usb_hid	usb/usb_hid_device.c	/^u8 open_usb_hid(void)$/;"	f
+open_usb_uart	usb/usb_dev_enum.c	/^u8 open_usb_uart(void)$/;"	f
+openhid_do	usb/hid_device_api.c	/^u8 openhid_do(char **arg, int arg_num)$/;"	f
+operation_code	usb/SCSI.h	/^	u8 operation_code;$/;"	m	struct:cdb_cmd_10b
+operation_code	usb/SCSI.h	/^	u8 operation_code;$/;"	m	struct:cdb_cmd_12b
+operation_code	usb/SCSI.h	/^	u8 operation_code;$/;"	m	struct:cdb_cmd_6b
+output_report_callback	usb/hid/hid.c	/^static u32 output_report_callback(u8 report_id, void *data, u16 len)$/;"	f	file:
+output_report_callback	usb/hid_device_api.c	/^static u32 output_report_callback(u8 report_id, void *data, u16 len)$/;"	f	file:
+output_report_cb	usb/hid/hid.h	/^typedef u32 (*output_report_cb)(u8, void *, u16);$/;"	t
+output_report_cb	usb/hid_device_api.h	/^typedef u32 (*output_report_cb)(u8, void *, u16);$/;"	t
+pCBW	usb/usb_dev_enum.h	/^CBW, * pCBW;$/;"	t	typeref:struct:_CBW
+pCSW	usb/usb_dev_enum.h	/^CSW, * pCSW;$/;"	t	typeref:struct:_CSW
+pHID_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^}__attribute__((packed)) HID_DESCRIPTOR_STRUCT,*pHID_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_DESCRIPTOR_STRUCT
+pHID_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^}__attribute__((packed)) HID_DESCRIPTOR_STRUCT,*pHID_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_DESCRIPTOR_STRUCT
+pHID_SUB_DESCRIPTOR_STRUCT	usb/usb_dev_enum.h	/^}__attribute__((packed)) HID_SUB_DESCRIPTOR_STRUCT,*pHID_SUB_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_SUB_DESCRIPTOR_STRUCT
+pHID_SUB_DESCRIPTOR_STRUCT	usb/usb_hid_device.h	/^}__attribute__((packed)) HID_SUB_DESCRIPTOR_STRUCT,*pHID_SUB_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_SUB_DESCRIPTOR_STRUCT
+pack_cnt	usb/usb_drv.c	/^static u8 pack_cnt = 0;$/;"	v	file:
+package_cnt	uart/s3c2440_uart.h	/^		u8 package_cnt;  \/\/ËØªÂèñÁºìÂ≠òÈáåÊúâÂá†ÂåÖÊï∞ÊçÆ$/;"	m	struct:_uart_handle
+page_code	usb/SCSI.h	/^    u8 page_code;$/;"	m	struct:__anon13
+page_len	usb/SCSI.h	/^    u8 page_len;$/;"	m	struct:__anon13
+page_num	usb/SCSI.h	/^    u8 page_num[10];$/;"	m	struct:__anon13
+panic	lib/vsprintf.c	/^void panic(const char *fmt, ...)$/;"	f
+pend_dev_mg_msg	dev_manage/dev_manage.c	/^static int pend_dev_mg_msg(int *major, int *event, int *data)$/;"	f	file:
+peripheral	usb/SCSI.h	/^    u8 peripheral;        \/\/ Device Type$/;"	m	struct:__anon13
+peripheral	usb/SCSI.h	/^  u8 peripheral;        \/\/ Device Type$/;"	m	struct:__anon12
+pool_end	dev_manage/dev_manage.h	/^    unsigned int  *pool_end;$/;"	m	struct:dev_msg_struct
+pool_start	dev_manage/dev_manage.h	/^    unsigned int  *pool_start;$/;"	m	struct:dev_msg_struct
+post_dev_mg_msg	dev_manage/dev_manage.c	/^int post_dev_mg_msg(int major, int event, int data)$/;"	f
+prev	chain/chain.h	/^    void *next, *prev;$/;"	m	struct:__anon32
+printf_bin	uart/printf.c	/^void printf_bin(const u32 value)$/;"	f
+printf_buff	uart/printf.c	/^void printf_buff(const u8 *buff, u32 size)$/;"	f
+printf_u16	uart/printf.c	/^void printf_u16(u16 value)$/;"	f
+printf_u32	uart/printf.c	/^void printf_u32(u32 value)$/;"	f
+printf_u8	uart/printf.c	/^void printf_u8(u8 value)$/;"	f
+product_id	usb/SCSI.h	/^  u8 product_id[16];$/;"	m	struct:__anon12
+product_rev	usb/SCSI.h	/^  u8 product_rev[4];$/;"	m	struct:__anon12
+putbyte	uart/s3c2440_uart.h	/^		void (*putbyte)(char c);$/;"	m	struct:_uart_io
+putc	uart/printf.c	/^void putc(char byte)$/;"	f
+puts	uart/s3c2440_uart.h	/^		void (*puts)(void *buff, u16 size);$/;"	m	struct:_uart_io
+q_msg	task_manage/task_manage.h	/^    q_msg_struct *q_msg;$/;"	m	struct:__anon26
+q_msg_flush	msg/q_msg.c	/^void q_msg_flush(q_msg_struct *q_msg)$/;"	f
+q_msg_struct	msg/q_msg.h	/^}q_msg_struct;$/;"	t	typeref:struct:__anon31
+q_pend	msg/q_msg.c	/^u32 q_pend(q_msg_struct *q_msg)$/;"	f
+q_post	msg/q_msg.c	/^u8 q_post(q_msg_struct *q_msg, u32 msg)$/;"	f
+quot	lib/stdlib.h	/^    int quot;			\/* Quotient.  *\/$/;"	m	struct:__anon3
+quot	lib/stdlib.h	/^    long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon4
+quot	lib/stdlib.h	/^    long long int quot;		\/* Quotient.  *\/$/;"	m	struct:__anon5
+r_buff	dev_manage/dev_manage.h	/^    void *r_buff;$/;"	m	struct:dev_hd
+r_ptr	msg/q_msg.h	/^    u16 r_ptr;$/;"	m	struct:__anon31
+rand_deg	lib/stdlib.h	/^    int rand_deg;		\/* Degree of random number generator.  *\/$/;"	m	struct:random_data
+rand_sep	lib/stdlib.h	/^    int rand_sep;		\/* Distance between front and rear.  *\/$/;"	m	struct:random_data
+rand_type	lib/stdlib.h	/^    int rand_type;		\/* Type of random number generator.  *\/$/;"	m	struct:random_data
+random_data	lib/stdlib.h	/^struct random_data$/;"	s
+rca	sddrv/sd_drv.h	/^		u32 rca;$/;"	m	struct:sd_handle
+rca	sddrv/sd_drv.h	/^   u32 rca;$/;"	m	struct:_sd_arg
+re_start_cmd	sddrv/s3c2440_sdio.c	/^u8 re_start_cmd()$/;"	f
+read	dev_manage/dev_manage.h	/^   int (*read)(long int addr, void *buffer, int buffer_len);$/;"	m	struct:dev_io
+read	sddrv/sd_drv.h	/^    u8 (*read)(u32 block_num, u16 offset, u8 *buff, u16 buff_len);$/;"	m	struct:sd_io
+read	uart/s3c2440_uart.h	/^		u16 (*read)(void *buff, u16 size);$/;"	m	struct:_uart_io
+read_block	sddrv/sd_drv.h	/^    u8 (*read_block)(u32 block_num, u8 *buff, u8 wait_flag);$/;"	m	struct:sd_io
+read_block	sddrv/sd_drv.h	/^   u8 (*read_block)(u8 *);$/;"	m	struct:sdio_io
+read_cbuff	cbuff/c_buff.c	/^u16 read_cbuff(c_buff_struct *cbuff, void *buf, u16 len)$/;"	f
+read_cbuff	uart/s3c2440_uart.h	/^		c_buff_struct *read_cbuff;$/;"	m	struct:_uart_handle
+read_cbuff_string	cbuff/c_buff.c	/^u16 read_cbuff_string(c_buff_struct *cbuff, char *string, u16 len)$/;"	f
+read_cmd	cmd/cmd.c	/^bool read_cmd(cmd_input_hd **input_hd_ret)$/;"	f
+read_ep_fifo	usb/usb_dev_control.c	/^u8 read_ep_fifo(u8 ep_index, u8 * buff, u8 size)$/;"	f
+read_format_resp	usb/SCSI.h	/^}read_format_resp;$/;"	t	typeref:struct:__anon14
+read_func_use_flag	cmd/cmd.c	/^static u8 read_func_use_flag = 0;$/;"	v	file:
+read_ptr	cbuff/c_buff.h	/^	u8 *read_ptr;$/;"	m	struct:c_buff_struct
+read_ptr	dev_manage/dev_manage.h	/^    unsigned int  *read_ptr;$/;"	m	struct:dev_msg_struct
+read_report_map_callback	usb/hid/hid.c	/^static u32 read_report_map_callback(u16 offset, void *buffer, u16 len)$/;"	f	file:
+read_report_map_callback	usb/hid_device_api.c	/^static u32 read_report_map_callback(u16 offset, void *buffer, u16 len)$/;"	f	file:
+read_report_map_cb	usb/hid/hid.h	/^typedef u32 (*read_report_map_cb)(u16 , void *, u16 );$/;"	t
+read_report_map_cb	usb/hid_device_api.h	/^typedef u32 (*read_report_map_cb)(u16 , void *, u16 );$/;"	t
+read_win	sddrv/sd_drv.c	/^static sd_win read_win;$/;"	v	file:
+readreg_cmd	cmd/cmd_common.c	/^u8 readreg_cmd(char **arg, int arg_num)$/;"	f
+realloc	lib/stdlib.c	/^void * realloc($/;"	f
+reboot_cmd	cmd/cmd_common.c	/^u8 reboot_cmd(char **arg, int arg_num)$/;"	f
+recive_type	usb/usb_drv.h	/^		u8 recive_type:5;$/;"	m	struct:_request_type
+recive_type	usb/usb_drv.h	/^}recive_type;$/;"	t	typeref:enum:__anon24
+reg16	comm/comm.h	/^typedef volatile unsigned short  reg16;$/;"	t
+reg32	comm/comm.h	/^typedef volatile unsigned long  reg32;$/;"	t
+reg8	comm/comm.h	/^typedef volatile unsigned char  reg8;$/;"	t
+register_cmd_in_func	cmd/cmd.c	/^bool register_cmd_in_func(u32 (*input_func)(char *, u32))$/;"	f
+register_dev_io	dev_manage/dev_manage.h	89;"	d
+register_irq	cpu/irq.c	/^void register_irq(u32 index, u32 sub_index,void (*isr)(void))$/;"	f
+register_task_list	task_manage/task_manage.h	37;"	d
+register_usb_hid_callback	usb/usb_hid_device.c	/^void register_usb_hid_callback(read_report_map_cb  read_report_map_callback,output_report_cb  output_report_callback)$/;"	f
+rem	lib/stdlib.h	/^    int rem;			\/* Remainder.  *\/$/;"	m	struct:__anon3
+rem	lib/stdlib.h	/^    long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon4
+rem	lib/stdlib.h	/^    long long int rem;		\/* Remainder.  *\/$/;"	m	struct:__anon5
+report_send_fun	usb/hid/hid.c	/^static _report_send_func report_send_fun = NULL;$/;"	v	file:
+report_send_fun	usb/hid_device_api.c	/^static _report_send_func report_send_fun = NULL;$/;"	v	file:
+request_type	usb/usb_drv.h	/^}__attribute__((packed)) request_type;$/;"	t	typeref:struct:_request_type
+reserved	usb/SCSI.h	/^	u8 reserved;$/;"	m	struct:cdb_cmd_10b
+resp_data_format	usb/SCSI.h	/^  u8 resp_data_format;  \/\/ Response Data Format$/;"	m	struct:__anon12
+respond	sddrv/sd_drv.h	/^	u32  respond[4]; $/;"	m	struct:_sd_arg
+respond_interrupt_exmple	usb/usb_dev_enum.c	/^const u8 respond_interrupt_exmple[8] = {0x0, 0x00, 0x39, 0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+respond_interrupt_exmple1	usb/usb_dev_enum.c	/^const u8 respond_interrupt_exmple1[8] = {0x0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+respond_null	usb/usb_hid_device.c	/^const u8 respond_null[8] = {0x0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+restat_cnt	sddrv/s3c2440_sdio.c	/^static u8 restat_cnt = 0;$/;"	v	file:
+rmb	usb/SCSI.h	/^  u8 rmb;               \/\/ Removable Media Bit$/;"	m	struct:__anon12
+rptr	lib/stdlib.h	/^    int32_t *rptr;		\/* Rear pointer.  *\/$/;"	m	struct:random_data
+rsp	sddrv/s3c2440_sdio.h	/^    u32 rsp[4];$/;"	m	struct:sdio_handle
+rsp_type	sddrv/s3c2440_sdio.h	/^		u8 rsp_type;  \/\/ 0 ≤ªœÏ”¶    1£∫∂ÃœÏ”¶      2£∫≥§œÏ”¶$/;"	m	struct:sdio_cmd
+run_flag	task_manage/task_manage.h	/^		u8 run_flag;$/;"	m	struct:__anon26
+s16	comm/comm.h	/^typedef short s16;$/;"	t
+s8	comm/comm.h	/^typedef char s8;$/;"	t
+sccstp	usb/SCSI.h	/^  u8 sccstp;            \/\/ SCC Supported (include embedded storage array)$/;"	m	struct:__anon12
+scsi_cmd_deal	usb/SCSI.c	/^u8  scsi_cmd_deal(u8 *cmd, u8 len)$/;"	f
+sd_buf	usb/usb_task.c	/^static u8 sd_buf[SD_BLOCK_SIZE];$/;"	v	file:
+sd_dev	dev_manage/dev_manage_api.c	/^static dev_hd *sd_dev = NULL;$/;"	v	file:
+sd_dev_io	sddrv/sd_dev_api.c	/^register_dev_io sd_dev_io =$/;"	v
+sd_dev_mount	sddrv/sd_dev_api.c	/^int sd_dev_mount(int major, void *parm)$/;"	f
+sd_dev_umount	sddrv/sd_dev_api.c	/^int sd_dev_umount()$/;"	f
+sd_dev_umount	usb/hid_device_api.c	/^static int sd_dev_umount()$/;"	f	file:
+sd_exit	sddrv/sd_drv.c	/^void sd_exit()$/;"	f
+sd_handle	sddrv/sd_drv.h	/^typedef struct sd_handle$/;"	s
+sd_handle	sddrv/sd_drv.h	/^}sd_handle;$/;"	t	typeref:struct:sd_handle
+sd_hd	sddrv/sd_drv.c	/^static sd_handle sd_hd =$/;"	v	file:
+sd_hd	usb/SCSI.c	/^static sd_handle *sd_hd = 0;$/;"	v	file:
+sd_hd	usb/usb_task.c	/^static sd_handle *sd_hd = 0;$/;"	v	file:
+sd_init	sddrv/sd_drv.c	/^u8 sd_init(void)$/;"	f
+sd_io	sddrv/sd_drv.h	/^typedef struct sd_io$/;"	s
+sd_io	sddrv/sd_drv.h	/^}sd_io;$/;"	t	typeref:struct:sd_io
+sd_ioctrl_api	sddrv/sd_dev_api.c	/^int sd_ioctrl_api(int cmd, void *parm)$/;"	f
+sd_major	sddrv/sd_dev_api.c	/^static int sd_major = 0xffff; $/;"	v	file:
+sd_pre_read	sddrv/sd_drv.c	/^u8 sd_pre_read(u32 block_num)$/;"	f
+sd_printf	sddrv/s3c2440_sdio.h	6;"	d
+sd_printf	sddrv/s3c2440_sdio.h	8;"	d
+sd_read	sddrv/sd_drv.c	/^u16 sd_read(u32 block_num, u16 offset, u8 *buff, u16 buff_len)$/;"	f
+sd_read_api	sddrv/sd_dev_api.c	/^int sd_read_api(unsigned int block_addr, void *buffer, int len)$/;"	f
+sd_read_block	sddrv/sd_drv.c	/^u8 sd_read_block(u32 block_num, u8 * buff, u8 wait_flag)$/;"	f
+sd_send_cmd	sddrv/sd_drv.c	/^static u8 sd_send_cmd(u8 cmd, u32 arg)$/;"	f	file:
+sd_size	sddrv/sd_drv.h	/^		u32 sd_size;$/;"	m	struct:sd_handle
+sd_win	sddrv/sd_drv.h	/^}sd_win;$/;"	t	typeref:struct:_sd_win
+sd_win_cache	sddrv/sd_drv.c	/^static u8 sd_win_cache[3][SD_BLOCK_SIZE];$/;"	v	file:
+sd_write	sddrv/sd_drv.c	/^u16 sd_write(u32 block_num, u16 offset, u8 *buff, u16 buff_len)$/;"	f
+sd_write_api	sddrv/sd_dev_api.c	/^int sd_write_api(unsigned int block_addr, void *buffer, int len)$/;"	f
+sd_write_block	sddrv/sd_drv.c	/^u8 sd_write_block(u32 block_num, u8 *buff,u8 wait_flag)$/;"	f
+sd_write_buff	sddrv/sd_drv.c	/^static u8 *sd_write_buff = NULL;$/;"	v	file:
+sd_write_buffer	sddrv/sd_drv.c	/^static u8 sd_write_buffer[SD_BLOCK_SIZE];$/;"	v	file:
+sdio_cmd	sddrv/s3c2440_sdio.h	/^typedef struct sdio_cmd$/;"	s
+sdio_cmd	sddrv/s3c2440_sdio.h	/^}sdio_cmd;$/;"	t	typeref:struct:sdio_cmd
+sdio_cmd_send	sddrv/s3c2440_sdio.c	/^u8 sdio_cmd_send(sdio_handle *hd)$/;"	f
+sdio_exit	sddrv/s3c2440_sdio.c	/^void sdio_exit()$/;"	f
+sdio_handle	sddrv/s3c2440_sdio.h	/^typedef struct sdio_handle$/;"	s
+sdio_handle	sddrv/s3c2440_sdio.h	/^} sdio_handle;$/;"	t	typeref:struct:sdio_handle
+sdio_hd	sddrv/s3c2440_sdio.c	/^static sdio_handle *sdio_hd = 0;$/;"	v	file:
+sdio_hd	sddrv/sd_drv.c	/^static sdio_handle sdio_hd;$/;"	v	file:
+sdio_init	sddrv/s3c2440_sdio.c	/^void sdio_init(void)$/;"	f
+sdio_io	sddrv/sd_drv.h	/^typedef struct sdio_io$/;"	s
+sdio_io	sddrv/sd_drv.h	/^}sdio_io;$/;"	t	typeref:struct:sdio_io
+sdio_isr	sddrv/s3c2440_sdio.c	/^u8  sdio_isr(void)$/;"	f
+sdio_recive_data	sddrv/s3c2440_sdio.c	/^u8 sdio_recive_data(u8 start)$/;"	f
+sdio_reg	sddrv/s3c2440_sdio.h	/^typedef struct sdio_reg$/;"	s
+sdio_reg	sddrv/s3c2440_sdio.h	/^} sdio_reg;$/;"	t	typeref:struct:sdio_reg
+sdio_send_data	sddrv/s3c2440_sdio.c	/^u8 sdio_send_data(u8 start)$/;"	f
+send_cmd	sddrv/sd_drv.h	/^   u8 (*send_cmd)(u8, u32, u32 *);$/;"	m	struct:sdio_io
+send_ep	usb/usb_drv.c	/^static u8 send_ep(ep_data_handle * ep_handle)$/;"	f	file:
+send_key	usb/usb_dev_enum.c	/^void send_key()$/;"	f
+send_mouse	usb/hid/hid.c	/^u32 send_mouse(s8 key, s8 x,s8 y, s8 wheel)$/;"	f
+send_mouse	usb/hid_device_api.c	/^u32 send_mouse(s8 key, s8 x,s8 y, s8 wheel)$/;"	f
+serial_init	uart/printf.c	/^inline u8 serial_init(u32 baud)$/;"	f
+service_action	usb/SCSI.h	/^	u8 service_action;$/;"	m	struct:cdb_cmd_10b
+service_action	usb/SCSI.h	/^	u8 service_action;$/;"	m	struct:cdb_cmd_12b
+set_csw_step	usb/usb_dev_enum.c	/^void set_csw_step(u8 step)$/;"	f
+set_data_end	usb/usb_drv.h	281;"	d
+set_data_end_and_in	usb/usb_drv.h	282;"	d
+set_get_ep0_data	usb/usb_drv.c	/^void set_get_ep0_data(void)$/;"	f
+set_mouse_sends	usb/hid/hid.c	/^void set_mouse_sends(u8 data)$/;"	f
+set_mouse_sends	usb/hid_device_api.c	/^void set_mouse_sends(u8 data)$/;"	f
+set_sdio_clk	sddrv/s3c2440_sdio.c	/^inline void set_sdio_clk(u8 pre)$/;"	f
+simple_strtol	lib/vsprintf.c	/^long simple_strtol(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoul	lib/vsprintf.c	/^unsigned long simple_strtoul(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoull	lib/vsprintf.c	/^unsigned long long simple_strtoull (const char *cp, char **endp, unsigned int base)$/;"	f
+skip_atoi	lib/vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+sprintf	lib/vsprintf.c	/^int sprintf(char * buf, const char *fmt, ...)$/;"	f
+sring1	usb/usb_dev_enum.c	/^    u8 sring1[] =$/;"	v
+sring1	usb/usb_dev_enum.c	/^u8 sring1[] =$/;"	v
+sring1	usb/usb_hid_device.c	/^u8 sring1[] =$/;"	v
+sring3	usb/usb_dev_enum.c	/^  u8 sring3[] =$/;"	v
+sring3	usb/usb_dev_enum.c	/^u8 sring3[] =$/;"	v
+sta_flag	sddrv/s3c2440_sdio.h	/^    u8 sta_flag;  $/;"	m	struct:sdio_handle
+start	cbuff/c_buff.h	/^	u8 *start;$/;"	m	struct:c_buff_struct
+start	start.S	/^start:$/;"	l
+start_flag	usb/usb_drv.h	/^		u8 start_flag;$/;"	m	struct:_EP_DATA_HANDLE
+start_mem	lib/malloc.c	/^	u8 *start_mem;$/;"	m	struct:__anon7	file:
+state	lib/stdlib.h	/^    int32_t *state;		\/* Array of state values.  *\/$/;"	m	struct:random_data
+status	usb/usb_drv.h	/^		u8 status;$/;"	m	struct:_usb_drv_handle
+stdio_cmd_table	sddrv/sd_drv.c	/^const u8 stdio_cmd_table[][5]= \/\/cmdÁ±ªÂûãÈÖçÁΩÆË°®{cmd, stopcmd withdata, longrsp, waitrsp}$/;"	v
+step	sddrv/s3c2440_sdio.c	/^volatile u8 step = 0;  \/\/0√ª”–≤Ÿ◊˜ 1√¸¡Ó∑¢≥ˆ 2 ˝æ›¥´ ‰÷– $/;"	v
+store_num	usb/usb_dev_enum.c	/^const u8 store_num = 0;$/;"	v
+str_to_double	comm/comm.c	/^double str_to_double(const char *str)$/;"	f
+str_to_int	comm/comm.c	/^int str_to_int(const char *str)$/;"	f
+strcat	lib/string.c	/^char * strcat(char * dest, const char * src)$/;"	f
+strchr	lib/string.c	/^char * strchr(const char * s, int c)$/;"	f
+strcmp	lib/string.c	/^int strcmp(const char * cs,const char * ct)$/;"	f
+strcpy	lib/string.c	/^char * strcpy(char * dest,const char *src)$/;"	f
+strdup	lib/string.c	/^char * strdup(const char *s)$/;"	f
+string_descriptor_point	usb/usb_drv.c	/^static u8 * string_descriptor_point[5] ={NULL};$/;"	v	file:
+string_descriptor_point	usb/usb_drv.h	/^		u8 **string_descriptor_point;$/;"	m	struct:_usb_drv_descriptor
+strlen	lib/string.c	/^size_t strlen(const char * s)$/;"	f
+strncat	lib/string.c	/^char * strncat(char *dest, const char *src, size_t count)$/;"	f
+strncmp	lib/string.c	/^int strncmp(const char * cs,const char * ct,size_t count)$/;"	f
+strncpy	lib/string.c	/^char * strncpy(char * dest,const char *src,size_t count)$/;"	f
+strnlen	lib/string.c	/^size_t strnlen(const char * s, size_t count)$/;"	f
+strpbrk	lib/string.c	/^char * strpbrk(const char * cs,const char * ct)$/;"	f
+strrchr	lib/string.c	/^char * strrchr(const char * s, int c)$/;"	f
+strsep	lib/string.c	/^char * strsep(char **s, const char *ct)$/;"	f
+strspn	lib/string.c	/^size_t strspn(const char *s, const char *accept)$/;"	f
+strstr	lib/string.c	/^char * strstr(const char * s1,const char * s2)$/;"	f
+strswab	lib/string.c	/^char *strswab(const char *s)$/;"	f
+strtod	lib/stdlib.h	/^__NTH (strtod (__const char *__restrict __nptr, char **__restrict __endptr))$/;"	f
+strtof	lib/stdlib.h	/^__NTH (strtof (__const char *__restrict __nptr, char **__restrict __endptr))$/;"	f
+strtok	lib/string.c	/^char * strtok(char * s,const char * ct)$/;"	f
+strtol	lib/stdlib.h	/^__NTH (strtol (__const char *__restrict __nptr, char **__restrict __endptr,$/;"	f
+strtold	lib/stdlib.h	/^__NTH (strtold (__const char *__restrict __nptr, char **__restrict __endptr))$/;"	f
+strtoll	lib/stdlib.h	/^__NTH (strtoll (__const char *__restrict __nptr, char **__restrict __endptr,$/;"	f
+strtoq	lib/stdlib.h	/^__NTH (strtoq (__const char *__restrict __nptr, char **__restrict __endptr,$/;"	f
+strtoul	lib/stdlib.h	/^__NTH (strtoul (__const char *__restrict __nptr, char **__restrict __endptr,$/;"	f
+strtoull	lib/stdlib.h	/^__NTH (strtoull (__const char * __restrict __nptr, char **__restrict __endptr,$/;"	f
+strtouq	lib/stdlib.h	/^__NTH (strtouq (__const char *__restrict __nptr, char **__restrict __endptr,$/;"	f
+sync_sd	sddrv/sd_drv.c	/^u8 sync_sd(void)$/;"	f
+sync_sd	sddrv/sd_drv.h	/^    u8 (*sync_sd)(void);    $/;"	m	struct:sd_io
+sys_init	comm/sys.c	/^void sys_init(void)$/;"	f
+sys_msg_pool	dev_manage/dev_manage.c	/^static unsigned int sys_msg_pool[MSG_POOL_SIZE];$/;"	v	file:
+task_chain	task_manage/task_manage.c	/^static chain_point *task_chain = 0;$/;"	v	file:
+task_cmd_deal	task_manage/task_manage.c	/^int task_cmd_deal(int cmd_index, char *arg)$/;"	f
+task_cmd_table	task_manage/task_manage.c	/^const char *task_cmd_table[]=$/;"	v
+task_do	task_manage/task_manage.c	/^int task_do(char **arg, int arg_num)$/;"	f
+task_err	task_manage/task_manage.h	/^}task_err;$/;"	v	typeref:enum:__anon27
+task_exit	task_manage/task_manage.h	/^    u8 (*task_exit)(void);$/;"	m	struct:__anon26
+task_func	task_manage/task_manage.h	/^    u8 (*task_func)(void *arg);$/;"	m	struct:__anon26
+task_init	task_manage/task_manage.h	/^    u8 (*task_init)(void);$/;"	m	struct:__anon26
+task_ls	task_manage/task_manage.h	/^}task_ls;$/;"	t	typeref:struct:__anon26
+task_pend_msg	task_manage/task_manage.c	/^u8 task_pend_msg(u32 *msg)$/;"	f
+task_post_msg	task_manage/task_manage.c	/^u8 task_post_msg(char *name, u8 len, ...)$/;"	f
+task_printf	task_manage/task_manage.c	11;"	d	file:
+task_printf	task_manage/task_manage.c	9;"	d	file:
+task_run	task_manage/task_manage.c	/^u8 task_run()$/;"	f
+task_run_cnt	usb/usb_task.c	/^static u32 task_run_cnt = 0;;$/;"	v	file:
+taskq_pend	task_manage/task_manage.c	/^u32 taskq_pend(void)$/;"	f
+taskq_post	task_manage/task_manage.c	/^u8 taskq_post(char *task_name, u32 msg)$/;"	f
+true	comm/config.h	27;"	d
+u16	comm/comm.h	/^typedef unsigned short u16 ;$/;"	t
+u32	comm/comm.h	/^typedef unsigned long  u32;$/;"	t
+u8	comm/comm.h	/^typedef unsigned char  bool, u8;$/;"	t
+uart0_isr	uart/s3c2440_uart.c	/^static void uart0_isr(void)$/;"	f	file:
+uart0_putbyte	uart/s3c2440_uart.c	/^static void uart0_putbyte(char c)$/;"	f	file:
+uart0_puts	uart/s3c2440_uart.c	/^void uart0_puts(void  *buff, u16 size)$/;"	f
+uart0_read	uart/s3c2440_uart.c	/^u32 uart0_read(char *buffer, u32 size)$/;"	f
+uart0_read_string	uart/s3c2440_uart.c	/^u16 uart0_read_string(char *string, u16 len)$/;"	f
+uart1_putbyte	uart/s3c2440_uart.c	/^void uart1_putbyte(char c)$/;"	f
+uart1_puts	uart/s3c2440_uart.c	/^void uart1_puts(void *buff, u16 size)$/;"	f
+uart_hand	uart/printf.c	/^static uart_handle *uart_hand;$/;"	v	file:
+uart_handle	uart/s3c2440_uart.h	/^}uart_handle;$/;"	t	typeref:struct:_uart_handle
+uart_hd	cmd/cmd.c	/^static uart_handle *uart_hd = NULL;$/;"	v	file:
+uart_hd	uart/s3c2440_uart.c	/^static uart_handle uart_hd[3];$/;"	v	file:
+uart_io	uart/s3c2440_uart.h	/^}uart_io;$/;"	t	typeref:struct:_uart_io
+uart_open	uart/s3c2440_uart.c	/^uart_handle *uart_open(USERIAL serial, u32 Baud)$/;"	f
+uart_putbyte	uart/s3c2440_uart.c	/^void uart_putbyte(USERIAL serial, char byte)$/;"	f
+uart_register	uart/s3c2440_uart.c	/^static UART_REG *uart_register[3] =$/;"	v	file:
+uart_write	uart/s3c2440_uart.c	/^void uart_write(USERIAL serial, char *buff, u8 size)$/;"	f
+umount	dev_manage/dev_manage.h	/^   int (*umount)();$/;"	m	struct:dev_io
+union_functional_descriptor	usb/usb_dev_enum.h	/^	UNION_FUNCTIONAL_DESCRIPTOR union_functional_descriptor;$/;"	m	struct:_CONF_INT_ENDP_DESCRIPTOR
+uprintf	uart/printf.c	/^void uprintf(char *buff, ...)$/;"	f
+uputs	uart/printf.c	/^void uputs(void *buff, u16 len)$/;"	f
+usb_data_callback	usb/usb_dev_enum.c	/^u8 usb_data_callback(u8 *read_data,u16 size,u8 ep_index)$/;"	f
+usb_data_callback	usb/usb_dev_enum.c	/^u8 usb_data_callback(u8*read_data,u16 size,u8 ep_index)$/;"	f
+usb_data_callback	usb/usb_hid_device.c	/^u8 usb_data_callback(u8 *read_data,u16 size,u8 ep_index)$/;"	f
+usb_dev_isr	usb/usb_dev_control.c	/^static void usb_dev_isr()$/;"	f	file:
+usb_event_callback	usb/usb_dev_control.h	/^typedef void (*usb_event_callback)(u16 evnt, u8 ep_index, u8 *buffer, u8 len);$/;"	t
+usb_event_cb	usb/usb_drv.c	/^static void usb_event_cb(u16 event, u8 ep_index, u8 *buffer, u8 buffer_len)$/;"	f	file:
+usb_exit	usb/usb_task.c	/^u8 usb_exit()$/;"	f
+usb_hd	usb/usb_dev_enum.c	/^_usb_drv_handle usb_hd;$/;"	v
+usb_hd	usb/usb_hid_device.c	/^static _usb_drv_handle usb_hd;$/;"	v	file:
+usb_hid_input_report_send	usb/usb_hid_device.c	/^void usb_hid_input_report_send(u8 report_id, u8 *buffer, u16 buffer_len)$/;"	f
+usb_hid_output_report_cb	usb/usb_hid_device.c	/^static output_report_cb   usb_hid_output_report_cb = NULL;$/;"	v	file:
+usb_hw_ctrl	usb/usb_dev_control.c	/^u32 usb_hw_ctrl(u8 CMD, u32 data)$/;"	f
+usb_init	usb/usb_task.c	/^u8 usb_init(void)$/;"	f
+usb_name	usb/usb_drv.h	/^		u8 *usb_name;$/;"	m	struct:_usb_drv_handle
+usb_printf	usb/usb_dev_control.c	18;"	d	file:
+usb_printf	usb/usb_dev_control.c	20;"	d	file:
+usb_printf	usb/usb_drv.h	10;"	d
+usb_printf	usb/usb_drv.h	8;"	d
+usb_read_hid_map	usb/usb_hid_device.c	/^static read_report_map_cb usb_read_hid_map = NULL;$/;"	v	file:
+usb_task	usb/usb_task.c	/^u8 usb_task(void *p)$/;"	f
+usb_task_ls	usb/usb_task.c	/^task_ls usb_task_ls =$/;"	v
+usb_write	usb/usb_dev_enum.c	/^u8 usb_write(void *buff,u16 len)$/;"	f
+usb_write	usb/usb_dev_enum.c	/^u8 usb_write(void*buff,u16 len)$/;"	f
+user_flag	lib/malloc.c	/^	u32 user_flag:3;$/;"	m	struct:__anon6	file:
+va_arg	include_lib/vsprintf.h	29;"	d
+va_end	include_lib/vsprintf.h	30;"	d
+va_list	include_lib/vsprintf.h	/^typedef char *va_list;$/;"	t
+va_start	include_lib/vsprintf.h	31;"	d
+vendor_id	usb/SCSI.h	/^  u8 vendor_id[8];$/;"	m	struct:__anon12
+version	usb/SCSI.h	/^  u8 version;           \/\/ Version Field$/;"	m	struct:__anon12
+volume_data	usb/hid/hid.c	/^static _volume_data volume_data;$/;"	v	file:
+volume_data	usb/hid_device_api.c	/^static _volume_data volume_data;$/;"	v	file:
+vsprintf	lib/vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+wDescriptorLength	usb/usb_dev_enum.h	/^		u16 wDescriptorLength; \/\/œ¬º∂√Ë ˆ∑˚µƒ≥§∂»$/;"	m	struct:_HID_SUB_DESCRIPTOR_STRUCT
+wDescriptorLength	usb/usb_hid_device.h	/^		u16 wDescriptorLength; \/\/‰∏ãÁ∫ßÊèèËø∞Á¨¶ÁöÑÈïøÂ∫¶$/;"	m	struct:_HID_SUB_DESCRIPTOR_STRUCT
+wMaxPacketSizeH	usb/usb_drv.h	/^    u8 wMaxPacketSizeH;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+wMaxPacketSizeL	usb/usb_drv.h	/^    u8 wMaxPacketSizeL;$/;"	m	struct:USB_ENDPOINT_DESCRIPTOR
+wTotalLengthH	usb/usb_drv.h	/^    u8 wTotalLengthH;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+wTotalLengthL	usb/usb_drv.h	/^    u8 wTotalLengthL;$/;"	m	struct:USB_CONFIGURATION_DESCRIPTOR
+w_ptr	msg/q_msg.h	/^    u16 w_ptr;$/;"	m	struct:__anon31
+withdata	sddrv/s3c2440_sdio.h	/^		bool withdata;  \/\/£¨√¸¡Ó «∑Ò¥¯ ˝æ›$/;"	m	struct:sdio_cmd
+write	dev_manage/dev_manage.h	/^   int (*write)(long int addr, void *buffer, int buffer_len);$/;"	m	struct:dev_io
+write	sddrv/sd_drv.h	/^    u8 (*write)(u32 block_num, u16 offset, u8 *buff, u16 buff_len);$/;"	m	struct:sd_io
+write_block	sddrv/sd_drv.h	/^    u8 (*write_block)(u32 block_num, u8 *buff, u8 wait_flag);$/;"	m	struct:sd_io
+write_block	sddrv/sd_drv.h	/^   u8 (*write_block)(u8 *);$/;"	m	struct:sdio_io
+write_cache_num	sddrv/sd_drv.c	/^static bool write_cache_num = 0;$/;"	v	file:
+write_cbuff	cbuff/c_buff.c	/^u16 write_cbuff(c_buff_struct *cbuff, void *buf, u16 len)$/;"	f
+write_cbuff	uart/s3c2440_uart.h	/^		c_buff_struct *write_cbuff;$/;"	m	struct:_uart_handle
+write_ep	usb/usb_drv.c	/^u8 write_ep(u8 * buff, u16 len, u8 ep_index)$/;"	f
+write_ep_fifo	usb/usb_dev_control.c	/^u8 write_ep_fifo(u8 ep_index, u8 *buff, u8 size) $/;"	f
+write_ptr	cbuff/c_buff.h	/^	u8 *write_ptr;$/;"	m	struct:c_buff_struct
+write_ptr	dev_manage/dev_manage.h	/^    unsigned int  *write_ptr;$/;"	m	struct:dev_msg_struct
+write_tx_fifo	uart/s3c2440_uart.c	/^static void write_tx_fifo(USERIAL serial)$/;"	f	file:
+write_win	sddrv/sd_drv.c	/^static sd_win write_win[2];$/;"	v	file:

@@ -1,0 +1,4612 @@
+cscope 15 /work/liuxing/usb/sddrv               0000023966
+	@s3c2440_sdio.c
+
+1 
+	~"c⁄fig.h
+"
+
+2 
+	~"s3c2440_sdio.h
+"
+
+3 
+	~"s3c2440_u¨t.h
+"
+
+4 
+	~"S3C2440.H
+"
+
+5 * 
+	gi§_h™dÀ_¨øy
+ = (*) 0x33fb06b0;
+
+6 
+u8
+ 
+sdio_i§
+();
+
+7 
+sdio_h™dÀ
+ *
+	gsdio_hd
+ = 0;
+
+8 vﬁ©ûê
+u8
+ 
+	g°ï
+ = 0;
+
+28 
+	$sdio_öô
+()
+
+30 
+u32
+ 
+i
+;
+
+32 
+SDIO
+->
+CON
+ = (0x01<<8);
+
+33 
+CLCKCON
+ |= 0x01<<9;
+
+34 
+SDIO
+->
+PRE
+ = 500;
+
+36 
+SDIO
+->
+BSIZE
+ = 512;
+
+38 
+SDIO
+->
+DATCON
+ = (1<<20)|(1<<19)|(1<<18);
+
+40 
+GPEUP
+ &= ~(0x1f<<6);
+
+41 
+GPECON
+ &= ~((0x03<<10)|(0x03<<12)|(0x03<<14)|(0x03<<16)|(0x03<<18)|(0x03<<20));
+
+42 
+GPECON
+ |= (0x02<<10)|(0x02<<12)|(0x02<<14)|(0x02<<16)|(0x02<<18)|(0x02<<20);
+
+43 
+SDIO
+->
+CON
+ = (0x01<<2)|0x01;
+
+44 
+i§_h™dÀ_¨øy
+[21] = ()
+sdio_i§
+;
+
+45 
+INTMSK
+ &= ~(1 << 21);
+
+49 
+	`dñay
+(1000);
+
+51 
+	}
+}
+
+52 
+u8
+ 
+	$check_sdio_busy
+()
+
+55  
+°ï
+;
+
+56 
+	}
+}
+
+57 
+	$£t_sdio_˛k
+(
+u8
+ 
+¥e
+)
+
+59 
+SDIO
+->
+PRE
+ = 
+¥e
+;
+
+60 
+	}
+}
+
+61 
+u8
+ 
+	$›í_sdio
+(
+sdio_h™dÀ
+ *
+hd
+)
+
+63 if(
+hd
+ == 0)
+
+67 
+sdio_hd
+ = 
+hd
+;
+
+68 
+sdio_hd
+->
+buff
+ = 0;
+
+69 
+sdio_hd
+->
+d©a_˙t
+ = 0;
+
+70 
+sdio_hd
+->
+d©a_Àn
+ = 0;
+
+71 
+sdio_hd
+->
+°a_Êag
+ = 0;
+
+72 
+sdio_hd
+->
+cmd
+.cmd = 0;
+
+73 
+sdio_hd
+->
+cmd
+.
+wôhd©a
+ = 0;
+
+74 
+°ï
+ = 0;
+
+75 
+	`sdio_öô
+();
+
+77 
+	}
+}
+
+79 
+u8
+ 
+	$sdio_£nd_d©a
+(
+u8
+ 
+°¨t
+)
+
+82 if(
+°ï
+ == 0)
+
+85 if(
+sdio_hd
+ == 0)
+
+88 if(
+sdio_hd
+->
+buff
+ == 0)
+
+91 
+SDIO
+->
+TIMER
+ = 0x2ffff;
+
+92 
+SDIO
+->
+BSIZE
+ = 
+BLOCK_SIZE
+;
+
+93 
+SDIO
+->
+DATCON
+ = 
+DATASIZE_U8
+|
+BLKMODE_BLOCK
+|
+WIDEBUS_4BIT
+|
+SEND_DATA_MODE
+|0X01;
+
+95 
+SDIO
+->
+FSTA
+&
+TF_DET
+)
+
+97 if(
+sdio_hd
+->
+d©a_˙t
+ >sdio_hd->
+d©a_Àn
+)
+
+101 
+SDIDATB
+ = 
+sdio_hd
+->
+buff
+[sdio_hd->
+d©a_˙t
+++];
+
+105 if((
+sdio_hd
+->
+d©a_˙t
+ >
+BLOCK_SIZE
+))
+
+111 if(
+°¨t
+)
+
+112 
+SDIO
+->
+DATCON
+ |
+DATA_START
+;
+
+116 
+	}
+}
+
+118 
+u8
+ 
+	$sdio_ªcive_d©a
+(
+u8
+ 
+°¨t
+)
+
+121 if(
+°ï
+ == 0)
+
+124 if(
+sdio_hd
+ == 0)
+
+127 if(
+sdio_hd
+->
+buff
+ == 0)
+
+130 
+SDIO
+->
+TIMER
+ = 0x2ffff;
+
+131 
+SDIO
+->
+BSIZE
+ = 
+BLOCK_SIZE
+;
+
+132 
+SDIO
+->
+DATCON
+ = 
+DATASIZE_U8
+|
+BLKMODE_BLOCK
+|
+WIDEBUS_4BIT
+|
+RECIVE_DATA_MODE
+|0x01;
+
+134 
+SDIO
+->
+FSTA
+&
+RF_DET
+)
+
+137 if(
+sdio_hd
+->
+d©a_˙t
+ >sdio_hd->
+d©a_Àn
+)
+
+140 
+sdio_hd
+->
+buff
+[sdio_hd->
+d©a_˙t
+++] = 
+SDIDATB
+;
+
+143 if(
+°¨t
+)
+
+144 
+SDIO
+->
+DATCON
+ |
+DATA_START
+;
+
+147 
+	}
+}
+
+155 
+u8
+ 
+	$sdio_cmd_£nd
+(
+sdio_h™dÀ
+ *
+hd
+)
+
+157 
+u8
+ 
+ªs
+ = 0;
+
+158 
+u32
+ 
+msk
+ = 0;
+
+159 if(
+hd
+ == 0)
+
+163 if(
+	`check_sdio_busy
+())
+
+168 
+sdio_hd
+ = 
+hd
+;
+
+169 
+SDIO
+->
+CMDSTA
+ |= 0x1f00;
+
+170 
+SDIO
+->
+CMDARG
+ = 
+sdio_hd
+->
+cmd
+.
+¨g
+;
+
+171 
+SDIO
+->
+CMDCON
+ = (
+sdio_hd
+->
+cmd
+.cmd&0x3f)|(1<<6);
+
+173 if(
+sdio_hd
+->
+cmd
+.
+ab‹tcmd
+)
+
+175 
+SDIO
+->
+CMDCON
+ |=1<<12;
+
+178 if(
+sdio_hd
+->
+cmd
+.
+wôhd©a
+)
+
+180 
+SDIO
+->
+CMDCON
+ |=1<<11;
+
+181 
+msk
+ |
+RECIBE_CRC_ERR_INT
+|
+DATATIMEOUT_INT
+|
+DATAFIN_INT
+|
+TFHALF_INT
+|
+REHAFL_INT
+;
+
+184 if(
+sdio_hd
+->
+cmd
+.
+r•_ty≥
+)
+
+186 
+sdio_hd
+->
+r•
+[0] = 0;
+
+187 
+sdio_hd
+->
+r•
+[1] = 0;
+
+188 
+sdio_hd
+->
+r•
+[2] = 0;
+
+189 
+sdio_hd
+->
+r•
+[3] = 0;
+
+190 
+SDIO
+->
+CMDCON
+ |=1<<9;
+
+191 
+msk
+ |
+RSPCRC_INT
+|
+RSPEND_INT
+;
+
+192 if(
+sdio_hd
+->
+cmd
+.
+r•_ty≥
+ == 2)
+
+194 
+SDIO
+->
+CMDCON
+ |=1<<10;
+
+200 
+msk
+ |
+CMD_SEND_INT
+;
+
+203 
+msk
+ |
+CMDTIMEOUT_INT
+|
+CRCSTA_INT
+;
+
+205 
+°ï
+ = 1;
+
+206 
+sdio_hd
+->
+°a_Êag
+ = 0;
+
+207 
+SDIO
+->
+CMDCON
+ |= 0x01<<8;
+
+208 
+SDIO
+->
+INT_MSK
+ = 
+msk
+;
+
+210 if(
+sdio_hd
+->
+cmd
+.
+wôhd©a
+)
+
+212 
+sdio_hd
+->
+d©a_˙t
+ = 0;
+
+213 
+SDIO
+->
+DATSTA
+ = 0x0fff;
+
+214 
+SDIO
+->
+FSTA
+ =(0x1<<16);
+
+216 if(
+sdio_hd
+->
+d©a_dú
+)
+
+218 
+	`sdio_ªcive_d©a
+(1);
+
+224 
+	`sdio_£nd_d©a
+(1);
+
+228 
+°ï
+==1)
+
+231 
+	`dñay
+(10);
+
+235 if(
+sdio_hd
+->
+°a_Êag
+)
+
+241 
+	}
+}
+
+242 
+u8
+ 
+	gª°©_˙t
+ = 0;
+
+243 
+u8
+ 
+	$ª_°¨t_cmd
+()
+
+246 if(
+ª°©_˙t
+++ == 5)
+
+248 
+ª°©_˙t
+ = 0;
+
+252 
+SDIO
+->
+CMDCON
+ |= 0x01<<8;
+
+254 
+°ï
+ = 1;
+
+255 
+sdio_hd
+->
+°a_Êag
+ = 0;
+
+256 if(
+sdio_hd
+->
+cmd
+.
+wôhd©a
+)
+
+258 
+sdio_hd
+->
+d©a_˙t
+ = 0;
+
+259 
+SDIO
+->
+DATSTA
+ = 0x0fff;
+
+260 
+SDIO
+->
+FSTA
+ =(0x1<<16);
+
+262 if(
+sdio_hd
+->
+d©a_dú
+)
+
+264 
+	`sdio_ªcive_d©a
+(1);
+
+268 
+	`sdio_£nd_d©a
+(1);
+
+273 
+	}
+}
+
+274 
+u8
+ 
+	$sdio_i§
+()
+
+277 if(
+sdio_hd
+)
+
+280 if(
+SDIO
+->
+CMDSTA
+ & 
+RSPCRC_ERR
+)
+
+282 
+	`sd_¥ötf
+("cmd crc\n\r");
+
+283 if(
+	`ª_°¨t_cmd
+() == 0)
+
+287 
+sdio_hd
+->
+°a_Êag
+ |
+CRC_ERR
+;
+
+288 
+°ï
+ = 0;
+
+289 
+SDIO
+->
+CMDSTA
+ |
+RSPCRC_ERR
+;
+
+290 
+sdio_hd
+->
+r•
+[0] = 
+SDIO
+->
+RSP0
+;
+
+294 if(
+SDIO
+->
+CMDSTA
+ & 
+CMDTOUT
+)
+
+296 
+	`sd_¥ötf
+("cmdÅime out\n\r");
+
+297 if(
+	`ª_°¨t_cmd
+() == 0)
+
+301 
+sdio_hd
+->
+°a_Êag
+ |
+TOUT
+;
+
+302 
+°ï
+ = 0;
+
+303 
+SDIO
+->
+CMDSTA
+ |
+CMDTOUT
+;
+
+306 if(
+sdio_hd
+->
+cmd
+.
+r•_ty≥
+ == 0)
+
+308 if(
+SDIO
+->
+CMDSTA
+ & 
+CMD_SEND_END
+)
+
+310 
+	`sd_¥ötf
+("cmd send\n\r");
+
+311 
+SDIO
+->
+CMDSTA
+ |
+CMD_SEND_END
+;
+
+312 
+°ï
+ = 0;
+
+317 if(
+SDIO
+->
+CMDSTA
+ & 
+RSPFIN
+)
+
+320 if(
+sdio_hd
+->
+cmd
+.
+wôhd©a
+)
+
+322 
+°ï
+ = 2;
+
+326 
+°ï
+ = 0;
+
+329 if(
+sdio_hd
+->
+cmd
+.
+r•_ty≥
+ == 2)
+
+331 
+	`sd_¥ötf
+("r•_ty≥ %d\n\r", 
+°ï
+);
+
+332 
+sdio_hd
+->
+r•
+[0] = 
+SDIO
+->
+RSP3
+;
+
+333 
+sdio_hd
+->
+r•
+[1] = 
+SDIO
+->
+RSP2
+;
+
+334 
+sdio_hd
+->
+r•
+[2] = 
+SDIO
+->
+RSP1
+;
+
+335 
+sdio_hd
+->
+r•
+[3] = 
+SDIO
+->
+RSP0
+;
+
+339 
+sdio_hd
+->
+r•
+[0] = 
+SDIO
+->
+RSP0
+;
+
+342 
+SDIO
+->
+CMDSTA
+ |
+RSPFIN
+;
+
+358 if(
+SDIO
+->
+DATSTA
+ & 
+BUSYTFIN_STA
+)
+
+360 
+	`sd_¥ötf
+("busy %d\n\r", 
+SDIO
+->
+DATSTA
+ & 
+NOBUSY_STA
+);
+
+361 if((
+SDIO
+->
+DATSTA
+ & 
+NOBUSY_STA
+)==0)
+
+364 
+sdio_hd
+->
+°a_Êag
+ |
+SD_BUSY
+;
+
+369 
+SDIO
+->
+DATSTA
+ |
+NOBUSY_STA
+;
+
+371 
+°ï
+ = 0;
+
+372 
+SDIO
+->
+DATSTA
+ |
+BUSYTFIN_STA
+;
+
+375 if(
+sdio_hd
+->
+cmd
+.
+wôhd©a
+)
+
+377 if(
+SDIO
+->
+DATSTA
+ & 
+CRCERR_STA
+)
+
+379 
+	`sd_¥ötf
+("CRCERR_STA\n\r");
+
+380 if(
+	`ª_°¨t_cmd
+() == 0)
+
+384 
+sdio_hd
+->
+°a_Êag
+ |
+CRC_ERR
+;
+
+385 
+°ï
+ = 0;
+
+386 
+SDIO
+->
+DATSTA
+ |
+CRCERR_STA
+;
+
+389 if(
+SDIO
+->
+DATSTA
+ & 
+DATACRC_STA
+)
+
+391 
+	`sd_¥ötf
+("DATACRC_STA\n\r");
+
+392 if(
+	`ª_°¨t_cmd
+() == 0)
+
+396 
+sdio_hd
+->
+°a_Êag
+ |
+CRC_ERR
+;
+
+397 
+°ï
+ = 0;
+
+398 
+SDIO
+->
+DATSTA
+ |
+DATACRC_STA
+;
+
+402 if(
+SDIO
+->
+DATSTA
+ & 
+DATATIMEOUT_STA
+)
+
+404 
+SDIO
+->
+DATSTA
+ |
+DATATIMEOUT_STA
+;
+
+405 
+	`sd_¥ötf
+("DATATIMEOUT_STA\n\r");
+
+406 if(
+°ï
+)
+
+408 if(
+	`ª_°¨t_cmd
+() == 0)
+
+412 
+sdio_hd
+->
+°a_Êag
+ |
+TOUT
+;
+
+413 
+°ï
+ = 0;
+
+419 if(
+SDIO
+->
+DATSTA
+ & 
+DATFIN_STA
+)
+
+422 
+°ï
+ = 0;
+
+423 
+SDIO
+->
+DATSTA
+ |
+DATFIN_STA
+;
+
+424 
+SDIO
+->
+DATCON
+ = 0;
+
+429 if(
+sdio_hd
+->
+d©a_dú
+ == 1)
+
+432 if(
+SDIO
+->
+FSTA
+ & 
+RF_HAFL
+)
+
+435 
+	`sdio_ªcive_d©a
+(0);
+
+437 if(
+SDIO
+->
+FSTA
+ & 
+RF_LAST
+)
+
+441 
+	`sdio_ªcive_d©a
+(0);
+
+447 if(
+SDIO
+->
+FSTA
+ & 
+TF_HALF
+)
+
+449 
+	`sd_¥ötf
+("TF_HALF 0x%x\n\r", 
+SDIO
+->
+DATSTA
+);
+
+450 
+	`sdio_£nd_d©a
+(0);
+
+457 
+SDIO
+->
+DATSTA
+ = 0x0fff;
+
+462 
+SDIO
+->
+CMDSTA
+ |= 0x1f00;
+
+463 
+SDIO
+->
+DATSTA
+ = 0x0fff;
+
+465 
+SRCPND
+ |
+	`BIT
+(25);
+
+466 
+INTPND
+ |
+	`BIT
+(25);
+
+468 
+	}
+}
+
+	@s3c2440_sdio.h
+
+1 #i‚de‡
+_SDIO_
+
+
+2 
+	#_SDIO_
+
+
+	)
+
+4 
+	#SD_DEBUG
+
+
+	)
+
+5 #ifde‡
+SD_DEBUG
+
+
+6 
+	#sd_¥ötf
+ 
+u¥ötf
+
+
+	)
+
+8 
+	#sd_¥ötf
+(...)
+
+	)
+
+10 
+	ssdio_ªg
+
+
+12 vﬁ©ûê
+	mCON
+;
+
+13 vﬁ©ûê
+	mPRE
+;
+
+14 vﬁ©ûê
+	mCMDARG
+;
+
+15 vﬁ©ûê
+	mCMDCON
+;
+
+16 vﬁ©ûê
+	mCMDSTA
+;
+
+17 vﬁ©ûê
+	mRSP0
+;
+
+18 vﬁ©ûê
+	mRSP1
+;
+
+19 vﬁ©ûê
+	mRSP2
+;
+
+20 vﬁ©ûê
+	mRSP3
+;
+
+21 vﬁ©ûê
+	mTIMER
+;
+
+22 vﬁ©ûê
+	mBSIZE
+;
+
+23 vﬁ©ûê
+	mDATCON
+;
+
+24 vﬁ©ûê
+	mDATCNT
+;
+
+25 vﬁ©ûê
+	mDATSTA
+;
+
+26 vﬁ©ûê
+	mFSTA
+;
+
+27 vﬁ©ûê
+	mINT_MSK
+;
+
+28 vﬁ©ûê
+	mDAT
+;
+
+29 } 
+	tsdio_ªg
+;
+
+31 
+	#SDIO
+ ((vﬁ©ûê
+sdio_ªg
+ *)0x5A000000)
+
+	)
+
+32 
+	#SDIDATB
+ *((vﬁ©ûê
+u8
+ *)0x5A000048)
+
+	)
+
+33 
+	#GPECON
+ *((vﬁ©ûê*)0x56000040)
+
+	)
+
+34 
+	#GPEUP
+ *((vﬁ©ûê*)0x56000048)
+
+	)
+
+36 
+	#BLOCK_SIZE
+ (512)
+
+	)
+
+37 
+	#DATASIZE_U32
+ (0x02<<22)
+
+	)
+
+38 
+	#DATASIZE_U16
+ (0x01<<22)
+
+	)
+
+39 
+	#DATASIZE_U8
+ (0)
+
+	)
+
+41 
+	#BLKMODE_BLOCK
+ (1<<17)
+
+	)
+
+42 
+	#BLKMODE_FLUX
+ (0<<17)
+
+	)
+
+44 
+	#WIDEBUS_4BIT
+ (1<<16)
+
+	)
+
+45 
+	#WIDEBUS_1BIT
+ (0<<16)
+
+	)
+
+47 
+	#EnDMA
+ (1<<15)
+
+	)
+
+48 
+	#DisDMA
+ (0<<15)
+
+	)
+
+50 
+	#DATA_START
+ (1<<14)
+
+	)
+
+52 
+	#SEND_DATA_MODE
+ (3<<12)
+
+	)
+
+53 
+	#RECIVE_DATA_MODE
+ (2<<12)
+
+	)
+
+54 
+	#CHECK_BUSY
+ (1<<12)
+
+	)
+
+57 
+	#NOBUSY_INT
+ (1<<18)
+
+	)
+
+58 
+	#RSPCRC_INT
+ (1<<17)
+
+	)
+
+59 
+	#CMD_SEND_INT
+ (1<<16)
+
+	)
+
+60 
+	#CMDTIMEOUT_INT
+ (1<<15)
+
+	)
+
+61 
+	#RSPEND_INT
+ (1<<14)
+
+	)
+
+62 
+	#RWREQ_INT
+ (1<<13)
+
+	)
+
+63 
+	#CRCSTA_INT
+ (1<<10)
+
+	)
+
+64 
+	#RECIBE_CRC_ERR_INT
+ (1<<9)
+
+	)
+
+65 
+	#DATATIMEOUT_INT
+ (1<<8)
+
+	)
+
+66 
+	#DATAFIN_INT
+ (1<<7)
+
+	)
+
+67 
+	#BUSYFIN_INT
+ (1<<6)
+
+	)
+
+68 
+	#TFHALF_INT
+ (1<<4)
+
+	)
+
+69 
+	#TFEMPT_INT
+ (1<<3)
+
+	)
+
+70 
+	#RTLAST_INT
+ (1<<2)
+
+	)
+
+71 
+	#REFULL_INT
+ (1<<1)
+
+	)
+
+72 
+	#REHAFL_INT
+ (1<<0)
+
+	)
+
+76 
+	#NOBUSY_STA
+ (1<<11)
+
+	)
+
+77 
+	#CRCERR_STA
+ (1<<7)
+
+	)
+
+78 
+	#DATACRC_STA
+ (1<<6)
+
+	)
+
+79 
+	#DATATIMEOUT_STA
+ (1<<5)
+
+	)
+
+80 
+	#DATFIN_STA
+ (1<<4)
+
+	)
+
+81 
+	#BUSYTFIN_STA
+ (1<<3)
+
+	)
+
+82 
+	#TXDATAON
+ (1<<1)
+
+	)
+
+83 
+	#RXDATAON
+ (1<<0)
+
+	)
+
+87 
+	#RSPCRC_ERR
+ (1<<12)
+
+	)
+
+88 
+	#CMD_SEND_END
+ (1<<11)
+
+	)
+
+89 
+	#CMDTOUT
+ (1<<10)
+
+	)
+
+90 
+	#RSPFIN
+ (1<<9)
+
+	)
+
+91 
+	#CMD_ON
+ (1<<8)
+
+	)
+
+94 
+	#FF_FAIL
+ (3<<14)
+
+	)
+
+95 
+	#TF_DET
+ (1<<13)
+
+	)
+
+96 
+	#RF_DET
+ (1<<12)
+
+	)
+
+97 
+	#TF_HALF
+ (1<<11)
+
+	)
+
+98 
+	#TF_EMPT
+ (1<<10)
+
+	)
+
+99 
+	#RF_LAST
+ (1<<9)
+
+	)
+
+100 
+	#RF_FULL
+ (1<<8)
+
+	)
+
+101 
+	#RF_HAFL
+ (1<<7)
+
+	)
+
+104 
+	#CRC_ERR
+ (1<<8)
+
+	)
+
+105 
+	#TOUT
+ (1<<7)
+
+	)
+
+106 
+	#CMD_MATCH
+ (1<<6)
+
+	)
+
+107 
+	#SD_BUSY
+ (1<<5)
+
+	)
+
+109 
+	ssdio_cmd
+
+
+111 
+u8
+ 
+	mcmd
+;
+
+112 
+_boﬁ
+ 
+	mab‹tcmd
+;
+
+113 
+_boﬁ
+ 
+	mwôhd©a
+;
+
+114 
+u8
+ 
+	mr•_ty≥
+;
+
+115 
+u32
+ 
+	m¨g
+;
+
+116 }
+	tsdio_cmd
+;
+
+118 
+	ssdio_h™dÀ
+
+
+120 
+sdio_cmd
+ 
+	mcmd
+;
+
+121 
+u16
+ 
+	md©a_Àn
+;
+
+122 
+u16
+ 
+	md©a_˙t
+;
+
+123 
+u32
+ 
+	mr•
+[4];
+
+124 
+u8
+ *
+	mbuff
+;
+
+125 
+u8
+ 
+	md©a_dú
+;
+
+126 
+u8
+ 
+	m°a_Êag
+;
+
+127 } 
+	tsdio_h™dÀ
+;
+
+129 
+sdio_öô
+();
+
+134 
+u8
+ 
+sdio_cmd_£nd
+(
+sdio_h™dÀ
+ *
+hd
+);
+
+135 
+u8
+ 
+›í_sdio
+(
+sdio_h™dÀ
+ *
+hd
+) ;
+
+136 
+u8
+ 
+check_sdio_busy
+();
+
+137 
+£t_sdio_˛k
+(
+u8
+ 
+¥e
+);
+
+	@sd_dev_api.c
+
+1 
+	~"sd_drv.h
+"
+
+2 
+	~"sd_dev_≠i.h
+"
+
+4 
+	$sd_dev_m⁄ut
+(
+maj‹
+, *
+∑rm
+)
+
+6 
+	}
+}
+
+	@sd_dev_api.h
+
+1 #i‚de‡
+_SD_DEV_API_
+
+
+2 
+	#_SD_DEV_API_
+
+
+	)
+
+	@sd_drv.c
+
+1 
+	~"c⁄fig.h
+"
+
+2 
+	~"s3c2440_sdio.h
+"
+
+3 
+	~"sd_drv.h
+"
+
+4 
+	~"s3c2440_u¨t.h
+"
+
+7 c⁄° 
+u8
+ 
+	g°dio_cmd_èbÀ
+[][5]=
+
+46 
+sdio_h™dÀ
+ 
+	gsdio_hd
+;
+
+48 
+sd_h™dÀ
+ 
+	gsd_hd
+ =
+
+50 .
+öô_Êag
+ = 0,
+
+52 
+sd_wö
+ 
+	gwrôe_wö
+[2];
+
+53 
+sd_wö
+ 
+	gªad_wö
+;
+
+55 
+u8
+ 
+	$lﬂd_cmd
+(
+sdio_h™dÀ
+ *
+hd
+, 
+u8
+ 
+cmd
+, 
+u32
+ 
+¨g
+)
+
+57 if(
+cmd
+ >=(
+°dio_cmd_èbÀ
+)/( stdio_cmd_table[0]))
+
+61 
+hd
+->
+cmd
+.cmd = 
+°dio_cmd_èbÀ
+[cmd][0];
+
+62 
+hd
+->
+cmd
+.
+ab‹tcmd
+ = 
+°dio_cmd_èbÀ
+[cmd][1];
+
+63 
+hd
+->
+cmd
+.
+wôhd©a
+ = 
+°dio_cmd_èbÀ
+[cmd][2];
+
+64 
+hd
+->
+cmd
+.
+r•_ty≥
+ = 
+°dio_cmd_èbÀ
+[cmd][3] + stdio_cmd_table[cmd][4];
+
+67 
+hd
+->
+cmd
+.
+¨g
+ =árg;
+
+69 
+	}
+}
+
+77 
+u8
+ 
+	$sd_£nd_cmd
+(
+u8
+ 
+cmd
+, 
+u32
+ 
+¨g
+)
+
+79 
+u8
+ 
+ªs
+;
+
+80 
+	`check_sdio_busy
+())
+
+82 
+	`dñay
+(10);
+
+85 
+ªs
+ = 
+	`lﬂd_cmd
+(&
+sdio_hd
+, 
+cmd
+, 
+¨g
+);
+
+86 if(
+ªs
+)
+
+91 
+ªs
+ = 
+	`sdio_cmd_£nd
+(&
+sdio_hd
+);
+
+92 if(
+ªs
+)
+
+94 
+	`sd_¥ötf
+("sd cmdÉº:%d\n", 
+ªs
+);
+
+99 
+	}
+}
+
+102 
+u8
+ 
+	$™Æysis_CSD
+(
+u32
+ *
+csd
+)
+
+104 
+u32
+ 
+c_size
+;
+
+105 
+u32
+ 
+size_mu…
+;
+
+106 
+u8
+ 
+sd_ty≥
+ = 
+	`gë_bô_vÆue
+(
+csd
+, 126, 1);
+
+107 
+sd_hd
+.
+d©a_èns„r
+ = 
+	`gë_bô_vÆue
+(
+csd
+, 96, 8)>>1;
+
+108 
+sd_hd
+.
+block_size
+ = 0x0001<<
+	`gë_bô_vÆue
+(
+csd
+,80,4);
+
+109 if(!
+	`gë_bô_vÆue
+(
+csd
+, 96, 8))
+
+111 
+c_size
+ = 
+	`gë_bô_vÆue
+(
+csd
+,62,12);
+
+112 
+size_mu…
+ = 
+	`gë_bô_vÆue
+(
+csd
+,47,3);
+
+113 
+sd_hd
+.
+block_num
+ = (
+c_size
++1)*(0x01<<(
+size_mu…
++2));
+
+114 
+sd_hd
+.
+sd_size
+ =sd_hd.
+block_num
+ /1024 * sd_hd.
+block_size
+;
+
+118 
+c_size
+ = 
+	`gë_bô_vÆue
+(
+csd
+,48,22);
+
+119 
+sd_hd
+.
+sd_size
+ =(
+c_size
++1)<<9;
+
+120 
+sd_hd
+.
+block_num
+ = sd_hd.
+sd_size
+*2;
+
+123 
+	`sd_¥ötf
+("c_size:%d size_mu…:%d\n\r", 
+c_size
+, 
+size_mu…
+);
+
+127 
+	`sd_¥ötf
+("tansfer:%dMbit/s block s:%d bnum:%d\n\r",\
+
+128 
+sd_hd
+.
+d©a_èns„r
+, sd_hd.
+block_size
+, sd_hd.
+block_num
+);
+
+129 
+	`sd_¥ötf
+("sd_size:%d\n\r",
+sd_hd
+.
+sd_size
+);
+
+131 
+	}
+}
+
+134 
+_boﬁ
+ 
+	gwrôe_ˇche_num
+ = 0;
+
+135 
+u16
+ 
+	$sd_wrôe
+(
+u32
+ 
+block_num
+, 
+u16
+ 
+off£t
+, 
+u8
+ *
+buff
+, u16 
+buff_Àn
+)
+
+137 
+u8
+ 
+ªs
+;
+
+138 if(
+buff_Àn
+ > (
+SD_BLOCK_SIZE
+ - 
+off£t
+))
+
+140 
+buff_Àn
+ = 
+SD_BLOCK_SIZE
+ - 
+off£t
+;
+
+145 if(
+block_num
+ !
+wrôe_wö
+[
+wrôe_ˇche_num
+].block_num)
+
+148 
+wrôe_ˇche_num
+ = !write_cache_num;
+
+150 if(
+block_num
+ !
+wrôe_wö
+[
+wrôe_ˇche_num
+].block_num)
+
+152 
+	`check_sdio_busy
+())
+
+154 
+	`dñay
+(10);
+
+157 if(
+block_num
+ =
+ªad_wö
+.block_num)
+
+159 
+	`mem˝y
+(
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+buff
+, 
+ªad_wö
+.buff, 
+SD_BLOCK_SIZE
+);
+
+163 
+ªs
+ = 
+	`sd_ªad_block
+(
+block_num
+, 
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+buff
+, 0);
+
+164 if(
+ªs
+)
+
+169 
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+block_num
+ = block_num;
+
+173 
+	`sd_¥ötf
+("wrôêblock %d :%d %d:%d\n\r", !
+wrôe_ˇche_num
+, 
+wrôe_wö
+[!wrôe_ˇche_num].
+block_num
+, write_cache_num, write_win[write_cache_num].block_num);
+
+176 if(
+wrôe_wö
+[!
+wrôe_ˇche_num
+].
+block_num
+ < 0xffffffff)
+
+179 
+ªs
+ = 
+	`sd_wrôe_block
+(
+wrôe_wö
+[!
+wrôe_ˇche_num
+].
+block_num
+, wrôe_wö[!wrôe_ˇche_num].
+buff
+, 0);
+
+180 if(
+ªs
+)
+
+185 if(
+wrôe_wö
+[!
+wrôe_ˇche_num
+].
+block_num
+ =
+ªad_wö
+.block_num)
+
+187 
+	`mem˝y
+(
+ªad_wö
+.
+buff
+, 
+wrôe_wö
+[!
+wrôe_ˇche_num
+].buff, 
+SD_BLOCK_SIZE
+);
+
+192 
+	`mem˝y
+(
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+buff
++
+off£t
+, buff, 
+buff_Àn
+);
+
+194  
+buff_Àn
+;
+
+195 
+	}
+}
+
+198 
+u8
+ 
+	$sync_sd
+()
+
+200 
+u8
+ 
+ªs
+;
+
+201 if(
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+block_num
+ < 0xffffffff)
+
+203 
+ªs
+ = 
+	`sd_wrôe_block
+(
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+block_num
+, wrôe_wö[wrôe_ˇche_num].
+buff
+, 0);
+
+204 if(
+ªs
+)
+
+206  
+ªs
+;
+
+209 if(
+wrôe_wö
+[
+wrôe_ˇche_num
+].
+block_num
+ =
+ªad_wö
+.block_num)
+
+211 
+	`mem˝y
+(
+ªad_wö
+.
+buff
+, 
+wrôe_wö
+[
+wrôe_ˇche_num
+].buff, 
+SD_BLOCK_SIZE
+);
+
+215 
+	}
+}
+
+218 
+u16
+ 
+	$sd_ªad
+(
+u32
+ 
+block_num
+, 
+u16
+ 
+off£t
+, 
+u8
+ *
+buff
+, u16 
+buff_Àn
+)
+
+220 
+u8
+ 
+ªs
+;
+
+221 if(
+buff_Àn
+ > (
+SD_BLOCK_SIZE
+ - 
+off£t
+))
+
+223 
+buff_Àn
+ = 
+SD_BLOCK_SIZE
+ - 
+off£t
+;
+
+227 if(
+block_num
+ =
+wrôe_wö
+[
+wrôe_ˇche_num
+].block_num)
+
+229 
+	`mem˝y
+(
+buff
+, 
+wrôe_wö
+[
+wrôe_ˇche_num
+].buff+
+off£t
+, 
+buff_Àn
+);
+
+230 }if(
+block_num
+ =
+wrôe_wö
+[!
+wrôe_ˇche_num
+].block_num)
+
+232 
+	`mem˝y
+(
+buff
+, 
+wrôe_wö
+[!
+wrôe_ˇche_num
+].buff+
+off£t
+, 
+buff_Àn
+);
+
+236 if(
+ªad_wö
+.
+block_num
+ != block_num)
+
+238 if(
+buff_Àn
+ =
+SD_BLOCK_SIZE
+)
+
+240 
+ªs
+ = 
+	`sd_ªad_block
+(
+block_num
+, 
+buff
+,1);
+
+241 if(
+ªs
+)
+
+245  
+SD_BLOCK_SIZE
+;
+
+249 
+ªad_wö
+.
+block_num
+ = block_num;
+
+250 
+ªs
+ = 
+	`sd_ªad_block
+(
+block_num
+, 
+ªad_wö
+.
+buff
+,1);
+
+251 if(
+ªs
+)
+
+253 
+ªad_wö
+.
+block_num
+ = 0xffffffff;
+
+260 
+	`mem˝y
+(
+buff
+, 
+ªad_wö
+.buff+
+off£t
+, 
+buff_Àn
+);
+
+262  
+buff_Àn
+;
+
+263 
+	}
+}
+
+265 
+u8
+ 
+	$sd_¥e_ªad
+(
+u32
+ 
+block_num
+)
+
+267 
+u8
+ 
+ªs
+;
+
+268 
+ªad_wö
+.
+block_num
+ = block_num;
+
+269 
+ªs
+ = 
+	`sd_ªad_block
+(
+block_num
+, 
+ªad_wö
+.
+buff
+,0);
+
+270 if(
+ªs
+)
+
+272 
+ªad_wö
+.
+block_num
+ = 0xffffffff;
+
+275 
+	}
+}
+
+278 
+u8
+ 
+	$sd_wrôe_block
+(
+u32
+ 
+block_num
+, 
+u8
+ *
+buff
+,u8 
+waô_Êag
+)
+
+280 
+u8
+ 
+ªs
+;
+
+281 
+	`check_sdio_busy
+())
+
+283 
+	`dñay
+(10);
+
+286 
+ªs
+ = 
+	`lﬂd_cmd
+(&
+sdio_hd
+, 
+WRITE_BLOCK
+, 
+block_num
+);
+
+287 
+sdio_hd
+.
+buff
+ = buff;
+
+288 
+sdio_hd
+.
+d©a_Àn
+ = 512;
+
+289 
+sdio_hd
+.
+d©a_˙t
+ = 0;
+
+290 
+sdio_hd
+.
+d©a_dú
+ = 0;
+
+291 
+ªs
+ = 
+	`sdio_cmd_£nd
+(&
+sdio_hd
+);
+
+293 if(
+waô_Êag
+)
+
+295 
+	`check_sdio_busy
+())
+
+297 
+	`dñay
+(1);
+
+301 if(
+ªs
+)
+
+307 
+	}
+}
+
+308 
+u8
+ 
+	$sd_ªad_block
+(
+u32
+ 
+block_num
+, 
+u8
+ * 
+buff
+, u8 
+waô_Êag
+)
+
+310 
+u8
+ 
+ªs
+;
+
+311 
+	`check_sdio_busy
+())
+
+313 
+	`dñay
+(1);
+
+316 
+ªs
+ = 
+	`lﬂd_cmd
+(&
+sdio_hd
+, 
+READ_SINGLE_BLOCK
+, 
+block_num
+);
+
+317 
+sdio_hd
+.
+buff
+ = buff;
+
+318 
+sdio_hd
+.
+d©a_Àn
+ = 512;
+
+319 
+sdio_hd
+.
+d©a_˙t
+ = 0;
+
+320 
+sdio_hd
+.
+d©a_dú
+ = 1;
+
+321 
+ªs
+ = 
+	`sdio_cmd_£nd
+(&
+sdio_hd
+);
+
+323 if(
+waô_Êag
+)
+
+325 
+	`check_sdio_busy
+())
+
+327 
+	`dñay
+(1);
+
+331 if(
+ªs
+)
+
+340 
+	}
+}
+
+351 
+u8
+ 
+	$sd_öô
+()
+
+353 
+u8
+ 
+ªs
+;
+
+354 
+u16
+ 
+i
+;
+
+355 
+u8
+ 
+˙t
+ = 100;
+
+358 
+wrôe_wö
+[0].
+buff
+ = (
+u8
+ *)
+	`mÆloc
+(
+SD_BLOCK_SIZE
+);
+
+359 
+wrôe_wö
+[0].
+block_num
+ = 0xffffffff;
+
+360 if(
+wrôe_wö
+[0].
+buff
+ == 0)
+
+363 
+wrôe_wö
+[1].
+buff
+ = (
+u8
+ *)
+	`mÆloc
+(
+SD_BLOCK_SIZE
+);
+
+364 
+wrôe_wö
+[1].
+block_num
+ = 0xffffffff;
+
+365 if(
+wrôe_wö
+[1].
+buff
+ == 0)
+
+368 
+ªad_wö
+.
+buff
+ = (
+u8
+ *)
+	`mÆloc
+(
+SD_BLOCK_SIZE
+);
+
+369 
+ªad_wö
+.
+block_num
+ = 0xffffffff;
+
+370 if(
+ªad_wö
+.
+buff
+ == 0)
+
+374 
+ªs
+ = 
+	`›í_sdio
+(&
+sdio_hd
+);
+
+375 
+	`sd_¥ötf
+("›í sdiÿîr;%d\n\r", 
+ªs
+);
+
+376 if(
+ªs
+)
+
+379 
+	`sd_£nd_cmd
+(
+GO_IDLE_STATE
+, 0);
+
+380 
+	`sd_¥ötf
+("a");
+
+381 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SDIO_SEND_IF_COND
+, 0x1aa);
+
+382 if(
+ªs
+)
+
+385 
+	`dñay
+(10);
+
+386 
+˙t
+--)
+
+388 
+	`sd_£nd_cmd
+(
+APP_CMD
+, 0);
+
+389 
+	`sd_£nd_cmd
+(
+SD_APP_OP_COND
+, 0xc0100000);
+
+391 if(
+sdio_hd
+.
+r•
+[0]&(1<<31))
+
+396 if(
+˙t
+ == 0)
+
+402 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+ALL_SEND_CID
+, 0);
+
+403 if(
+ªs
+)
+
+406 
+	`sd_¥ötf
+("4\n\r");
+
+407 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SEND_RELATIVE_ADDR
+, 0);
+
+408 if(
+ªs
+)
+
+411 
+sd_hd
+.
+rˇ
+ = 
+sdio_hd
+.
+r•
+[0]&0xffff0000;
+
+413 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SEND_CSD
+, 
+sd_hd
+.
+rˇ
+);
+
+414 
+	`mem˝y
+(&
+sd_hd
+.
+CSD
+, 
+sdio_hd
+.
+r•
+, 4*4);
+
+416 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SEND_CID
+, 
+sd_hd
+.
+rˇ
+);
+
+417 
+	`mem˝y
+(&
+sd_hd
+.
+CID
+, 
+sdio_hd
+.
+r•
+, 4*4);
+
+418 
+	`sd_¥ötf
+("CSD:0x%x-0x%x-0x%x-0x%x\n\r", 
+sd_hd
+.
+CSD
+[0],sd_hd.CSD[1],sd_hd.CSD[2],sd_hd.CSD[3]);
+
+419 
+	`™Æysis_CSD
+((*)&
+sd_hd
+.
+CSD
+);
+
+420 
+	`£t_sdio_˛k
+(49);
+
+421 
+	`sd_¥ötf
+("5\n\r");
+
+423 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SELEC_CHIP
+, 
+sd_hd
+.
+rˇ
+);
+
+424 if(
+ªs
+)
+
+427 
+	`sd_¥ötf
+("6\n\r");
+
+428 
+	`sd_£nd_cmd
+(
+APP_CMD
+, 
+sd_hd
+.
+rˇ
+);
+
+429 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SET_BUS_WIDTH
+, 0x02);
+
+430 if(
+ªs
+)
+
+433 
+	`sd_¥ötf
+("7\n\r");
+
+434 if(
+sd_hd
+.
+block_size
+ !
+SD_BLOCK_SIZE
+)
+
+436 
+ªs
+ = 
+	`sd_£nd_cmd
+(
+SET_BLOCKLEN
+, 
+SD_BLOCK_SIZE
+);
+
+437 if(
+ªs
+)
+
+443 
+	}
+}
+
+446 
+sd_h™dÀ
+ *
+	$›í_sd
+()
+
+449 if(
+sd_hd
+.
+öô_Êag
+ == 0)
+
+451 
+u8
+ 
+ªs
+;
+
+452 
+ªs
+ = 
+	`sd_öô
+();
+
+453 if(
+ªs
+)
+
+456 
+sd_hd
+.
+öô_Êag
+ = 1;
+
+458 
+sd_hd
+.
+io
+.
+öô
+ = 
+sd_öô
+;
+
+459 
+sd_hd
+.
+io
+.
+ªad
+ = 
+sd_ªad
+;
+
+460 
+sd_hd
+.
+io
+.
+wrôe
+ = 
+sd_wrôe
+;
+
+461 
+sd_hd
+.
+io
+.
+sync_sd
+ = sync_sd;
+
+462 
+sd_hd
+.
+io
+.
+ªad_block
+ = 
+sd_ªad_block
+;
+
+463 
+sd_hd
+.
+io
+.
+wrôe_block
+ = 
+sd_wrôe_block
+;
+
+464  &
+sd_hd
+;
+
+465 
+	}
+}
+
+467 
+u8
+ 
+	$_sd_öô
+()
+
+469 
+u8
+ 
+ªs
+;
+
+470 
+u16
+ 
+time_out
+;
+
+471 
+_sd_¨g
+ *
+sd_¨g
+ = &
+_¨g
+;
+
+473 
+sdio_≠i
+.
+	`öô
+();
+
+474 
+sdio_≠i
+.
+	`£nd_cmd
+(
+GO_IDLE_STATE
+,0, 0);
+
+475 
+	`dñay
+(10);
+
+477 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SDIO_SEND_IF_COND
+, 0x1Ø, 
+sd_¨g
+->
+ª•⁄d
+);
+
+478 #ifde‡
+DEBUG
+
+
+479 if(!
+ªs
+)
+
+481 
+	`sd_¥ötf
+("SDIO_SEND_IF_COND:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+485 
+	`sd_¥ötf
+("SDIO_SEND_IF_COND ERR:%d\n\r", 
+ªs
+);
+
+488 
+	`dñay
+(10);
+
+490 
+time_out
+ = 200;
+
+492 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+APP_CMD
+, 0,
+sd_¨g
+->
+ª•⁄d
+);
+
+493 #ifde‡
+DEBUG
+
+
+494 if(!
+ªs
+)
+
+496 
+	`sd_¥ötf
+("APP_CMD:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+500 
+	`sd_¥ötf
+("APP_CMD ERR:%d\n\r", 
+ªs
+);
+
+504 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SD_APP_OP_COND
+, 0xc0100000,
+sd_¨g
+->
+ª•⁄d
+);
+
+505 #ifde‡
+DEBUG
+
+
+506 
+	`sd_¥ötf
+("SD_APP_OP_COND:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+509 
+	`dñay
+(100);
+
+510 
+time_out
+--;
+
+511 }(!(((
+sd_¨g
+->
+ª•⁄d
+[0])>>31)&0x1))&&(
+time_out
+));
+
+512 if(!
+time_out
+)
+
+517 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+ALL_SEND_CID
+, 0,
+sd_¨g
+->
+ª•⁄d
+);
+
+518 #ifde‡
+DEBUG
+
+
+519 if(!
+ªs
+)
+
+521 
+	`sd_¥ötf
+("CID:%d %d %d %d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0],sd_arg->respond[1],sd_arg->respond[2],sd_arg->respond[3]);
+
+525 
+	`sd_¥ötf
+("CID ERR NUM:%d\n\r", 
+ªs
+);
+
+529 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SEND_RELATIVE_ADDR
+, 0,
+sd_¨g
+->
+ª•⁄d
+);
+
+530 #ifde‡
+DEBUG
+
+
+531 
+	`sd_¥ötf
+("rˇ:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+533 
+sd_¨g
+->
+rˇ
+ = sd_¨g->
+ª•⁄d
+[0]&0xffff0000;
+
+536 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SEND_CSD
+, 
+sd_¨g
+->
+rˇ
+, sd_¨g->
+CSD
+);
+
+537 #ifde‡
+DEBUG
+
+
+538 if(!
+ªs
+)
+
+540 
+	`sd_¥ötf
+("CSD:%d %d %d %d\n\r", 
+sd_¨g
+->
+CSD
+[0],sd_arg->CSD[1],sd_arg->CSD[2],sd_arg->CSD[3]);
+
+544 
+	`sd_¥ötf
+("CSD ERR NUM:%d\n\r", 
+ªs
+);
+
+548 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SEND_CID
+, 
+sd_¨g
+->
+rˇ
+,sd_¨g->
+CID
+);
+
+549 
+	`™Æysis_cid
+(
+sd_¨g
+->
+CID
+);
+
+550 #ifde‡
+DEBUG
+
+
+551 if(!
+ªs
+)
+
+553 
+	`sd_¥ötf
+("CID:%d %d %d %d\n\r", 
+sd_¨g
+->
+CID
+[0],sd_arg->CID[1],sd_arg->CID[2],sd_arg->CID[3]);
+
+557 
+	`sd_¥ötf
+("CID ERR:%d\n\r", 
+ªs
+);
+
+560 
+SDIO
+->
+PRE
+ = 49;
+
+561 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SELEC_CHIP
+, 
+sd_¨g
+->
+rˇ
+,sd_¨g->
+ª•⁄d
+);
+
+562 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+APP_CMD
+, 
+sd_¨g
+->
+rˇ
+,sd_¨g->
+ª•⁄d
+);
+
+563 #ifde‡
+DEBUG
+
+
+564 if(!
+ªs
+)
+
+566 
+	`sd_¥ötf
+("APP_CMD:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+570 
+	`sd_¥ötf
+("APP_CMD ERR:%d\n\r", 
+ªs
+);
+
+573 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SET_BUS_WIDTH
+, 0x02,
+sd_¨g
+->
+ª•⁄d
+);
+
+574 #ifde‡
+DEBUG
+
+
+575 if(!
+ªs
+)
+
+577 
+	`sd_¥ötf
+("SET_BUS_WIDTH:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+581 
+	`sd_¥ötf
+("SET_BUS_WIDTH ERR:%d\n\r", 
+ªs
+);
+
+585 
+ªs
+ = 
+sdio_≠i
+.
+	`£nd_cmd
+(
+SET_BLOCKLEN
+, 512,
+sd_¨g
+->
+ª•⁄d
+);
+
+586 #ifde‡
+DEBUG
+
+
+587 if(!
+ªs
+)
+
+589 
+	`sd_¥ötf
+("SET_BLOCKLEN:%d\n\r", 
+sd_¨g
+->
+ª•⁄d
+[0]);
+
+593 
+	`sd_¥ötf
+("SET_BLOCKLEN ERR:%d\n\r", 
+ªs
+);
+
+600 
+	}
+}
+
+610 
+	$™Æysis_cid
+(
+u32
+ c⁄° *
+cid
+)
+
+612 
+_sd_¨g
+ *
+sd_¨g
+ = &
+_¨g
+;
+
+613 
+sd_¨g
+->
+ID
+.
+MDT
+[0] = (
+cid
+[3]>>8)&0xf;
+
+614 
+sd_¨g
+->
+ID
+.
+MDT
+[1] = (
+cid
+[3]>>12)&0xf;
+
+615 
+sd_¨g
+->
+ID
+.
+MDT
+[2] = (
+cid
+[3]>>16)&0xf;
+
+617 
+sd_¨g
+->
+ID
+.
+PSN
+ = (
+cid
+[3]>>24);
+
+618 
+sd_¨g
+->
+ID
+.
+PSN
+ |(
+cid
+[2]<<24);
+
+620 
+sd_¨g
+->
+ID
+.
+PRV
+[0] = (
+cid
+[2]>>24)&0xf;
+
+621 
+sd_¨g
+->
+ID
+.
+PRV
+[1] = (
+cid
+[2]>>28)&0xf;
+
+623 
+sd_¨g
+->
+ID
+.
+PNM
+[0] = (
+cid
+[1]>>0)&0xff;
+
+624 
+sd_¨g
+->
+ID
+.
+PNM
+[1] = (
+cid
+[1]>>8)&0xff;
+
+625 
+sd_¨g
+->
+ID
+.
+PNM
+[2] = (
+cid
+[1]>>16)&0xff;
+
+626 
+sd_¨g
+->
+ID
+.
+PNM
+[3] = (
+cid
+[1]>>24)&0xff;
+
+627 
+sd_¨g
+->
+ID
+.
+PNM
+[4] = (
+cid
+[0]>>0)&0xff;
+
+628 
+sd_¨g
+->
+ID
+.
+PNM
+[5] = 0;
+
+630 
+sd_¨g
+->
+ID
+.
+OID
+[0] = (
+cid
+[0]>>8)&0xff;
+
+631 
+sd_¨g
+->
+ID
+.
+OID
+[1] = (
+cid
+[0]>>16)&0xff;
+
+632 
+sd_¨g
+->
+ID
+.
+OID
+[2] = 0;
+
+634 
+sd_¨g
+->
+ID
+.
+id
+ = (
+cid
+[0]>>24);
+
+636 #ifde‡
+DEBUG
+
+
+637 
+	`sd_¥ötf
+(" id:%d\n\r", 
+sd_¨g
+->
+ID
+.
+id
+);
+
+638 
+	`sd_¥ötf
+(" OEM:%s\n\r", 
+sd_¨g
+->
+ID
+.
+OID
+);
+
+639 
+	`sd_¥ötf
+(" PNM:%s\n\r", 
+sd_¨g
+->
+ID
+.
+PNM
+);
+
+640 
+	`sd_¥ötf
+(" PRV:%d%d\n\r", 
+sd_¨g
+->
+ID
+.
+PRV
+[1],sd_arg->ID.PRV[1]);
+
+641 
+	`sd_¥ötf
+(" PSN:%d\n\r", 
+sd_¨g
+->
+ID
+.
+PSN
+);
+
+642 
+	`sd_¥ötf
+(" MDT:20%d.%d\n\r", 
+sd_¨g
+->
+ID
+.
+MDT
+[1], sd_arg->ID.MDT[0]);
+
+645 
+	}
+}
+
+	@sd_drv.h
+
+1 #i‚de‡
+_SD_DRV_
+
+
+2 
+	#_SD_DEV_
+
+
+	)
+
+3 
+	~"c⁄fig.h
+"
+
+5 
+	#WIN_CACHE
+ 1
+
+6 
+	#SD_MALLOC
+ 1
+
+7 
+
+	)
+
+8 
+	#SD_BLOCK_SIZE
+ 512
+
+	)
+
+11 
+	mGO_IDLE_STATE
+ = 0,
+
+12 
+	mALL_SEND_CID
+,
+
+13 
+	mSEND_RELATIVE_ADDR
+,
+
+14 
+	mSELEC_CHIP
+,
+
+15 
+	mSEND_CSD
+,
+
+16 
+	mSEND_CID
+,
+
+17 
+	mREAD_DAT_UNTIL_STOP
+,
+
+18 
+	mSTOP
+,
+
+19 
+	mSEND_STATUS
+,
+
+20 
+	mGO_INACTIVE_STATE
+ ,
+
+21 
+	mSET_BLOCKLEN
+,
+
+22 
+	mREAD_SINGLE_BLOCK
+,
+
+23 
+	mREAD_MULTIPLE_BLOCK
+,
+
+24 
+	mWRITE_BLOCK
+,
+
+25 
+	mWRITE_MULTIPLE_BLOCK
+,
+
+26 
+	mPROGRAM_CSD
+,
+
+27 
+	mSET_WRITE_PROT
+,
+
+28 
+	mCLR_WRITE_PROT
+,
+
+29 
+	mSEND_WRITE_PROT
+,
+
+30 
+	mERASE_WR_BLK_START
+,
+
+31 
+	mERASE_WR_BLK_END
+,
+
+32 
+	mERASE
+,
+
+33 
+	mAPP_CMD
+,
+
+34 
+	mSD_APP_OP_COND
+,
+
+35 
+	mSDIO_SEND_IF_COND
+,
+
+36 
+	mCMD1
+,
+
+37 
+	mSET_BUS_WIDTH
+
+
+38 }
+	tCMD_ENUM
+;
+
+41 
+	ssdio_io
+
+
+43 (*
+	möô
+)();
+
+44 
+u8
+ (*
+ªad_block
+)(
+	mu8
+ *);
+
+45 
+u8
+ (*
+wrôe_block
+)(
+	mu8
+ *);
+
+46 
+u8
+ (*
+£nd_cmd
+)(
+	mu8
+, 
+	mu32
+, u32 *);
+
+47 }
+	tsdio_io
+;
+
+49 
+	ssd_io
+
+
+51 (*
+	möô
+)();
+
+52 
+u8
+ (*
+ªad
+)(
+u32
+ 
+	mblock_num
+, 
+u16
+ 
+	moff£t
+, u8 *
+	mbuff
+, u16 
+	mbuff_Àn
+);
+
+53 
+u8
+ (*
+wrôe
+)(
+u32
+ 
+	mblock_num
+, 
+u16
+ 
+	moff£t
+, u8 *
+	mbuff
+, u16 
+	mbuff_Àn
+);
+
+54 
+u8
+ (*
+ªad_block
+)(
+u32
+ 
+	mblock_num
+, u8 *
+	mbuff
+, u8 
+	mwaô_Êag
+);
+
+55 
+u8
+ (*
+wrôe_block
+)(
+u32
+ 
+	mblock_num
+, u8 *
+	mbuff
+, u8 
+	mwaô_Êag
+);
+
+56 
+u8
+ (*
+sync_sd
+)();
+
+57 }
+	tsd_io
+;
+
+58 
+	s_ID_°ru˘
+
+
+60 
+u8
+ 
+	mid
+;
+
+61 
+u8
+ 
+	mPRV
+[2];
+
+62 
+u8
+ 
+	mMDT
+[3];
+
+63 
+u8
+ 
+	mOID
+[3];
+
+64 
+u8
+ 
+	mPNM
+[6];
+
+65 
+u32
+ 
+	mPSN
+;
+
+66 }
+	t_ID_°ru˘
+;
+
+67 
+	s_sd_¨g
+
+
+69 
+u32
+ 
+	mrˇ
+;
+
+70 
+u32
+ 
+	mª•⁄d
+[4];
+
+71 
+u32
+ 
+	mCSD
+[4];
+
+72 
+u32
+ 
+	mCID
+[4];
+
+73 
+_ID_°ru˘
+ 
+	mID
+;
+
+74 }
+	t_sd_¨g
+;
+
+76 
+	s_sd_wö
+
+
+78 
+u8
+ *
+	mbuff
+;
+
+79 
+u32
+ 
+	mblock_num
+;
+
+80 }
+	tsd_wö
+;
+
+81 
+	ssd_h™dÀ
+
+
+83 
+_ID_°ru˘
+ 
+	mID
+;
+
+84 
+sd_io
+ 
+	mio
+;
+
+85 
+u32
+ 
+	mCSD
+[4];
+
+86 
+u32
+ 
+	mCID
+[4];
+
+87 
+u32
+ 
+	mrˇ
+;
+
+88 
+u32
+ 
+	mblock_num
+;
+
+89 
+u32
+ 
+	mblock_size
+;
+
+90 
+u32
+ 
+	msd_size
+;
+
+91 
+u8
+ 
+	md©a_èns„r
+;
+
+92 
+u8
+ 
+	möô_Êag
+;
+
+93 }
+	tsd_h™dÀ
+;
+
+96 
+u8
+ 
+_sd_öô
+();
+
+97 
+u8
+ 
+sd_ªad_block
+(
+u32
+ 
+block_num
+, u8 *
+buff
+, u8 
+waô_Êag
+);
+
+98 
+u8
+ 
+sd_wrôe_block
+(
+u32
+ 
+block_num
+, u8 *
+buff
+, u8 
+waô_Êag
+);
+
+99 
+u16
+ 
+sd_wrôe
+(
+u32
+ 
+block_num
+, u16 
+off£t
+, 
+u8
+ *
+buff
+, u16 
+buff_Àn
+);
+
+100 
+u16
+ 
+sd_ªad
+(
+u32
+ 
+block_num
+, u16 
+off£t
+, 
+u8
+ *
+buff
+, u16 
+buff_Àn
+);
+
+101 
+u8
+ 
+sd_¥e_ªad
+(
+u32
+ 
+block_num
+);
+
+105 
+u8
+ 
+sync_sd
+();
+
+106 
+¥ötf_£˘‹
+(
+u32
+ 
+block_num
+);
+
+107 
+sd_h™dÀ
+ *
+›í_sd
+();
+
+	@
+1
+.
+1
+/usr/include
+6
+74
+s3c2440_sdio.c
+s3c2440_sdio.h
+sd_dev_api.c
+sd_dev_api.h
+sd_drv.c
+sd_drv.h

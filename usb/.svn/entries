@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="32"
+   name=""
+   committed-date="2018-05-17T13:49:22.649325Z"
+   url="file:///work/liuxing/svn/usb"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   name="chain"
+   kind="dir"/>
+<entry
+   name="sddrv"
+   kind="dir"/>
+<entry
+   name="cbuff"
+   kind="dir"/>
+<entry
+   name="dev_manage"
+   kind="dir"/>
+<entry
+   name="msg"
+   kind="dir"/>
+<entry
+   name="cpu"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="S3C2440.H"
+   text-time="2017-12-10T12:11:12.000000Z"
+   committed-date="2017-12-17T11:04:36.952426Z"
+   checksum="84d91b01d10cf2f63d0b824a124703f9"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   name="usb"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="up.bat"
+   text-time="2017-11-18T05:37:51.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="d74f9615f27e5d725bdcaeeceb016014"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   name="comm"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="ftpconfig.txt"
+   text-time="2017-11-18T05:37:51.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="7631fd2d5f86907fe9e6f912ae4da400"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="21"
+   name="start.S"
+   text-time="2017-12-24T06:28:05.000000Z"
+   committed-date="2017-12-24T14:20:43.870762Z"
+   checksum="44187807dcfa68d4d997910e0727dcc3"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   name="cmd"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="main.c"
+   text-time="2018-01-28T09:35:43.000000Z"
+   committed-date="2018-01-28T13:13:38.087252Z"
+   checksum="e85f2f2bda2df4d6763bb561b3cf9eb6"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="include_lib"
+   kind="dir"/>
+<entry
+   committed-rev="26"
+   name="back.sh"
+   text-time="2018-01-01T05:41:50.000000Z"
+   committed-date="2018-01-01T07:38:52.428399Z"
+   checksum="dd5e9b3065c67d641ec3e2cfaa91a147"
+   last-author="book"
+   kind="file"/>
+<entry
+   name="task_manage"
+   kind="dir"/>
+<entry
+   committed-rev="24"
+   name="usb.lds"
+   text-time="2017-12-31T13:14:37.000000Z"
+   committed-date="2017-12-31T13:30:53.975648Z"
+   checksum="5cdd446431fc87f16208ea8bff6dc94f"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+<entry
+   name="uart"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="Makefile"
+   text-time="2018-01-28T12:02:06.000000Z"
+   committed-date="2018-01-28T13:13:38.087252Z"
+   checksum="fc9e6b8d6527d7ec9930a939335d140c"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:51.000000Z"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2017-11-18T05:15:11.824464Z"
+   url="file:///work/liuxing/svn/usb/msg"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="1"
+   name="q_msg.c"
+   text-time="2017-11-18T05:37:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="614f7a6b5778d30c67b3684f600e7897"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="q_msg.h"
+   text-time="2017-11-18T05:37:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="0244b0165ec3bd36365b02cffbd0c472"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+</wc-entries>

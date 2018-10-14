@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="32"
+   name=""
+   committed-date="2018-05-17T13:49:22.649325Z"
+   url="file:///work/liuxing/svn/usb/lib"
+   last-author="book"
+   kind="dir"
+   uuid="2d81d77f-3a5e-0510-a1cc-ed9d77478374"
+   repos="file:///work/liuxing/svn"
+   revision="32"/>
+<entry
+   committed-rev="1"
+   name="libgeneric.a"
+   text-time="2017-11-22T14:30:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="e11fa73c1116377a0a46d5f49c6f59c7"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stdlib.c"
+   text-time="2017-11-22T14:30:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="2172b5bbfa4160cb1750b5ac505db143"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="string.c"
+   text-time="2017-11-18T05:37:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="347b0acb0fc840fde70bcc86ce39bb6d"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stdlib.h"
+   text-time="2017-11-22T14:30:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="6aff4c37f4e17fd00e34b63fda63e4eb"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="3"
+   name="libc.a"
+   text-time="2017-11-18T10:19:13.000000Z"
+   committed-date="2017-11-18T14:54:04.637078Z"
+   checksum="895aa39d9dc069c244db1e8a259858e9"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="32"
+   name="malloc.c"
+   text-time="2018-05-17T13:44:02.000000Z"
+   committed-date="2018-05-17T13:49:22.649325Z"
+   checksum="009024029cf605f002f0ecbc3d772306"
+   last-author="book"
+   kind="file"/>
+<entry
+   committed-rev="1"
+   name="string.h"
+   text-time="2017-11-22T14:30:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="4764048368334d623aef1c7245559d35"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="vsprintf.c"
+   text-time="2017-11-18T05:37:50.000000Z"
+   committed-date="2017-11-18T05:15:11.824464Z"
+   checksum="ee647290c69ae1ad58f4ef074de6ad75"
+   last-author="book"
+   kind="file"
+   prop-time="2017-11-18T05:37:50.000000Z"/>
+</wc-entries>
